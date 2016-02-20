@@ -1,9 +1,8 @@
 # Summary
 
-* [Introduction](README.md)
-* [Basics](part1/readmemd.md)
-   * [Variables](part1/lesson1.md)
-   * [Lists](part1/lesson2.md)
-* [Numpy](part2/readme.md)
-   * [Libraries](part2/lessonx.md)
-
+* [Basics](part1/README.md)
+    * [Variables](part1/variables.md)
+    * [Lists](part1/lists.md)
+* [Numpy](part2/README.md)
+    * [Python libraries](part2/libraries.md)
+    * [Numpy](part2/numpy.md)
