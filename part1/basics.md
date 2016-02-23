@@ -35,6 +35,9 @@ Have fun with this for a little while and then get back here :).
 
 As you can see, Python is a great calculator. If you're wondering what else you can do...
 
+## Jupyter notebooks
+!
+
 ## Strings
 
 How about your name? Type your first name in quotes like this:
