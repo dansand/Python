@@ -12,5 +12,5 @@
    * [Files](part2/files.md)
    * [Python libraries](part2/libraries.md)
    * [Numpy](part2/numpy.md)
-   * [Dictionaries and json](part2/dictionaries.md)
+   * [Dictionaries](part2/dictionaries.md)
 
