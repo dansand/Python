@@ -8,8 +8,9 @@
    * [Loops](part1/testfile.md)
    * Conditions
    * Functions
-* [Numpy and data ](part2/readmemd.md)
+* [Numpy and data](part2/readmemd.md)
    * [Files](part2/files.md)
    * [Python libraries](part2/libraries.md)
    * [Numpy](part2/numpy.md)
+   * Dictionaries and json
 
