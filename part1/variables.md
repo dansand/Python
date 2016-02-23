@@ -56,7 +56,7 @@ we can print several things at once by separating them with commas.
 If we imagine the variable as a sticky note with a name written on it,
 assignment is like putting the sticky note on a particular value:
 
-![Variables as Sticky Notes](fig/python-sticky-note-variables-01.svg)
+![Variables as Sticky Notes](../fig/python-sticky-note-variables-01.svg)
 
 This means that assigning a value to one variable does *not* change the values of other variables.
 For example,
