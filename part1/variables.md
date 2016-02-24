@@ -5,28 +5,58 @@
 
 > *   Assign values to variables.
 
+## Variables
 
-A variable is just a name for a value,
-such as `x`, `current_temperature`, or `subject_id`.
-Python's variables must begin with a letter and are [case sensitive](reference.html#case-sensitive).
-We can create a new variable by assigning a value to it using `=`.
-As an illustration,
-let's step back and instead of considering a table of data,
-consider the simplest "collection" of data,
-a single value.
-The line below assigns the value `55` to a variable `weight_kg`:
+An important concept in programming is variables. A variable is nothing more than a name for something so you can use it later. Programmers use these variables to store data, make their code more readable and so they don't have to keep remembering what things are.
+
+Let's say we want to create a new variable called `name`:
+
+    >>> name = "Ola"
+
+You see? It's easy! It's simply: name equals Ola.
+
+As you've noticed, your program didn't return anything like it did before. So how do we know that the variable actually exists? Simply enter `name` and hit `enter`:
+
+    >>> name
+    'Ola'
+
+Yippee! Your first variable :)! You can always change what it refers to:
+
+    >>> name = "Sonja"
+    >>> name
+    'Sonja'
+
+You can use it in functions too:
+
+    >>> len(name)
+    5
+
+But what if we used the wrong name? Can you guess what would happen? Let's try!
+
+    >>> city = "Tokyo"
+    >>> ctiy
+    Traceback (most recent call last):
+      File "<stdin>", line 1, in <module>
+    NameError: name 'ctiy' is not defined
+
+An error! As you can see, Python has different types of errors and this one is called a **NameError**. Python will give you this error if you try to use a variable that hasn't been defined yet. If you encounter this error later, check your code to see if you've mistyped any names.
+
+
+So a Python variable is just a name for a value. Python's variables must begin with a letter and are [case sensitive](reference.html#case-sensitive).
+We create a new variable by assigning a value to it using `=`. Note that `=` means assignment in Python. 
+Let's consider the simplest "collection" of data, a single value. The line below assigns the value `55` to a variable `weight_kg`:
 
     weight_kg = 55
 
 
-Once a variable has a value, we can print it to the screen:
+Just like with the string assigned to `name`, our numeric variable can be printed to the screen:
 
 
     print(weight_kg)
     55
 
 
-and do arithmetic with it:
+We can also do arithmetic with it:
 
     print('weight in pounds:', 2.2 * weight_kg)
 
