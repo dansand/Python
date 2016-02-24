@@ -9,7 +9,8 @@
         "ga@1.0.1",
         "richquotes@0.0.7",
         "github@2.0.0",
-        "mathjax"
+        "mathjax",
+        "quiz"
     ],
     "pluginsConfig": {},
     "gitbook": ">=2.5.2"
