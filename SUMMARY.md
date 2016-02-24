@@ -8,7 +8,6 @@
    * [Loops](part1/testfile.md)
    * Conditions
    * Functions
-   * [quiz](part1/quiz.md)
 * [Numpy and data](part2/readmemd.md)
    * [Files](part2/files.md)
    * [Python libraries](part2/libraries.md)
