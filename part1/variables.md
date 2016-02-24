@@ -70,7 +70,7 @@ print('weight in kilograms:', weight_kg, 'and in pounds:', weight_lb)
 weight in kilograms: 57.5 and in pounds: 126.5
 ~~~
 
-![Creating Another Variable](fig/python-sticky-note-variables-02.svg)
+![Creating Another Variable](../fig/python-sticky-note-variables-02.svg)
 
 and then change `weight_kg`:
 
@@ -82,13 +82,13 @@ print('weight in kilograms is now:', weight_kg, 'and weight in pounds is still:'
 weight in kilograms is now: 100.0 and weight in pounds is still: 126.5
 ~~~
 
-![Updating a Variable](fig/python-sticky-note-variables-03.svg)
+![Updating a Variable](../fig/python-sticky-note-variables-03.svg)
 
 Since `weight_lb` doesn't "remember" where its value came from,
 it isn't automatically updated when `weight_kg` changes.
 This is different from the way spreadsheets work.
 
-> ## Who's who in the memory {.callout}
+> ## Who's who in the memory
 >
 >You can use the `whos` command at any time to see what variables you have created and what modules you have loaded into the computers memory. As this is an IPython command, it will only work if you are in an IPython terminal or the Jupyter Notebook. 
 >
