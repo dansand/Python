@@ -49,7 +49,7 @@ Let's consider the simplest "collection" of data, a single value. The line below
     weight_kg = 55
 
 
-Just like with the string assigned to `name`, our numeric variable can be printed to the screen:
+Just like with the string assigned to `name`, our numeric (integer) variable can be printed to the screen:
 
 
     print(weight_kg)
