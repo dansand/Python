@@ -67,13 +67,11 @@ let's store the subject's weight in pounds in a variable:
 
 and then change `weight_kg`:
 
-~~~ {.python}
-weight_kg = 100.0
-print('weight in kilograms is now:', weight_kg, 'and weight in pounds is still:', weight_lb)
-~~~
-~~~ {.output}
-weight in kilograms is now: 100.0 and weight in pounds is still: 126.5
-~~~
+
+    weight_kg = 100.0
+    print('weight in kilograms is now:', weight_kg, 'and weight in pounds is still:', weight_lb)
+
+    weight in kilograms is now: 100.0 and weight in pounds is still: 126.5
 
 ![Updating a Variable](../fig/python-sticky-note-variables-03.svg)
 
@@ -91,7 +89,6 @@ This is different from the way spreadsheets work.
 >~~~ {.output}
 >Variable    Type       Data/Info
 >--------------------------------
->numpy       module     <module 'numpy' from '/Us<...>kages/numpy/__init__.py'>
 >weight_kg   float      100.0
 >weight_lb   float      126.5
 >~~~
