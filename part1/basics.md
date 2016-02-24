@@ -11,7 +11,9 @@ Once you're ready, follow the instructions below.
 We want to open up a Python console, so type in `python` and hit `enter`.
 
     $ python
-    Python 2.7.9 (default, Mar  1 2015, 12:57:24)           [GCC 4.9.2] on linux2                                   Type "help", "copyright", "credits" or "license" for more information.                                      
+    Python 2.7.9 (default, Mar  1 2015, 12:57:24)
+    [GCC 4.9.2] on linux2
+    Type "help", "copyright", "credits" or "license" for more information.                                      
 >>>                                                                                                         
 
 ## Your first Python command!
