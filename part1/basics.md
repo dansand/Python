@@ -8,11 +8,12 @@ To start playing with Python, we need to open up a *command line* on your comput
 
 Once you're ready, follow the instructions below.
 
-We want to open up a Python console, so type in `python` on Windows or `python3` on Mac OS/Linux and hit `enter`.
+We want to open up a Python console, so type in `python` and hit `enter`.
 
-    $ python3
-    Python 3.4.3 (...)
-    Type "help", "copyright", "credits" or "license" for more information.
+    $ python
+    Python 2.7.9 (default, Mar  1 2015, 12:57:24)           [GCC 4.9.2] on linux2                                   Type "help", "copyright", "credits" or "license" for more information.                                      
+>>>                                                                                                         
+    
     >>>
 
 ## Your first Python command!
