@@ -18,27 +18,27 @@ consider the simplest "collection" of data,
 a single value.
 The line below assigns the value `55` to a variable `weight_kg`:
 
-~~~ {.python}
+``` {.python}
 weight_kg = 55
-~~~
+```
 
 Once a variable has a value, we can print it to the screen:
 
-~~~ {.python}
+``` {.python}
 print(weight_kg)
-~~~
-~~~ {.output}
+```
+```{.output}
 55
-~~~
+```
 
 and do arithmetic with it:
 
-~~~ {.python}
+```{.python}
 print('weight in pounds:', 2.2 * weight_kg)
-~~~
-~~~ {.output}
+```
+``` {.output}
 weight in pounds: 121.0
-~~~
+```
 
 We can also change a variable's value by assigning it a new one:
 
@@ -61,6 +61,11 @@ assignment is like putting the sticky note on a particular value:
 This means that assigning a value to one variable does *not* change the values of other variables.
 For example,
 let's store the subject's weight in pounds in a variable:
+
+``` {.python}
+weight_lb = 2.2 * weight_kg
+print('weight in kilograms:', weight_kg, 'and in pounds:', weight_lb)
+```
 
 ~~~ {.python}
 weight_lb = 2.2 * weight_kg
