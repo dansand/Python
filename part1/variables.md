@@ -109,6 +109,21 @@ Since `weight_lb` doesn't "remember" where its value came from,
 it isn't automatically updated when `weight_kg` changes.
 This is different from the way spreadsheets work.
 
+
+## The print function
+
+Try this:
+
+    >>> name = 'Maria'
+    >>> name
+    'Maria'
+    >>> print(name)
+    Maria
+
+When you just type `name`, the Python interpreter responds with the string *representation* of the variable 'name', which is the letters M-a-r-i-a, surrounded by single quotes, ''. When you say `print(name)`, Python will "print" the contents of the variable to the screen, without the quotes, which is neater.
+
+As we'll see later, `print()` is also useful when we want to print things from inside functions, or when we want to print things on multiple lines.
+
 > ## Who's who in the memory
 >
 >You can use the `whos` command at any time to see what variables you have created and what modules you have loaded into the computers memory. As this is an IPython command, it will only work if you are in an IPython terminal or the Jupyter Notebook. 
