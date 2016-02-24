@@ -1,5 +1,11 @@
 # Basics
 
+> ## Learning Objectives
+
+> * Different Python environments
+> * Python commands
+> * Python Strings
+
 ## Python prompt
 
 
