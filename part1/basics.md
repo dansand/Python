@@ -35,8 +35,6 @@ Have fun with this for a little while and then get back here :).
 
 As you can see, Python is a great calculator. If you're wondering what else you can do...
 
-## Jupyter notebooks!
-
 ## Strings
 
 How about your name? Type your first name in quotes like this:
@@ -113,3 +111,6 @@ It worked! We used the `str` function inside of the `len` function. `str()` conv
 - The `int` function converts things into __integers__
 
 > Important: we can convert numbers into text, but we can't necessarily convert text into numbers - what would `int('hello')` be anyway?
+
+
+## Jupyter notebooks!
