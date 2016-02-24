@@ -6,8 +6,6 @@
 > *   Assign values to variables.
 
 
-
-
 A variable is just a name for a value,
 such as `x`, `current_temperature`, or `subject_id`.
 Python's variables must begin with a letter and are [case sensitive](reference.html#case-sensitive).
@@ -18,37 +16,31 @@ consider the simplest "collection" of data,
 a single value.
 The line below assigns the value `55` to a variable `weight_kg`:
 
-``` {.python}
-weight_kg = 55
-```
+    weight_kg = 55
+
 
 Once a variable has a value, we can print it to the screen:
 
-``` {.python}
-print(weight_kg)
-```
-```{.output}
-55
-```
+
+    print(weight_kg)
+    55
+
 
 and do arithmetic with it:
 
-```{.python}
-print('weight in pounds:', 2.2 * weight_kg)
-```
-``` {.output}
-weight in pounds: 121.0
-```
+    print('weight in pounds:', 2.2 * weight_kg)
+
+    weight in pounds: 121.0
+
 
 We can also change a variable's value by assigning it a new one:
 
-~~~ {.python}
-weight_kg = 57.5
-print('weight in kilograms is now:', weight_kg)
-~~~
-~~~ {.output}
-weight in kilograms is now: 57.5
-~~~
+
+    weight_kg = 57.5
+    print('weight in kilograms is now:', weight_kg)
+
+    weight in kilograms is now: 57.5
+
 
 As the example above shows,
 we can print several things at once by separating them with commas.
@@ -62,18 +54,14 @@ This means that assigning a value to one variable does *not* change the values o
 For example,
 let's store the subject's weight in pounds in a variable:
 
-``` {.python}
-weight_lb = 2.2 * weight_kg
-print('weight in kilograms:', weight_kg, 'and in pounds:', weight_lb)
-```
 
-~~~ {.python}
-weight_lb = 2.2 * weight_kg
-print('weight in kilograms:', weight_kg, 'and in pounds:', weight_lb)
-~~~
-~~~ {.output}
-weight in kilograms: 57.5 and in pounds: 126.5
-~~~
+    weight_lb = 2.2 * weight_kg
+    print('weight in kilograms:', weight_kg, 'and in pounds:', weight_lb)
+    weight_lb = 2.2 * weight_kg
+    
+    print('weight in kilograms:', weight_kg, 'and in pounds:', weight_lb)
+    weight in kilograms: 57.5 and in pounds: 126.5
+
 
 ![Creating Another Variable](../fig/python-sticky-note-variables-02.svg)
 
