@@ -7,9 +7,8 @@
 > *   Create and index lists of simple values.
 
 A list is a way to store many values.
-Unlike NumPy arrays,
-lists are built into the language (so we don't have to load a library
-to use them).
+Lists are built into the language (so we don't have to load a library to use them).
+
 We create a list by putting values inside square brackets:
 
 ~~~ {.python}
