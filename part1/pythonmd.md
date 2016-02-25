@@ -68,24 +68,37 @@ Strings can be strung together. Try this:
 ```python
 "Hi there " + "Ola"
 ```
-    'Hi there Ola'
+```
+'Hi there Ola'
+```
 
 You can also multiply strings with a number:
 
-    >>> "Ola" * 3
-    'OlaOlaOla'
-
+```python
+"Ola" * 3
+```
+```
+'OlaOlaOla'
+```
 If you need to put an apostrophe inside your string, you have two ways to do it.
 
 Using double quotes:
 
-    >>> "Runnin' down the hill"
-    "Runnin' down the hill"
+```python
+"Runnin' down the hill"
+```
+```
+"Runnin' down the hill"
+```
 
 or escaping the apostrophe with a backslash (`\`):
 
-    >>> 'Runnin\' down the hill'
-    "Runnin' down the hill"
+```python
+'Runnin\' down the hill'
+```
+```
+"Runnin' down the hill"
+```
 
 Nice, huh? To see your name in uppercase letters, simply type:
 
