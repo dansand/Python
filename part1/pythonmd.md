@@ -146,7 +146,7 @@ TypeError: object of type 'int' has no len()
 ```
 We got our first error! It says that objects of type "int" (integers, whole numbers) have no length. So what can we do now? Maybe we can write our number as a string? Strings have a length, right?
 
-```python
+```Python
 len(str(304023))
 ```
 6
