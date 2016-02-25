@@ -21,9 +21,6 @@ We select individual elements from lists by indexing them:
 
 ~~~ {.python}
 print('first and last:', odds[0], odds[-1])
-~~~
-
-~~~ {.output}
 first and last: 1 7
 ~~~
 
@@ -33,9 +30,7 @@ the loop variable is assigned elements one at a time:
 ~~~ {.python}
 for number in odds:
     print(number)
-~~~
 
-~~~ {.output}
 1
 3
 5
@@ -52,9 +47,7 @@ names = ['Newton', 'Darwing', 'Turing'] # typo in Darwin's name
 print('names is originally:', names)
 names[1] = 'Darwin' # correct the name
 print('final value of names:', names)
-~~~
 
-~~~ {.output}
 names is originally: ['Newton', 'Darwing', 'Turing']
 final value of names: ['Newton', 'Darwin', 'Turing']
 ~~~
