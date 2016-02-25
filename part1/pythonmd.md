@@ -65,7 +65,9 @@ You've now created your first string! It's a sequence of characters that can be 
 
 Strings can be strung together. Try this:
 
-    >>> "Hi there " + "Ola"
+```python
+"Hi there " + "Ola"
+```
     'Hi there Ola'
 
 You can also multiply strings with a number:
