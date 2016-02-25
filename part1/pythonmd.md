@@ -36,8 +36,12 @@ If you want to exit the Python console at any point, just type `exit()` or use t
 
 For now, we don't want to exit the Python console. We want to learn more about it. Let's start with something really simple. For example, try typing some math, like `2 + 3` and hit `enter`.
 
-    >>> 2 + 3
-    5
+```python
+2 + 3
+```
+```
+5
+```
 
 Nice! See how the answer popped out? Python knows math! You could try other commands like:
 - `4 * 5`
