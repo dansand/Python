@@ -102,16 +102,23 @@ or escaping the apostrophe with a backslash (`\`):
 
 Nice, huh? To see your name in uppercase letters, simply type:
 
-    >>> "Ola".upper()
-    'OLA'
+```python
+"Ola".upper()
+```
+```
+'OLA'
+```
 
 You just used the `upper` __method__ on your string! A method (like `upper()`) is a sequence of instructions that Python has to perform on a given object (`"Ola"`) once you call it.
 
 If you want to know the number of letters contained in your name, there is a __function__ for that too!
 
-    >>> len("Ola")
-    3
-
+```python
+len("Ola")
+```
+```
+3
+```
 Wonder why sometimes you call functions with a `.` at the end of a string (like `"Ola".upper()`) and sometimes you first call a function and place the string in parentheses? Well, in some cases, functions belong to objects, like `upper()`, which can only be performed on strings. In this case, we call the function a __method__. Other times, functions don't belong to anything specific and can be used on different types of objects, just like `len()`. That's why we're giving `"Ola"` as a parameter to the `len` function.
 
 ### Summary
