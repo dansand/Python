@@ -14,9 +14,6 @@ We create a list by putting values inside square brackets:
 ~~~ {.python}
 odds = [1, 3, 5, 7]
 print('odds are:', odds)
-~~~
-
-~~~ {.output}
 odds are: [1, 3, 5, 7]
 ~~~
 
