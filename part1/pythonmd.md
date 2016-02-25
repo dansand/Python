@@ -136,15 +136,20 @@ These are the basics of every programming language you learn. Ready for somethin
 
 Let's try something new. Can we get the length of a number the same way we could find out the length of our name? Type in `len(304023)` and hit `enter`:
 
-    >>> len(304023)
-    Traceback (most recent call last):
-      File "<stdin>", line 1, in <module>
-    TypeError: object of type 'int' has no len()
-
+```python
+len(304023)
+```    
+```
+Traceback (most recent call last):
+    File "<stdin>", line 1, in <module>
+TypeError: object of type 'int' has no len()
+```
 We got our first error! It says that objects of type "int" (integers, whole numbers) have no length. So what can we do now? Maybe we can write our number as a string? Strings have a length, right?
 
-    >>> len(str(304023))
-    6
+```python
+len(str(304023))
+```
+6
 
 It worked! We used the `str` function inside of the `len` function. `str()` converts everything to strings.
 
