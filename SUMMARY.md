@@ -2,7 +2,7 @@
 
 * [Introduction](README.md)
 * [Basics](part1/readme.md)
-   * [Python](part1/python.md)
+   * [Python](part1/pythonmd.md)
    * [Variables](part1/variables.md)
    * [Lists](part1/lists.md)
    * [Loops](part1/testfile.md)
