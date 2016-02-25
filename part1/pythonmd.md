@@ -56,7 +56,9 @@ As you can see, Python is a great calculator. If you're wondering what else you 
 
 How about your name? Type your first name in quotes like this:
 
-    >>> "Ola"
+```python
+"Ola"
+```
     'Ola'
 
 You've now created your first string! It's a sequence of characters that can be processed by a computer. The string must always begin and end with the same character. This may be single (`'`) or double (`"`) quotes (there is no difference!) The quotes tell Python that what's inside of them is a string.
