@@ -18,7 +18,7 @@ Once you're ready, follow the instructions below.
 
 We want to open up a Python console, so type in `python` and hit `enter`.
 
-```
+```python
 python
 ```
 
