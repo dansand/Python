@@ -161,8 +161,3 @@ It worked! We used the `str` function inside of the `len` function. `str()` conv
 
 ## Jupyter notebooks!
 
-```python
-s = "Python syntax highlighting"
-print s
-len(x)
-```
