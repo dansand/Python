@@ -115,11 +115,11 @@ The output tells us that `data` currently refers to an N-dimensional array creat
 
 We can see what its [shape](reference.html#shape) is like this:
 
-~~~ {.python}
+```python
 print(data.shape)
-~~~
-~~~ {.output}
-(60, 40)
+```
+```
+(505, 6)
 ~~~
 
 This tells us that `data` has 60 rows and 40 columns. When we created the
