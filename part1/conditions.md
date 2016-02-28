@@ -240,7 +240,7 @@ freeing us from having to manually examine every plot for features we've seen be
 
 >However, they aren't the only values in Python that are true and false. After reading and running the following `if` statements, explain what the rule is for which values are considered true and which are considered false.
 >
-> ~~~ {.python}
+> ```python
 > if '':
 >     print('empty string is true')
 > if 'word':
@@ -253,7 +253,7 @@ freeing us from having to manually examine every plot for features we've seen be
 >     print('zero is true')
 > if 1:
 >     print('one is true')
-> ~~~
+> ```
 
 > ## _challenge_: Close enough
 >
@@ -268,15 +268,15 @@ freeing us from having to manually examine every plot for features we've seen be
 > Python (and most other languages in the C family) provides [in-place operators](reference.html#in-place-operator)
 > that work like this:
 >
-> ~~~ {.python}
+> ```python
 > x = 1  # original value
 > x += 1 # add one to x, assigning result back to x
 > x *= 3 # multiply x by 3
 > print(x)
-> ~~~
-> ~~~ {.output}
+> ```
+> ```python
 > 6
-> ~~~
+> ```
 >
 > Write some code that sums the positive and negative numbers in a list separately,
 > using in-place operators.
