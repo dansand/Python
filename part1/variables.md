@@ -22,7 +22,6 @@ As you've noticed, your program didn't return anything like it did before. So ho
 ```python
 name
 ```
-Output:
 ```
 'Ola'
 ```
@@ -35,23 +34,32 @@ name = "Sonja"
 ```python
 name
 ```
-``
+```
 'Sonja'
-``
+```
 
 You can use it in functions too:
 
-    >>> len(name)
-    5
+```python
+len(name)
+```
+```
+5
+```
 
 But what if we used the wrong name? Can you guess what would happen? Let's try!
 
-    >>> city = "Tokyo"
-    >>> ctiy
+```python
+city = "Tokyo"
+```
+```python
+ctiy
+```
+```
     Traceback (most recent call last):
       File "<stdin>", line 1, in <module>
     NameError: name 'ctiy' is not defined
-
+```
 An error! As you can see, Python has different types of errors and this one is called a **NameError**. Python will give you this error if you try to use a variable that hasn't been defined yet. If you encounter this error later, check your code to see if you've mistyped any names.
 
 
@@ -59,31 +67,40 @@ So a Python variable is just a name for a value. Python's variables must begin w
 We create a new variable by assigning a value to it using `=`. Note that `=` means assignment in Python. 
 Let's consider the simplest "collection" of data, a single value. The line below assigns the value `55` to a variable `weight_kg`:
 
-    weight_kg = 55
 
+```python
+weight_kg = 55
+```
 
 Just like with the string assigned to `name`, our numeric (integer) variable can be printed to the screen:
 
-
-    print(weight_kg)
-    55
-
+```python
+print(weight_kg)
+```
+```
+55
+```
 
 We can also do arithmetic with it:
 
-    print('weight in pounds:', 2.2 * weight_kg)
-
-    weight in pounds: 121.0
-
+```python
+print('weight in pounds:', 2.2 * weight_kg)
+```
+```python
+weight in pounds: 121.0
+```
 
 We can also change a variable's value by assigning it a new one:
 
-
-    weight_kg = 57.5
-    print('weight in kilograms is now:', weight_kg)
-
-    weight in kilograms is now: 57.5
-
+```python
+weight_kg = 57.5
+```
+```python
+print('weight in kilograms is now:', weight_kg)
+```
+```
+weight in kilograms is now: 57.5
+```
 
 As the example above shows,
 we can print several things at once by separating them with commas.
