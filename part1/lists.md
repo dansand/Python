@@ -158,6 +158,12 @@ print('Item 2 to end is', odds[2:])
 print('Item 1 to -1 is', odds[1:-1])
 print('Item start to end is', odds[:])
 ```
+```
+Item 1 to 3 is [3, 5]
+Item 2 to end is [5, 7]
+Item 1 to -1 is [3, 5]
+Item start to end is [1, 3, 5, 7]
+```
 
 
 > ## _challenge:_  Exchanges
