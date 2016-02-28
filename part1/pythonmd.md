@@ -100,7 +100,7 @@ Here is a quick overview of the available operators:
 
 - `%` (modulo)
     - Returns the remainder of the division
-    - `13 % 3` gives `1`. `-25.5 % 2.25` gives `1.5`.
+    - `13 % 3` gives `1`. `-25.5 % 2.25` gives `0.75`.
 
 ## Evaluation Order
 
