@@ -120,7 +120,7 @@ print(data.shape)
 ```
 ```
 (505, 6)
-~~~
+```
 
 This tells us that `data` has 60 rows and 40 columns. When we created the
 variable `data` to store our arthritis data, we didn't just create the array, we also
