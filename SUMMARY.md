@@ -8,7 +8,7 @@
    * [Loops](part1/testfilemd.md)
    * [Conditions](part1/conditions.md)
    * [Functions](part1/functions.md)
-* [Numpy, Matplotlib, data](part2/readmemd.md)
+* [Arrays, Plotting, data](part2/readmemd.md)
    * [Files](part2/files.md)
    * [Python libraries](part2/libraries.md)
    * [Numpy](part2/numpy.md)
