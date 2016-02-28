@@ -256,8 +256,4 @@ FILE
 
 ## Summary
 
-Just like functions are reusable parts of programs, modules are reusable programs. Packages are another hierarchy to organize modules. The standard library that comes with Python is an example of such a set of packages and modules.
-
-We have seen how to use these modules and create our own modules.
-
-Next, we will learn about some interesting concepts called data structures.
+Just like functions are reusable parts of programs, modules are reusable programs.
