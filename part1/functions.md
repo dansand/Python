@@ -51,10 +51,10 @@ Okay, let's try writing another function `fahr_to_kelvin` that converts temperat
 
 ```python
 def fahr_to_kelvin(temp):
-    return ((temp - 32) * (5/9)) + 273.15```
+    return ((temp - 32) * (5/9.)) + 273.15```
 
 
-You might have noticed that when we _call_ the function, the values we pass to it are assigned to those variables so that we can use them inside the function. Inside the function, we use a [return statement](reference.html#return-statement) to send a result back to whoever asked for it.
+You might have noticed that when we _call_ the function, the values (also called _arguments_ or _paramters_) we pass to it are assigned to those variables so that we can use them inside the function. Inside the function, we use a [return statement](reference.html#return-statement) to send a result back to whoever asked for it.
 
 Let's try running our function.
 
@@ -71,73 +71,6 @@ boiling point of water: 373.15
 We've successfully called the function that we defined,
 and we have access to the value that we returned.
 
-
-<!--
-> ## Integer division
->
-> We are using Python 3, where division always returns a floating point number:
->
-> ~~~ {.python}
-> $ python3 -c "print(5/9)"
-> ~~~
-> ~~~ {.output}
-> 0.5555555555555556
-> ~~~
->
-> Unfortunately, this wasn't the case in Python 2:
->
-> ~~~ {.python}
-> 5/9
-> ~~~
-> ~~~ {.output}
-> 0
-> ~~~
->
-> If you are using Python 2 and want to keep the fractional part of division
-> you need to convert one or the other number to floating point:
->
-> ~~~ {.python}
-> float(5)/9
-> ~~~
-> ~~~ {.output}
-> 0.555555555556
-> ~~~
-> ~~~ {.python}
-> 5/float(9)
-> ~~~
-> ~~~ {.output}
-> 0.555555555556
-> ~~~
-> ~~~ {.python}
-> 5.0/9
-> ~~~
-> ~~~ {.output}
-> 0.555555555556
-> ~~~
-> ~~~ {.python}
-> 5/9.0
-> ~~~
-> ~~~ {.output}
-> 0.555555555556
-> ~~~
->
-> And if you want an integer result from division in Python 3,
-> use a double-slash:
->
-> ~~~ {.python}
-> 4//2
-> ~~~
-> ~~~ {.output}
-> 2
-> ~~~
-> ~~~ {.python}
-> 3//2
-> ~~~
-> ~~~ {.output}
-> 1
-> ~~~
-
--->
 
 ## Composing Functions
 
