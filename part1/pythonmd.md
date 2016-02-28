@@ -172,7 +172,9 @@ Nice, huh? To see your name in uppercase letters, simply type:
 'OLA'
 ```
 
-You just used the `upper` __method__ on your string! A method (like `upper()`) is a sequence of instructions that Python has to perform on a given object (`"Ola"`) once you call it.
+You just used the `upper` __method__ on your string! A method (like `upper()`) is a sequence of instructions that Python has to perform on a given object (`"Ola"`) once you call it. 
+
+> We will often discuss the concept of methods as we use them, because methods are fundamental in python.
 
 If you want to know the number of letters contained in your name, there is a __function__ for that too!
 
