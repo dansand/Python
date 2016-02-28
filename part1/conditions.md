@@ -140,9 +140,23 @@ while `or` is true if at least one part is true:
 if (1 < 0) or (-1 < 0):
     print('at least one test is true')
 ```
+##While loops
+
 
 ```
 at least one test is true
+```
+
+```python
+n = int(input("n = "))
+f0 = 0
+f1 = 1
+while n > 1:
+    nxt = f0 + f1
+    f0 = f1
+    f1 = nxt
+    n -= 1
+print("Fn =", f1)
 ```
 
 <!--
