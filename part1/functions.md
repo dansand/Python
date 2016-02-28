@@ -43,7 +43,7 @@ Let's try running our function.Calling our own function is no different from cal
 fibonacci(10)
 ```
 ```
-10
+`10`
 ```
 
 Let's try writing another function `fahr_to_kelvin` that converts temperatures from Fahrenheit to Kelvin:
