@@ -27,6 +27,12 @@ print('first and last:', odds[0], odds[-1])
 ```
 first and last: 1 7
 ```
+
+Programming languages like Fortran and MATLAB start counting at 1,
+because that's what human beings have done for thousands of years.
+Languages in the C family (including C++, Java, Perl, and Python) count from 0
+because that's simpler for computers to do.
+
 <!---
 and if we loop over a list,
 #the loop variable is assigned elements one at a time:
