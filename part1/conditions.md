@@ -50,7 +50,7 @@ False
 
 
 
-## Conditionals
+## Control flow
 
 We can ask Python to take different actions, depending on a condition, with an `if` statement:
 
