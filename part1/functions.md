@@ -170,6 +170,4 @@ freezing point of water in Celsius: 0.0
 ```
 
 This is our first taste of how larger programs are built:
-we define basic operations, then combine them in ever-large chunks to get the effect we want. Real-life functions will usually be larger than the ones shown here --- typically half a dozen to a few dozen lines --- but
-they shouldn't ever be much longer than that,
-or the next person who reads it won't be able to understand what's going on.
+we define basic operations, then combine them in ever-large chunks to get the effect we want. Real-life functions will usually be larger than the ones shown here --- typically half a dozen to a few dozen lines --- but they shouldn't ever be much longer than that, or the next person who reads it won't be able to understand what's going on.
