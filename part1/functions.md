@@ -34,15 +34,10 @@ def fibonacci(n):
     return f1
 ```
 
-
-The function definition opens with the word `def`,
-which is followed by the name of the function
-and a parenthesized list of parameter names.
-The [body](reference.html#function-body) of the function - the
-statements that are executed when it runs - is indented below the definition line.
+The function definition opens with the word `def`, which is followed by the name of the function and a parenthesized list of parameter names. The [body](reference.html#function-body) of the function - the statements that are executed when it runs - is indented below the definition line.
 
 
-Let's try another function `fahr_to_kelvin` that converts temperatures from Fahrenheit to Kelvin:
+Let's try writing another function `fahr_to_kelvin` that converts temperatures from Fahrenheit to Kelvin:
 
 ```python
 def fahr_to_kelvin(temp):
