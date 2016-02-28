@@ -7,7 +7,7 @@
    * [Lists](part1/lists.md)
    * [Loops](part1/testfilemd.md)
    * [Conditions](part1/conditions.md)
-   * Functions
+   * [Functions](part1/functions.md)
    * plotting
 * [Numpy and data](part2/readmemd.md)
    * [Files](part2/files.md)
