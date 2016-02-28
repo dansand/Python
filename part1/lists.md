@@ -24,7 +24,7 @@ odds are: [1, 3, 5, 7]
 
 ##Indexing a list
 
-We select individual elements from lists by indexing them:
+An index is the number that says where in a list an item occurs.We select individual elements from lists by _indexing_ them:
 
 ```python
 print('first and last:', odds[0], odds[-1])
