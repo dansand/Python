@@ -101,6 +101,8 @@ if (1 < 0) or (-1 < 0):
 at least one test is true
 ```
 
+<!--
+
 ## Checking our Data
 
 Now that we've seen how conditionals work,
@@ -166,6 +168,8 @@ Here we printed messages in all cases,
 but we could also imagine not using the `else` catch-all
 so that messages are only printed when something is wrong,
 freeing us from having to manually examine every plot for features we've seen before.
+
+-->
 
 > ## How many paths? {.challenge}
 >
