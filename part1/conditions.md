@@ -238,7 +238,7 @@ freeing us from having to manually examine every plot for features we've seen be
 >
 >There are only two Boolean objects:`True` and `False`. In python expressions `True` and `False` are special words in which represent true and false statements. 
 
->However, they aren't the only values in Python that are true and false. After reading and running the code below, explain what the rule is for which values are considered true and which are considered false.
+>However, they aren't the only values in Python that are true and false. After reading and running the following `if` statements, explain what the rule is for which values are considered true and which are considered false.
 >
 > ~~~ {.python}
 > if '':
