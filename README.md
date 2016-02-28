@@ -1,8 +1,6 @@
 # Python
 
-This material was assembled for teaching at University of Melbourne. 
-
-This book is based largely on the following Resources:
+This material was assembled for teaching at University of Melbourne. This book is based largely on the following Resources:
 
 
 
