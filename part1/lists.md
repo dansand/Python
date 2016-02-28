@@ -168,17 +168,19 @@ Item 1 to -1 is [3, 5]
 Item start to end is [1, 3, 5, 7]
 ```
 
-> ## _challenge:_  conversion
+> ## _challenge:_  python container interactions
 >
 > Explain what the overall effect of this code is:
 >
 > ```python
 > list1 = ["I", "am", "becoming", "a", "programmer"]
->Str1 = "-".join(list1)
->
+> message = "\n".join(list1)
+> print(message)
+>```
 _hint, try running_
-> help(Str1.join)
-```
+>```
+> help(message.join)
+>```
 
 
 
