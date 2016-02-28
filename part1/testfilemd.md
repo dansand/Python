@@ -182,7 +182,7 @@ for number in odds:
 ```
 
 
-> ## From 1 to N {.challenge}
+> ## _challenge:_ From 1 to N
 >
 > Python has a built-in function called `range` that creates a sequence of numbers. Range can
 > accept 1-3 parameters. If one parameter is input, range creates an array of that length,
@@ -201,7 +201,7 @@ for number in odds:
 > 3
 > ~~~
 
-> ## Computing powers with loops {.challenge}
+> ## _challenge:_ Computing powers with loops
 >
 > Exponentiation is built into Python:
 >
