@@ -162,17 +162,8 @@ It takes a bit of getting used to,
 but one way to remember the rule is that
 the index is how many steps we have to take from the start to get the item we want.
 
-> ## In the Corner {.callout}
->
-> What may also surprise you is that when Python displays an array,
-> it shows the element with index `[0, 0]` in the upper left corner
-> rather than the lower left.
-> This is consistent with the way mathematicians draw matrices,
-> but different from the Cartesian coordinates.
-> The indices are (row, column) instead of (column, row) for the same reason,
-> which can be confusing when plotting data.
 
-An index like `[30, 20]` selects a single element of an array,
+An index like `data[250, 2]` selects a single element of an array,
 but we can select whole sections as well.
 For example,
 we can select the first ten days (columns) of values
