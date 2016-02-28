@@ -101,6 +101,19 @@ Here is a quick overview of the available operators:
 
 If you had an expression such as `2 + 3 * 4`, is the addition done first or the multiplication? Our high school maths tells us that the multiplication should be done first. This means that the multiplication operator has higher precedence than the addition operator.
 
+## Numbers
+
+We've begun using numbers in python, now it's time to consider the a fundamental dichotomy: numbers are mainly of two types - integers and floats.
+
+An examples of an integer is `2` which is just a whole number.
+
+Examples of floating point numbers (or _floats_ for short) are `3.23` and `52.3E-4`. The `E` notation indicates powers of 10. In this case, `52.3E-4` means `52.3 * 10^-4^`.
+
+> **Note for Experienced Programmers**
+> 
+> There is no separate `long` type. The `int` type can be an integer of any size.
+
+
 
 ## Strings
 
