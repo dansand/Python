@@ -210,6 +210,11 @@ It worked! We used the `str` function inside of the `len` function. `str()` conv
 
 ## Jupyter notebooks!
 
+A Jupyter notebooks lets you write and execute Python code in your web browser. Jupyter notebooks make it very easy to tinker with code and execute it in bits and pieces; for this reason Jupyter notebooks are widely used in scientific computing.
+
+Markdown
+
+
 
 ### Summary
 
