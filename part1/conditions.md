@@ -19,12 +19,12 @@ print(3 < 1)
 print(5 > 2 * 2)
 print(1 == 1)
 print(5 != 2)
-
 ```    
+```
+True
 False
 True
-True    
-True   
+True
 True
 ```
 
