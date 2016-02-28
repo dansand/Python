@@ -71,29 +71,29 @@ d
 This is shorter---certainly shorter than something that prints every character in a hundred-letter string---and
 more robust as well:
 
-~~~ {.python}
+```python
 word = 'oxygen'
 for char in word:
     print(char)
-~~~
+```
 
-~~~ {.output}
+```
 o
 x
 y
 g
 e
 n
-~~~
+```
 
 The improved version uses a [for loop](reference.html#for-loop)
 to repeat an operation---in this case, printing---once for each thing in a collection.
 The general form of a loop is:
 
-~~~ {.python}
+```python
 for variable in collection:
     do things with variable
-~~~
+```
 
 We can call the [loop variable](reference.html#loop-variable) anything we like,
 but there must be a colon at the end of the line starting the loop,
@@ -102,16 +102,16 @@ command to signify the end of the loop body (e.g. end for); what is indented aft
 
 Here's another loop that repeatedly updates a variable:
 
-~~~ {.python}
+```python
 length = 0
 for vowel in 'aeiou':
     length = length + 1
 print('There are', length, 'vowels')
-~~~
+````
 
-~~~ {.output}
+```python
 There are 5 vowels
-~~~
+```
 
 It's worth tracing the execution of this little program step by step.
 Since there are five characters in `'aeiou'`,
