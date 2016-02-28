@@ -5,7 +5,7 @@
    * [Python](part1/pythonmd.md)
    * [Variables](part1/variables.md)
    * [Lists](part1/lists.md)
-   * [Loops](part1/testfile.md)
+   * [Loops](part1/testfilemd.md)
    * Conditions
    * Functions
    * [quiz](part1/quiz.md)
