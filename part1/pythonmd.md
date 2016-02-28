@@ -118,16 +118,6 @@ len("Ola")
 ```
 Wonder why sometimes you call functions with a `.` at the end of a string (like `"Ola".upper()`) and sometimes you first call a function and place the string in parentheses? Well, in some cases, functions belong to objects, like `upper()`, which can only be performed on strings. In this case, we call the function a __method__. Other times, functions don't belong to anything specific and can be used on different types of objects, just like `len()`. That's why we're giving `"Ola"` as a parameter to the `len` function.
 
-### Summary
-
-OK, enough of strings. So far you've learned about:
-
-- __the prompt__ - typing commands (code) into the Python prompt results in answers in Python
-- __numbers and strings__ - in Python numbers are used for math and strings for text objects
-- __operators__ - like + and \*, combine values to produce a new one
-- a little look at __functions__ - like upper() and len(), that perform actions on objects.
-
-These are the basics of every programming language you learn. Ready for something harder? We bet you are!
 
 ## Errors
 
@@ -157,4 +147,18 @@ It worked! We used the `str` function inside of the `len` function. `str()` conv
 
 
 ## Jupyter notebooks!
+
+
+### Summary
+
+OK, enough of strings. So far you've learned about:
+
+- __the prompt__ - typing commands (code) into the Python prompt results in answers in Python
+- __numbers and strings__ - in Python numbers are used for math and strings for text objects
+- __operators__ - like + and \*, combine values to produce a new one
+- a little look at __functions__ - like upper() and len(), that perform actions on objects.
+- __errors__
+- __Jupyter notebooks__
+
+These are the basics of every programming language you learn. Ready for something harder? We bet you are!
 
