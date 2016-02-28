@@ -13,5 +13,5 @@
    * [Python libraries](part2/libraries.md)
    * [Numpy](part2/numpy.md)
    * [Dictionaries](part2/dictionaries.md)
-   * matplotlib
+   * [matplotlib](part2/matplotlib.md)
 
