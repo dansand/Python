@@ -158,6 +158,7 @@ while n > 1:
     n -= 1
 print("Fn =", f1)
 ```
+Note that the `int()` function here converts a string into a an integer. 
 
 <!--
 
