@@ -145,7 +145,7 @@ Now we have a little bit of experience using comparison operators to control the
 
 The `while` statement allows you to repeatedly execute a block of statements as long as a condition is true. A while statement is an example of what is called a looping statement. A while statement can have an optional else clause.
 
-We begin by looking at one of the simplest dynamic programming algorithms, generating a fibonacci sequence. While there are many ways to generate this sequence, the underlying dynamic programming algorithm acts as a nice base for introducing the central data structures in PyDecode.
+We begin by looking at one of the simplest dynamic programming algorithms, generating a fibonacci sequence. 
 
 ```
 at least one test is true
