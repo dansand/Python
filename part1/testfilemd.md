@@ -2,20 +2,20 @@
 An example task that we might want to repeat is printing each character in a
 word on a line of its own. One way to do this would be to use a series of `print` statements:
 
-~~~ {.python}
+```python
 word = 'lead'
 print(word[0])
 print(word[1])
 print(word[2])
 print(word[3])
+```
 
-~~~
-~~~ {.output}
+```
 l
 e
 a
 d
-~~~
+```
 
 This is a bad approach for two reasons:
 
@@ -29,20 +29,19 @@ This is a bad approach for two reasons:
     and if we give it a shorter one,
     it produces an error because we're asking for characters that don't exist.
 
-~~~ {.python}
+```
 word = 'tin'
 print(word[0])
 print(word[1])
 print(word[2])
 print(word[3])
-
-~~~
-~~~ {.output}
+```
+```
 t
 i
 n
-~~~
-~~~ {.error}
+```
+```
 ---------------------------------------------------------------------------
 IndexError                                Traceback (most recent call last)
 <ipython-input-3-7974b6cdaf14> in <module>()
@@ -51,24 +50,23 @@ IndexError                                Traceback (most recent call last)
 ----> 5 print(word[3])
 
 IndexError: string index out of range
-~~~
+```
 
 
 Here's a better approach:
 
-~~~ {.python}
+```
 word = 'lead'
 for char in word:
     print(char)
+```
 
-~~~
-
-~~~ {.output}
+```
 l
 e
 a
 d
-~~~
+```
 
 This is shorter---certainly shorter than something that prints every character in a hundred-letter string---and
 more robust as well:
