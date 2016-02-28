@@ -34,7 +34,6 @@ Give Python two more tasks:
 
 ```python
 print(6 >= 12 / 2)
-
 print(3 <= 2)
 ```
 ```    
