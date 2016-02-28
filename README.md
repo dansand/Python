@@ -1,6 +1,6 @@
 # The ResBaz guide to Python
 
-This material was Remixed for teaching at University of Melbourne. This book is based mainly on the following Resources:
+This material was remixed for teaching at University of Melbourne. This book is based mainly on the following Resources:
 
 [Software Carpentry](http://swcarpentry.github.io/python-novice-inflammation/)
 
