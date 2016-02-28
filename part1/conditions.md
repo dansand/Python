@@ -164,6 +164,18 @@ while n > 1:
     n -= 1
 print("Fn =", f1)
 ```
+
+This code inputs an integer n for which it computes and prints the $nth$ Fibonacci number.
+
+Here is how it works in a bit more detail:
+
+We first initialize (set to their starting values) variables f0 and f1 to 0 and 1 respectively.
+Then we run a loop as long as n > 1. In that loop, we
+2.1. Compute the sum f0 + f1 and save it for later in the variable nxt (short of "next", which we don't use because next is a built-in Python function).
+2.2. We assign f0 = f1 and f1 = nxt.
+In other words, the new value of f0 is equal to the old value of f1 and the new value is equal to the sum of old values of f0 and f1.
+2.3. We reduce n by 1.
+
 Note that the `int()` function here converts a string into a an integer. 
 
 <!--
