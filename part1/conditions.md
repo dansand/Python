@@ -255,7 +255,7 @@ freeing us from having to manually examine every plot for features we've seen be
 >     print('one is true')
 > ~~~
 
-> ## Close enough {.challenge}
+> ## _challenge_: Close enough
 >
 > Write some conditions that print `True` if the variable `a` is within 10% of the variable `b`
 > and `False` otherwise.
@@ -263,7 +263,7 @@ freeing us from having to manually examine every plot for features we've seen be
 > do you get the same answer for all possible pairs of numbers?
 
 
-> ## In-place operators {.challenge}
+> ## _challenge_: In-place operators
 >
 > Python (and most other languages in the C family) provides [in-place operators](reference.html#in-place-operator)
 > that work like this:
