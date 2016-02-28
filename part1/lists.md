@@ -151,11 +151,13 @@ This is different from how variables worked in lesson 1, and more similar to how
 lists, (like a variety of pythn data structures), also have a slicing operation which allows us to retrieve a slice of the sequence i.e. a part of the sequence.
 
 # Slicing on a list #
+```python
 odds = [1, 3, 5, 7]
 print('Item 1 to 3 is', odds[1:3])
 print('Item 2 to end is', odds[2:])
 print('Item 1 to -1 is', odds[1:-1])
 print('Item start to end is', odds[:])
+```
 
 
 > ## _challenge:_  Exchanges
