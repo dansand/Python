@@ -1,6 +1,6 @@
 # Functions
 
-> ## Learning Objectives {.objectives}
+> ## Learning Objectives
 >
 > *   Define a function that takes parameters.
 > *   Return a value from a function.
