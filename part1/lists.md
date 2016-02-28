@@ -29,7 +29,7 @@ first and last: 1 7
 ```
 <!---
 and if we loop over a list,
-the loop variable is assigned elements one at a time:
+#the loop variable is assigned elements one at a time:
 
 ```
 for number in odds:
@@ -50,26 +50,21 @@ For example:
 ```python
 names = ['Newton', 'Darwing', 'Turing'] # typo in Darwin's name
 print('names is originally:', names)
-```
-```
-('names is originally:', ['Newton', 'Darwing', 'Turing'])
-```
-
 names[1] = 'Darwin' # correct the name
 print('final value of names:', names)
-
+```
+```
 names is originally: ['Newton', 'Darwing', 'Turing']
 final value of names: ['Newton', 'Darwin', 'Turing']
-~~~
+```
 
 works, but:
 
-~~~ {.python}
+```python
 name = 'Bell'
 name[0] = 'b'
-~~~
-
-~~~ {.error}
+```
+```
 ---------------------------------------------------------------------------
 TypeError                                 Traceback (most recent call last)
 <ipython-input-8-220df48aeb2e> in <module>()
@@ -77,11 +72,11 @@ TypeError                                 Traceback (most recent call last)
 ----> 2 name[0] = 'b'
 
 TypeError: 'str' object does not support item assignment
-~~~
+```
 
 does not.
 
-> ## Ch-Ch-Ch-Changes {.callout}
+> ## Ch-Ch-Ch-Changes
 >
 > Data which can be modified in place is called [mutable](reference.html#mutable),
 > while data which cannot be modified is called [immutable](reference.html#immutable).
