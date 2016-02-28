@@ -79,7 +79,7 @@ does not.
 > modified copy and leaves the original unchanged.
 
 
-> ## Nested Lists {.callout}
+> ## Nested Lists
 > Since lists can contain any Python variable, it can even contain other lists.
 >
 > For example, we could represent the products in the shelves of a small grocery shop:
@@ -190,7 +190,7 @@ This is different from how variables worked in lesson 1, and more similar to how
 
 lists, (like a variety of pythn data structures), also have a slicing operation which allows us to retrieve a slice of the sequence i.e. a part of the sequence.
 
-> ## Turn a string into a list {.challenge}
+> ## _challenge:_ Turn a string into a list
 >
 > Use a for-loop to convert the string "hello" into a list of letters:
 >
@@ -203,7 +203,7 @@ lists, (like a variety of pythn data structures), also have a slicing operation 
 > my_list = []
 > ~~~
 
-> ## Tuples and exchanges {.challenge}
+> ## _challenge:_  Exchanges
 >
 > Explain what the overall effect of this code is:
 >
