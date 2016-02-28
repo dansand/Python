@@ -59,11 +59,16 @@ _Operators_ are functionality that do something and can be represented by symbol
 As we just saw, you can evaluate the expressions given in the examples using the interpreter interactively. For example, to test the expression `2 + 3`, use the interactive Python interpreter prompt:
 
 ```python
->>> 2 + 3
+2 + 3
+```
+```
 5
->>> 3 * 5
+```
+```python
+3 * 5
+```
+```
 15
->>>
 ```
 
 Here is a quick overview of the available operators:
