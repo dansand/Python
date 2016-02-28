@@ -234,16 +234,11 @@ freeing us from having to manually examine every plot for features we've seen be
 > ## _challenge_: What is truth?
 >
 >
->Incidentally, you just learned about a new type of object in >Python. It's called a __Boolean__ -- and it probably is the >easiest type there is.
+>Incidentally, you just learned about a new type of object in Python. It's called a __Boolean__ -- and it probably is the easiest type there is.
 >
->There are only two Boolean objects:
->- True
->- False
-> `True` and `False` are special words in Python called `booleans` which represent true
-and false statements. However, they aren't the only values in Python that are true and false.
-> In fact, *any* value can be used in an `if` or `elif`.
-> After reading and running the code below,
-> explain what the rule is for which values are considered true and which are considered false.
+>There are only two Boolean objects:`True` and `False`. In python expressions `True` and `False` are special words in which represent true and false statements. 
+
+>However, they aren't the only values in Python that are true and false. After reading and running the code below, explain what the rule is for which values are considered true and which are considered false.
 >
 > ~~~ {.python}
 > if '':
