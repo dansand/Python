@@ -27,8 +27,7 @@ Importing a library is like getting a piece of lab equipment out of a storage lo
 we can ask the library to read our data file for us:
 
 ```python
-filepath = "../../data/europe-seasonal.txt"
-np.loadtxt(filepath, converters=None, skiprows=119)
+np.loadtxt("../../data/europe-seasonal.txt", converters=None, skiprows=119)
 ~~~
 ```
 array([[  1.50000000e+03,  -9.45000000e-01,   7.15700000e+00,
