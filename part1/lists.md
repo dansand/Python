@@ -168,8 +168,17 @@ Item 1 to -1 is [3, 5]
 Item start to end is [1, 3, 5, 7]
 ```
 
+> ## _challenge:_  conversion
+>
+> Explain what the overall effect of this code is:
+>
+> ```python
+> list1 = ["I", "am", "becoming", "a", "programmer"]
+>Str1 = "-".join(list1)
+```
 
-list1 = ["I", "am", "becoming", "a", "programmer"]
-Str1 = "-".join(list1)
+
+
+
 
 
