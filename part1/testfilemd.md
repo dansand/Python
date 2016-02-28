@@ -165,8 +165,7 @@ and much easier to read than a two-line loop;
 it will also give us the length of many other things that we haven't met yet,
 so we should always use it when we can.
 
-and if we loop over a list,
-the loop variable is assigned elements one at a time:
+If we loop over a list, which we learnt about in the previous lesson, the loop variable is assigned elements one at a time:
 
 ```
 for number in odds:
