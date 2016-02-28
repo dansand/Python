@@ -168,6 +168,7 @@ so we should always use it when we can.
 If we loop over a list, which we learnt about in the previous lesson, the loop variable is assigned elements one at a time:
 
 ```
+odds = [1, 3, 5, 7]
 for number in odds:
     print(number)
 ```
