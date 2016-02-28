@@ -1,7 +1,6 @@
 # Summary
 
 * [Introduction](README.md)
-* [quiz](part1/quiz.md)
 * [Basics](part1/readme.md)
    * [Python](part1/pythonmd.md)
    * [Variables](part1/variables.md)
