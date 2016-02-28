@@ -7,6 +7,7 @@
 > *   Create and index lists of simple values.
 > *   List slicing
 
+##Creating lists
 
 A list is a way to store many values.
 Lists are built into the language (so we don't have to load a library to use them).
@@ -20,6 +21,8 @@ print('odds are:', odds)
 ```
 odds are: [1, 3, 5, 7]
 ```
+
+##Indexing a list
 
 We select individual elements from lists by indexing them:
 
@@ -146,6 +149,13 @@ This is different from how variables worked in lesson 1, and more similar to how
 ##Slicing
 
 lists, (like a variety of pythn data structures), also have a slicing operation which allows us to retrieve a slice of the sequence i.e. a part of the sequence.
+
+# Slicing on a list #
+odds = [1, 3, 5, 7]
+print('Item 1 to 3 is', odds[1:3])
+print('Item 2 to end is', odds[2:])
+print('Item 1 to -1 is', odds[1:-1])
+print('Item start to end is', odds[:])
 
 > ## _challenge:_ Turn a string into a list
 >
