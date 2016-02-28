@@ -92,14 +92,14 @@ at least one part is false
 ```
 
 while `or` is true if at least one part is true:
-
-~~~ {.python}
+```python
 if (1 < 0) or (-1 < 0):
     print('at least one test is true')
-~~~
-~~~ {.output}
+```
+
+```
 at least one test is true
-~~~
+```
 
 ## Checking our Data
 
