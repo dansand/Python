@@ -141,7 +141,9 @@ if (1 < 0) or (-1 < 0):
     print('at least one test is true')
 ```
 ##While loops
+Now we have a little bit of experience using comparison operators to control the flow of our code, we can take a look at another very common form of loop.
 
+The `while` statement allows you to repeatedly execute a block of statements as long as a condition is true. A while statement is an example of what is called a looping statement. A while statement can have an optional else clause.
 
 ```
 at least one test is true
