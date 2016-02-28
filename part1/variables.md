@@ -114,24 +114,27 @@ This means that assigning a value to one variable does *not* change the values o
 For example,
 let's store the subject's weight in pounds in a variable:
 
-
-    weight_lb = 2.2 * weight_kg
-    print('weight in kilograms:', weight_kg, 'and in pounds:', weight_lb)
-    weight_lb = 2.2 * weight_kg
-    
-    print('weight in kilograms:', weight_kg, 'and in pounds:', weight_lb)
-    weight in kilograms: 57.5 and in pounds: 126.5
-
+```python
+weight_lb = 2.2 * weight_kg
+```
+```python
+print('weight in kilograms:', weight_kg, 'and in pounds:', weight_lb)
+```
+```
+weight in kilograms: 57.5 and in pounds: 126.5
+```
 
 ![Creating Another Variable](../fig/python-sticky-note-variables-02.svg)
 
 and then change `weight_kg`:
 
-
-    weight_kg = 100.0
-    print('weight in kilograms is now:', weight_kg, 'and weight in pounds is still:', weight_lb)
-
-    weight in kilograms is now: 100.0 and weight in pounds is still: 126.5
+```python
+weight_kg = 100.0
+print('weight in kilograms is now:', weight_kg, 'and weight in pounds is still:', weight_lb)
+```
+```
+weight in kilograms is now: 100.0 and weight in pounds is still: 126.5
+```
 
 ![Updating a Variable](../fig/python-sticky-note-variables-03.svg)
 
@@ -144,11 +147,20 @@ This is different from the way spreadsheets work.
 
 Try this:
 
-    >>> name = 'Maria'
-    >>> name
-    'Maria'
-    >>> print(name)
-    Maria
+```python
+name = 'Maria'
+name
+```
+```
+'Maria'
+```
+
+```python
+print(name)
+```
+```
+Maria
+```
 
 When you just type `name`, the Python interpreter responds with the string *representation* of the variable 'name', which is the letters M-a-r-i-a, surrounded by single quotes, ''. When you say `print(name)`, Python will "print" the contents of the variable to the screen, without the quotes, which is neater.
 
