@@ -140,6 +140,11 @@ while `or` is true if at least one part is true:
 if (1 < 0) or (-1 < 0):
     print('at least one test is true')
 ```
+
+```
+at least one test is true
+```
+
 ##While loops
 Now we have a little bit of experience using comparison operators to control the flow of our code, we can take a look at another very common form of loop.
 
@@ -147,9 +152,6 @@ The `while` statement allows you to repeatedly execute a block of statements as 
 
 We begin by looking at one of the simplest dynamic programming algorithms, generating a fibonacci sequence. 
 
-```
-at least one test is true
-```
 
 ```python
 n = int(input("n = "))
