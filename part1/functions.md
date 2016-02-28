@@ -37,7 +37,7 @@ def fibonacci(n):
 
 The function definition opens with the word `def`, which is followed by the name of the function and a parenthesized list of parameter names. The [body](reference.html#function-body) of the function - the statements that are executed when it runs - is indented below the definition line.
 
-Let's try running our function.Calling our own function is no different from calling any other function:
+Let's try running our function. Calling our own function is no different from calling any other function:
 
 ```python
 fibonacci(10)
