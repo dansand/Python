@@ -11,20 +11,32 @@ An important concept in programming is variables. A variable is nothing more tha
 
 Let's say we want to create a new variable called `name`:
 
-    >>> name = "Ola"
+```python
+name = "Ola"
+```
 
 You see? It's easy! It's simply: name equals Ola.
 
 As you've noticed, your program didn't return anything like it did before. So how do we know that the variable actually exists? Simply enter `name` and hit `enter`:
 
-    >>> name
-    'Ola'
+```python
+name
+```
+``
+'Ola'
+``
 
 Yippee! Your first variable :)! You can always change what it refers to:
 
-    >>> name = "Sonja"
-    >>> name
-    'Sonja'
+```python
+name = "Sonja"
+```
+```python
+name
+```
+``
+'Sonja'
+``
 
 You can use it in functions too:
 
