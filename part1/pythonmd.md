@@ -51,7 +51,7 @@ As you can see, Python is a great calculator. If you're wondering what else you 
 
 ## Operators and Expressions {#op-exp}
 
-Most statements (logical lines) that you write will contain _expressions_. A simple example of an expression is `2 + 3`. An expression can be broken down into operators and operands.
+Most statements (logical lines) that you write will contain _expressions_. A simple example of an expression is `2 + 3`. An expression can be broken down into _operators_ and _operands_.
 
 _Operators_ are functionality that do something and can be represented by symbols such as `+` or by special keywords. Operators require some data to operate on and such data is called _operands_. In this case, `2` and `3` are the operands.
 
