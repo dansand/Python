@@ -221,7 +221,7 @@ for number in odds:
 > Write a loop that calculates the same result as `5 ** 3` using
 > multiplication (and without exponentiation).
 
-> ## Reverse a string {.challenge}
+> ## _challenge:_  Reverse a string
 >
 > Write a loop that takes a string,
 > and produces a new string with the characters in reverse order,
