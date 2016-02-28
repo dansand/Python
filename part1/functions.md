@@ -142,6 +142,10 @@ say('World', 5)
 ```
 The function named `say` is used to print a string as many times as specified. If we don't supply a value, then by default, the string is printed just once. We achieve this by specifying a default argument value of 1 to the parameter times.
 
+>CAUTION
+>Only those parameters which are at the end of the parameter list can be given default argument values i.e. you cannot  have a parameter with a default argument value preceding a parameter without a default argument value in the function's parameter list. 
+> This is because the values are assigned to the parameters by position. For example,def func(a, b=5) is valid, but def func(a=5, b) is not valid.
+
 ##Doc strings
 
 Python has a nifty feature called documentation strings, usually referred to by its shorter name docstrings. DocStrings are an important tool that you should make use of since it helps to document the program better and makes it easier to understand. Amazingly, we can even get the docstring back from, say a function, when the program is actually running!
