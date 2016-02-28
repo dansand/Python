@@ -11,7 +11,6 @@
 
 
 
-
 To start playing with Python, we need to open up a *command line* on your computer. 
 
 Once you're ready, follow the instructions below.
