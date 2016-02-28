@@ -179,3 +179,26 @@ As we'll see later, `print()` is also useful when we want to print things from i
 >weight_kg   float      100.0
 >weight_lb   float      126.5
 >~~~
+
+
+> ## _challenge:_  Exchanges
+>
+> Explain what the overall effect of this code is:
+>
+> ~~~ {.python}
+> left = 'L'
+> right = 'R'
+>
+> temp = left
+> left = right
+> right = temp
+> ~~~
+>
+> Compare it to:
+>
+> ~~~ {.python}
+> left, right = right, left
+> ~~~
+>
+> Do they always do the same thing?
+> Which do you find easier to read?
