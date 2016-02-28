@@ -180,3 +180,58 @@ Help on function print_max in module __main__:
 print_max(x, y)
     Prints the maximum of two numbers. The two values must be integers.
 ```
+
+Doctrings are also commonly used to automatically generate a referrence manual for your code, using - for example - Sphinx.
+Technically, docstrings are not required by Python and the functions will do just fine without them. However, they are a standard part of any Python code.
+
+
+> ## _challenge :_ Combining strings
+>
+> "Adding" two strings produces their concatenation:
+> `'a' + 'b'` is `'ab'`.
+> Write a function called `fence` that takes two parameters called `original` and `wrapper`
+> and returns a new string that has the wrapper character at the beginning and end of the original.
+> A call to your function should look like this:
+>
+> ~~~ {.python}
+> print(fence('name', '*'))
+> ~~~
+> ~~~ {.output}
+> *name*
+> ~~~
+
+> ## _challenge :_ Selecting characters from strings
+>
+> If the variable `s` refers to a string,
+> then `s[0]` is the string's first character
+> and `s[-1]` is its last.
+> Write a function called `outer`
+> that returns a string made up of just the first and last characters of its input.
+> A call to your function should look like this:
+>
+> ~~~ {.python}
+> print(outer('helium'))
+> ~~~
+> ~~~ {.output}
+> hm
+> ~~~
+
+
+> ## _challenge :_ Variables inside and outside functions
+>
+> What does the following piece of code display when run - and why?
+>
+> ~~~ {.python}
+> f = 0
+> k = 0
+>
+> def f2k(f):
+>   k = ((f-32)*(5.0/9.0)) + 273.15
+>   return k
+>
+> f2k(8)
+> f2k(41)
+> f2k(32)
+>
+> print(k)
+> ~~~
