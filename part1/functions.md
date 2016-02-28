@@ -10,11 +10,29 @@
 
 # Functions
 
-We're at the point now where like a way to package our code so that it is easier to reuse, and Python provides for this by letting us define things called 'functions' - a shorthand way of re-executing longer pieces of code. They allow you to give a name to a block of statements, allowing you to run that block using the specified name anywhere in your program and any number of times. This is known as *calling* the function. We have already used many built-in functions such as `len` and `range`.
+We're at the point now where like a way to package our code so that it is easier to reuse, and Python provides for this by letting us define things called 'functions' - a shorthand way of re-executing longer pieces of code. 
 
-The function concept is probably *the* most important building block of any non-trivial software (in any programming language), so we will explore various aspects of functions in this chapter.
+The function concept is probably *the* most important building block of any non-trivial software (in any programming language)
 
-Functions are defined using the `def` keyword. After this keyword comes an *identifier* name for the function, followed by a pair of parentheses which may enclose some names of variables, and by the final colon that ends the line. Next follows the block of statements that are part of this function. An example will show that this is actually very simple:
+Functions are defined using the `def` keyword. After this keyword comes an *identifier* name for the function, followed by a pair of parentheses which may enclose some names of variables, and by the final colon that ends the line. Next follows the block of statements that are part of this function. 
+An example will show that this is actually very simple. Here is the Fibonacci algorithm we developed displayed code, wrapped in a function:
+
+## From a "regular" code to a function¶
+
+```python
+def fibonacci(n):
+    """
+    Takes one argument `n` and returns the `n`-th Fibonacci number.
+    """
+    f0 = 0
+    f1 = 1
+    while n > 1:
+        nxt = f0 + f1
+        f0 = f1
+        f1 = nxt
+        n -= 1
+    return f1
+```
 
 
 
