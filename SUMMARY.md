@@ -1,6 +1,7 @@
 # Summary
 
 * [Introduction](README.md)
+* [quiz](part1/quiz.md)
 * [Basics](part1/readme.md)
    * [Python](part1/pythonmd.md)
    * [Variables](part1/variables.md)
@@ -9,7 +10,6 @@
    * Conditions
    * Functions
    * plotting
-* [quiz](part1/quiz.md)
 * [Numpy and data](part2/readmemd.md)
    * [Files](part2/files.md)
    * [Python libraries](part2/libraries.md)
