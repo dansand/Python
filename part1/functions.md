@@ -123,5 +123,10 @@ func(x)
 print('x is still', x)
 
 ```
+```
+x is 50
+Changed local x to 2
+x is still 50
+```
 
 ##Function defaults
