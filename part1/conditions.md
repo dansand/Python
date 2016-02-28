@@ -6,6 +6,45 @@
 > *   Write conditional statements including `if`, `elif`, and `else` branches.
 > *   Correctly evaluate expressions containing `and` and `or`.
 
+##Comparing things
+
+
+> This part is covered in The DjangoGirls [Python Basics: Comparisons](https://www.youtube.com/watch?v=7bzxqIKYgf4) video.
+
+A big part of programming includes comparing things. What's the easiest thing to compare? Numbers, of course. Let's see how that works:
+
+```python
+print(5 > 2)
+print(3 < 1)
+print(5 > 2 * 2)
+print(1 == 1)
+print(5 != 2)
+
+```    
+False
+True
+True    
+True   
+True
+```
+
+We gave Python some numbers to compare. As you can see, Python can compare not only numbers, but it can also compare method results. Nice, huh?
+
+Give Python two more tasks:
+
+    >>> 6 >= 12 / 2
+    True
+    >>> 3 <= 2
+    False
+
+`>` and `<` are easy, but what do `>=` and `<=` mean? Read them like this:
+
+- x `>` y means: x is greater than y
+- x `<` y means: x is less than y
+- x `<=` y means: x is less than or equal to y
+- x `>=` y means: x is greater than or equal to y
+
+
 
 ## Conditionals
 
