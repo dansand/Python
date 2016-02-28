@@ -135,30 +135,30 @@ Note that a loop variable is just a variable that's being used to record progres
 It still exists after the loop is over,
 and we can re-use variables previously defined as loop variables as well:
 
-~~~ {.python}
+```python
 letter = 'z'
 for letter in 'abc':
     print(letter)
 print('after the loop, letter is', letter)
-~~~
+```
 
-~~~ {.output}
+```
 a
 b
 c
 after the loop, letter is c
-~~~
+```
 
 Note also that finding the length of a string is such a common operation
 that Python actually has a built-in function to do it called `len`:
 
-~~~ {.python}
+```python
 print(len('aeiou'))
-~~~
+```
 
-~~~ {.output}
+```
 5
-~~~
+```
 
 `len` is much faster than any function we could write ourselves,
 and much easier to read than a two-line loop;
