@@ -6,7 +6,7 @@
    * [Variables](part1/variables.md)
    * [Lists](part1/lists.md)
    * [Loops](part1/testfilemd.md)
-   * Conditions
+   * [Conditions](part1/conditions.md)
    * Functions
    * plotting
 * [Numpy and data](part2/readmemd.md)
