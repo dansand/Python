@@ -228,7 +228,7 @@ Explanatory text can be integrating with the Jupyter Notebook using a simple for
 https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
 
 
-<<!--
+<!--
 ## Summary
 
 OK, enough of strings. So far you've learned about:
@@ -241,4 +241,5 @@ OK, enough of strings. So far you've learned about:
 - __Jupyter notebooks__
 
 These are the basics of every programming language you learn.
--->>
+
+-->
