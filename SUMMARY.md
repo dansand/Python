@@ -10,8 +10,8 @@
    * [Functions](part1/functions.md)
 * [Arrays, Plotting, data](part2/readmemd.md)
    * [Python libraries](part2/libraries.md)
-   * [Files](part2/files.md)
    * [Numpy](part2/numpy.md)
    * [Dictionaries](part2/dictionaries.md)
+   * [Files](part2/files.md)
    * [matplotlib](part2/matplotlib.md)
 
