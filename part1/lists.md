@@ -1,7 +1,7 @@
 
 # Lists
 
-> ## Learning Objectives {.objectives}
+> ## Learning Objectives
 >
 > *   Explain what a list is.
 > *   Create and index lists of simple values.
@@ -28,25 +28,8 @@ print('first and last:', odds[0], odds[-1])
 first and last: 1 7
 ```
 
-Programming languages like Fortran and MATLAB start counting at 1,
-because that's what human beings have done for thousands of years.
-Languages in the C family (including C++, Java, Perl, and Python) count from 0
-because that's simpler for computers to do.
+Programming languages like Fortran and MATLAB start counting at 1, because that's what human beings have done for thousands of years.Languages in the C family (including C++, Java, Perl, and Python) count from 0 because that's simpler for computers to do.
 
-<!---
-and if we loop over a list,
-#the loop variable is assigned elements one at a time:
-
-```
-for number in odds:
-    print(number)
-```
-1
-3
-5
-7
-~~~
---->
 
 There is one important difference between lists and strings:
 we can change the values in a list,
@@ -94,14 +77,6 @@ does not.
 > change individual elements, append new elements, or reorder the whole list.  For some operations, like
 > sorting, we can choose whether to use a function that modifies the data in place or a function that returns a
 > modified copy and leaves the original unchanged.
->
-> Be careful when modifying data in place.  If two variables refer to the same list, and you modify the list
-> value, it will change for both variables! If you want variables with mutable values to be independent, you
-> must make a copy of the value when you assign it.
->
-> Because of pitfalls like this, code which modifies data in place can be more difficult to understand. However,
-> it is often far more efficient to modify a large data structure in place than to create a modified copy for
-> every small change. You should consider both of these aspects when writing your code.
 
 
 > ## Nested Lists {.callout}
@@ -210,6 +185,10 @@ odds: [1, 3, 5, 7]
 ~~~
 
 This is different from how variables worked in lesson 1, and more similar to how a spreadsheet works.
+
+##Slicing
+
+lists, (like a variety of pythn data structures), also have a slicing operation which allows us to retrieve a slice of the sequence i.e. a part of the sequence.
 
 > ## Turn a string into a list {.challenge}
 >
