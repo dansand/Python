@@ -130,3 +130,13 @@ x is still 50
 ```
 
 ##Function defaults
+
+For some functions, you may want to make some parameters optional and use default values in case the user does not want to provide values for them. This is done with the help of default argument values. You can specify default argument values for parameters by appending to the parameter name in the function definition the assignment operator (=) followed by the default value.
+
+```python
+def say(message, times=1):
+    print(message * times)
+
+say('Hello')
+say('World', 5)
+```
