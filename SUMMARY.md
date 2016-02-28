@@ -13,4 +13,5 @@
    * [Numpy](part2/numpy.md)
    * [matplotlib](part2/matplotlib.md)
    * [Files](part2/files.md)
+   * Data types
 
