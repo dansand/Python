@@ -8,6 +8,8 @@ This material was remixed for teaching at University of Melbourne. This book is 
 
 [Django Girls](http://tutorial.djangogirls.org/en/)
 
+Other noteworthy examples used:
+
 
 
 License
