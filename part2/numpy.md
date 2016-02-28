@@ -3,13 +3,11 @@
 
 > ## Learning Objectives {.objectives}
 >
-> *   Explain what a library is, and what libraries are used for.
 > *   Load a Python library and use the things it contains.
 > *   Read tabular data from a file into a program.
-> *   Assign values to variables.
 > *   Select individual values and subsections from data.
 > *   Perform operations on arrays of data.
-> *   Display simple graphs.
+
 
 ftp://ftp.ncdc.noaa.gov/pub/data/paleo/historical/europe-seasonal.txt
 
@@ -21,27 +19,32 @@ In general you should use this library if you want to do fancy things with numbe
 especially if you have matrices or arrays.
 We can load NumPy using:
 
-~~~ {.python}
-import numpy
-~~~
+```python
+import numpy as np
+```
 
-Importing a library is like getting a piece of lab equipment out of a storage locker
-and setting it up on the bench. Libraries provide additional functionality to the basic Python package, much like a new piece of equipment adds functionality to a lab space.
-Once you've loaded the library,
+Importing a library is like getting a piece of lab equipment out of a storage locker and setting it up on the bench. Libraries provide additional functionality to the basic Python package, much like a new piece of equipment adds functionality to a lab space. Once you've loaded the library,
 we can ask the library to read our data file for us:
 
-~~~ {.python}
-numpy.loadtxt(fname='inflammation-01.csv', delimiter=',')
+```python
+filepath = "../../data/europe-seasonal.txt"
+np.loadtxt(filepath, converters=None, skiprows=119)
 ~~~
-~~~ {.output}
-array([[ 0.,  0.,  1., ...,  3.,  0.,  0.],
-       [ 0.,  1.,  2., ...,  1.,  0.,  1.],
-       [ 0.,  1.,  1., ...,  2.,  1.,  1.],
-       ...,
-       [ 0.,  1.,  1., ...,  1.,  1.,  1.],
-       [ 0.,  0.,  0., ...,  0.,  2.,  0.],
-       [ 0.,  0.,  1., ...,  1.,  1.,  0.]])
-~~~
+```
+array([[  1.50000000e+03,  -9.45000000e-01,   7.15700000e+00,
+          1.74830000e+01,   8.99000000e+00,   8.16600000e+00],
+       [  1.50100000e+03,  -8.50000000e-01,   7.43500000e+00,
+          1.74010000e+01,   8.68700000e+00,   8.16300000e+00],
+       [  1.50200000e+03,  -1.05300000e+00,   6.87200000e+00,
+          1.79060000e+01,   9.07100000e+00,   8.19400000e+00],
+       ..., 
+       [  2.00200000e+03,   2.07000000e-01,   9.21400000e+00,
+          1.89050000e+01,   9.30100000e+00,   9.50800000e+00],
+       [  2.00300000e+03,  -1.10100000e+00,   8.52100000e+00,
+          1.96150000e+01,   9.83800000e+00,   9.37400000e+00],
+       [  2.00400000e+03,   1.87000000e-01,   8.29700000e+00,
+          1.83250000e+01,   1.00730000e+01,   9.23500000e+00]])
+```
 
 The expression `numpy.loadtxt(...)` is a [function call](reference.html#function-call)
 that asks Python to run the function `loadtxt` that belongs to the `numpy` library.
