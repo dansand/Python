@@ -1,10 +1,9 @@
 #Python libraries / modules
 
-You have seen how you can reuse code in your program by defining functions once. What if you wanted to reuse a number of functions in other programs that you write? As you might have guessed, the answer is modules.
+Words are useful, but what's more useful are the sentences and stories we build with them. Similarly, while a lot of powerful tools are built into languages like Python, even more live in the [libraries](reference.html#library) they are used to build.
 
-There are various methods of writing modules, but the simplest way is to create a file with a `.py` extension that contains functions and variables.
 
-##importing a module
+##importing a library
 
 ```python
 import math
