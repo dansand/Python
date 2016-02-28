@@ -1,4 +1,4 @@
-# Python
+# The ResBaz guide to Python
 
 This material was assembled for teaching at University of Melbourne. This book is based largely on the following Resources:
 
