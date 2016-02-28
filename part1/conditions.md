@@ -213,7 +213,7 @@ freeing us from having to manually examine every plot for features we've seen be
 
 -->
 
-> ## How many paths? {.challenge}
+> ## _challenge_: How many paths?
 >
 > Which of the following would be printed if you were to run this code? Why did you pick this answer?
 >
@@ -222,14 +222,14 @@ freeing us from having to manually examine every plot for features we've seen be
 > 3.  C
 > 4.  B and C
 >
-> ~~~ {.python}
+>```python
 > if 4 > 5:
 >     print('A')
 > elif 4 == 5:
 >     print('B')
 > elif 4 < 5:
 >     print('C')
-> ~~~
+> ```
 
 > ## _challenge_: What is truth?
 >
