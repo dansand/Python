@@ -4,6 +4,7 @@
 
 > * Different Python environments
 > * Python commands
+> * Operators and expressions 
 > * Python Strings
 
 ## Python prompt
