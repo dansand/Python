@@ -45,6 +45,7 @@ fibonacci(10)
 ```
 10
 ```
+$$nth$$
 
 Let's try writing another function `fahr_to_kelvin` that converts temperatures from Fahrenheit to Kelvin:
 
