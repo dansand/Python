@@ -139,18 +139,17 @@ just as we do in math:
 print('first value in data:', data[0, 0])
 ~~~
 ~~~ {.output}
-first value in data: 0.0
+first value in data:', 1500.0
 ~~~
 
 ~~~ {.python}
-print('middle value in data:', data[30, 20])
+print('random value in data:', data[250, 2])
 ~~~
 ~~~ {.output}
-middle value in data: 13.0
+random value in data:', 8.2959999999999994
 ~~~
 
-The expression `data[30, 20]` may not surprise you,
-but `data[0, 0]` might.
+The expression `data[250, 2]` may not surprise you. Hopefully, `data[0, 0]` recalls the element numbering schemew we used in lists.
 Programming languages like Fortran and MATLAB start counting at 1,
 because that's what human beings have done for thousands of years.
 Languages in the C family (including C++, Java, Perl, and Python) count from 0
