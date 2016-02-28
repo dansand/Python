@@ -14,5 +14,4 @@
    * [Numpy](part2/numpy.md)
    * [Dictionaries](part2/dictionaries.md)
    * Spatial data and libraries
-   * plotting
 
