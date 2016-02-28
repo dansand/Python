@@ -148,9 +148,7 @@ Python has a nifty feature called documentation strings, usually referred to by 
 
 ```python
 def print_max(x, y):
-    '''Prints the maximum of two numbers.
-
-    The two values must be integers.'''
+    """Prints the maximum of two numbers. The two values must be integers."""
     # convert to integers, if possible
     x = int(x)
     y = int(y)
