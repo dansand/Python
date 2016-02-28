@@ -32,10 +32,15 @@ We gave Python some numbers to compare. As you can see, Python can compare not o
 
 Give Python two more tasks:
 
-    >>> 6 >= 12 / 2
-    True
-    >>> 3 <= 2
-    False
+```python
+print(6 >= 12 / 2)
+
+print(3 <= 2)
+```
+```    
+True
+False
+```
 
 `>` and `<` are easy, but what do `>=` and `<=` mean? Read them like this:
 
