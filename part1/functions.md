@@ -15,7 +15,7 @@ We're at the point now where like a way to package our code so that it is easier
 The function concept is probably *the* most important building block of any non-trivial software (in any programming language)
 
 Functions are defined using the `def` keyword. After this keyword comes an *identifier* name for the function, followed by a pair of parentheses which may enclose some names of variables, and by the final colon that ends the line. Next follows the block of statements that are part of this function. 
-An example will show that this is actually very simple. Here is the Fibonacci algorithm we developed displayed code, wrapped in a function:
+An example will show that this is actually very simple. Here is the Fibonacci algorithm we developed wrapped in a function:
 
 ## From a "regular" code to a function¶
 
