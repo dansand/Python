@@ -160,5 +160,5 @@ OK, enough of strings. So far you've learned about:
 - __errors__
 - __Jupyter notebooks__
 
-These are the basics of every programming language you learn. Ready for something harder? We bet you are!
+These are the basics of every programming language you learn.
 
