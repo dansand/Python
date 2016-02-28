@@ -4,7 +4,7 @@ You have seen how you can reuse code in your program by defining functions once.
 
 There are various methods of writing modules, but the simplest way is to create a file with a `.py` extension that contains functions and variables.
 
-A module can be *imported* by another program to make use of its functionality. This is how we can use the Python standard library as well. 
+##importing a module
 
 ```python
 import math
