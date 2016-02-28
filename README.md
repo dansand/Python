@@ -2,6 +2,10 @@
 
 This material was assembled for teaching at University of Melbourne. This book is based largely on the following Resources:
 
+[Software Carpentry](http://swcarpentry.github.io/python-novice-inflammation/)
+[Byte of Python](http://python.swaroopch.com/)
+[Django Girls](http://tutorial.djangogirls.org/en/)
+
 
 
 
