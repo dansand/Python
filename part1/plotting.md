@@ -1,6 +1,8 @@
 # plotting
 
-##List comprehensions
 
-##Math library
+
+##Libraries
+
+##List comprehensions
 
