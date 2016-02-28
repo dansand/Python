@@ -166,27 +166,6 @@ Item start to end is [1, 3, 5, 7]
 ```
 
 
-> ## _challenge:_  Exchanges
->
-> Explain what the overall effect of this code is:
->
-> ~~~ {.python}
-> left = 'L'
-> right = 'R'
->
-> temp = left
-> left = right
-> right = temp
-> ~~~
->
-> Compare it to:
->
-> ~~~ {.python}
-> left, right = right, left
-> ~~~
->
-> Do they always do the same thing?
-> Which do you find easier to read?
 
 
 
