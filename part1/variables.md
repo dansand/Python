@@ -22,9 +22,10 @@ As you've noticed, your program didn't return anything like it did before. So ho
 ```python
 name
 ```
-``
+Output:
+```
 'Ola'
-``
+```
 
 Yippee! Your first variable :)! You can always change what it refers to:
 
