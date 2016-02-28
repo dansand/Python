@@ -231,7 +231,7 @@ freeing us from having to manually examine every plot for features we've seen be
 >     print('C')
 > ~~~
 
-> ## What is truth? {.challenge}
+> ## _challenge_: What is truth?
 >
 > `True` and `False` are special words in Python called `booleans` which represent true
 and false statements. However, they aren't the only values in Python that are true and false.
