@@ -6,29 +6,24 @@
 > *   Write conditional statements including `if`, `elif`, and `else` branches.
 > *   Correctly evaluate expressions containing `and` and `or`.
 
-In our last lesson, we discovered something suspicious was going on
-in our inflammation data by drawing some plots.
-How can we use Python to automatically recognize the different features we saw,
-and take a different action for each? In this lesson, we'll learn how to write code that
-runs only when certain conditions are true.
 
 ## Conditionals
 
 We can ask Python to take different actions, depending on a condition, with an `if` statement:
 
-~~~ {.python}
+```python
 num = 37
 if num > 100:
     print('greater')
 else:
     print('not greater')
 print('done')
-~~~
-~~~ {.output}
+```
+```
 not greater
 done
+```
 
-~~~
 
 The second line of this code uses the keyword `if` to tell Python that we want to make a choice.
 If the test that follows the `if` statement is true,
@@ -44,24 +39,25 @@ Conditional statements don't have to include an `else`.
 If there isn't one,
 Python simply does nothing if the test is false:
 
-~~~ {.python}
+```python
 num = 53
 print('before conditional...')
 if num > 100:
     print('53 is greater than 100')
 print('...after conditional')
-~~~
-~~~ {.output}
+
+```
 before conditional...
 ...after conditional
-~~~
+```
 
 We can also chain several tests together using `elif`,
 which is short for "else if".
 The following Python code uses `elif` to print the sign of a number.
 
-~~~ {.python}
+```python
 num = -3
+```
 
 if num > 0:
     print(num, "is positive")
