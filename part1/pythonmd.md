@@ -216,13 +216,20 @@ It worked! We used the `str` function inside of the `len` function. `str()` conv
 
 ## Jupyter notebooks!
 
-A Jupyter notebooks lets you write and execute Python code in your web browser. Jupyter notebooks make it very easy to tinker with code and execute it in bits and pieces; for this reason Jupyter notebooks are widely used in scientific computing.
+The Jupyter Notebook is a web application that allows you to create and share documents that contain live code, equations, visualizations and explanatory text.
 
-Markdown
+###Code 
+
+Not just Python! The Notebook has support for over 40 programming languages, including those popular in Data Science such as Python, R, Julia and Scala.
+
+### Markdown
+
+Explanatory text can be integrating with the Jupyter Notebook using a simple formatting schema called _Markdown_. See the link for a basic description.
+https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
 
 
 
-### Summary
+## Summary
 
 OK, enough of strings. So far you've learned about:
 
