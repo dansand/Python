@@ -45,6 +45,7 @@ print('before conditional...')
 if num > 100:
     print('53 is greater than 100')
 print('...after conditional')
+```
 
 ```
 before conditional...
@@ -59,16 +60,18 @@ The following Python code uses `elif` to print the sign of a number.
 num = -3
 ```
 
+```python
 if num > 0:
     print(num, "is positive")
 elif num == 0:
     print(num, "is zero")
 else:
     print(num, "is negative")
-~~~
-~~~ {.output}
+```
+
+```
 "-3 is negative"
-~~~
+```
 
 One important thing to notice in the code above is that we use a double equals sign `==` to test for equality
 rather than a single equals sign
@@ -77,15 +80,16 @@ because the latter is used to mean assignment.
 We can also combine tests using `and` and `or`.
 `and` is only true if both parts are true:
 
-~~~ {.python}
+```python
 if (1 > 0) and (-1 > 0):
     print('both parts are true')
 else:
     print('at least one part is false')
-~~~
-~~~ {.output}
+```
+
+```python
 at least one part is false
-~~~
+```
 
 while `or` is true if at least one part is true:
 
