@@ -17,6 +17,13 @@ The function concept is probably *the* most important building block of any non-
 Functions are defined using the `def` keyword. After this keyword comes an *identifier* name for the function, followed by a pair of parentheses which may enclose some names of variables, and by the final colon that ends the line. Next follows the block of statements that are part of this function. An example will show that this is actually very simple:
 
 
+
+
+
+
+
+
+
 Let's start by defining a function `fahr_to_kelvin` that converts temperatures from Fahrenheit to Kelvin:
 
 ~~~ {.python}
