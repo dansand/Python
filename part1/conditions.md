@@ -11,6 +11,8 @@
 
 > This part is covered in The DjangoGirls [Python Basics: Comparisons](https://www.youtube.com/watch?v=7bzxqIKYgf4) video.
 
+In the first lesson, we saw some mathematical operators. Python is also equipped with comparison operators. All comparison operators return `True` or `False`. Note the capitalization of these names.
+
 A big part of programming includes comparing things. What's the easiest thing to compare? Numbers, of course. Let's see how that works:
 
 ```python
