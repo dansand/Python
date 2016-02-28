@@ -163,5 +163,5 @@ print(print_max.__doc__)
 ```
 ```
 5 is maximum
-Prints the maximum of two numbers.
+'Prints the maximum of two numbers. The two values must be integers.'
 ```
