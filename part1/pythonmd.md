@@ -109,10 +109,6 @@ An examples of an integer is `2` which is just a whole number.
 
 Examples of floating point numbers (or _floats_ for short) are `3.23` and `52.3E-4`. The `E` notation indicates powers of 10. In this case, `52.3E-4` means `52.3 * 10^-4^`.
 
-> **Note for Experienced Programmers**
-> 
-> There is no separate `long` type. The `int` type can be an integer of any size.
-
 
 
 ## Strings
