@@ -67,7 +67,6 @@ not greater
 done
 ```
 
-
 The second line of this code uses the keyword `if` to tell Python that we want to make a choice.
 If the test that follows the `if` statement is true,
 the body of the `if`
