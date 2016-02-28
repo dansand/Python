@@ -28,7 +28,7 @@ we can ask the library to read our data file for us:
 
 ```python
 np.loadtxt("../../data/europe-seasonal.txt", converters=None, skiprows=119)
-~~~
+```
 ```
 array([[  1.50000000e+03,  -9.45000000e-01,   7.15700000e+00,
           1.74830000e+01,   8.99000000e+00,   8.16600000e+00],
@@ -111,7 +111,8 @@ print(type(data))
 <class 'numpy.ndarray'>
 ~~~
 
-The output tells us that `data` currently refers to an N-dimensional array created by the NumPy library. These data correspond to arthritis patients' inflammation. The rows are the individual patients and the columns are their daily inflammation measurements.
+The output tells us that `data` currently refers to an N-dimensional array created by the NumPy library. These data correspond to historical temperature records from Europe. The rows are the years and the columns are the seasons.
+
 We can see what its [shape](reference.html#shape) is like this:
 
 ~~~ {.python}
