@@ -47,26 +47,26 @@ fibonacci(10)
 ```
 
 
-Let's try writing another function `fahr_to_kelvin` that converts temperatures from Fahrenheit to Kelvin:
+Okay, let's try writing another function `fahr_to_kelvin` that converts temperatures from Fahrenheit to Kelvin:
 
 ```python
 def fahr_to_kelvin(temp):
     return ((temp - 32) * (5/9)) + 273.15```
 
 
-When we _call_ the function, the values we pass to it are assigned to those variables so that we can use them inside the function. Inside the function, we use a [return statement](reference.html#return-statement) to send a result back to whoever asked for it.
+You might have noticed that when we _call_ the function, the values we pass to it are assigned to those variables so that we can use them inside the function. Inside the function, we use a [return statement](reference.html#return-statement) to send a result back to whoever asked for it.
 
 Let's try running our function.
 
-
-~~~ {.python}
+```python
 print('freezing point of water:', fahr_to_kelvin(32))
 print('boiling point of water:', fahr_to_kelvin(212))
-~~~
-~~~ {.output}
+```
+
+```
 freezing point of water: 273.15
 boiling point of water: 373.15
-~~~
+```
 
 We've successfully called the function that we defined,
 and we have access to the value that we returned.
