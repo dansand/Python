@@ -169,3 +169,14 @@ print(print_max.__doc__)
 5 is maximum
 'Prints the maximum of two numbers. The two values must be integers.'
 ```
+Of more use is the fact that we can now call `help()` on out function and receive:
+
+```python
+help(print_max)
+```
+```
+Help on function print_max in module __main__:
+
+print_max(x, y)
+    Prints the maximum of two numbers. The two values must be integers.
+```
