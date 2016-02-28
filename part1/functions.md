@@ -163,4 +163,7 @@ def print_max(x, y):
 print_max(3, 5)
 print(print_max.__doc__)
 ```
-
+```
+5 is maximum
+Prints the maximum of two numbers.
+```
