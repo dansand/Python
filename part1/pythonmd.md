@@ -49,6 +49,54 @@ Have fun with this for a little while and then get back here :).
 
 As you can see, Python is a great calculator. If you're wondering what else you can do...
 
+## Operators and Expressions {#op-exp}
+
+Most statements (logical lines) that you write will contain _expressions_. A simple example of an expression is `2 + 3`. An expression can be broken down into operators and operands.
+
+_Operators_ are functionality that do something and can be represented by symbols such as `+` or by special keywords. Operators require some data to operate on and such data is called _operands_. In this case, `2` and `3` are the operands.
+
+
+Note that you can evaluate the expressions given in the examples using the interpreter interactively. For example, to test the expression `2 + 3`, use the interactive Python interpreter prompt:
+
+```python
+>>> 2 + 3
+5
+>>> 3 * 5
+15
+>>>
+```
+
+Here is a quick overview of the available operators:
+
+- `+` (plus)
+    - Adds two objects
+    - `3 + 5` gives `8`. `'a' + 'b'` gives `'ab'`.
+
+- `-` (minus)
+    - Gives the subtraction of one number from the other; if the first operand is absent it is assumed to be zero.
+    - `-5.2` gives a negative number and `50 - 24` gives `26`.
+
+- `*` (multiply)
+    - Gives the multiplication of the two numbers or returns the string repeated that many times.
+    - `2 * 3` gives `6`. `'la' * 3` gives `'lalala'`.
+
+- `**` (power)
+    - Returns x to the power of y
+    - `3 ** 4` gives `81` (i.e. `3 * 3 * 3 * 3`)
+
+- `/` (divide)
+    - Divide x by y
+    - `13 / 3` gives `4.333333333333333`
+
+- `//` (divide and floor)
+    - Divide x by y and round the answer _down_ to the nearest whole number
+    - `13 // 3` gives `4`
+    - `-13 // 3` gives `-5`
+
+- `%` (modulo)
+    - Returns the remainder of the division
+    - `13 % 3` gives `1`. `-25.5 % 2.25` gives `1.5`.
+
 ## Strings
 
 How about your name? Type your first name in quotes like this:
