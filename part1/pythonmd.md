@@ -115,7 +115,6 @@ An examples of an integer is `2` which is just a whole number.
 Examples of floating point numbers (or _floats_ for short) are `3.23` and `52.3E-4`. The `E` notation indicates powers of 10. In this case, `52.3E-4` means `52.3 * 10^-4^`.
 
 
-
 ## Strings
 
 How about your name? Type your first name in quotes like this:
@@ -127,7 +126,7 @@ How about your name? Type your first name in quotes like this:
 
 You've now created your first string! It's a sequence of characters that can be processed by a computer. The string must always begin and end with the same character. This may be single (`'`) or double (`"`) quotes (there is no difference!) The quotes tell Python that what's inside of them is a string.
 
-Strings can be strung together. Try this:
+Strings can be strung together (or concatenated). Try this:
 
 ```python
 "Hi there " + "Ola"
