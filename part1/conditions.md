@@ -165,7 +165,7 @@ while n > 1:
 print("Fn =", f1)
 ```
 
-This code inputs an integer n for which it computes and prints the $nth$ Fibonacci number.
+This code inputs an integer n for which it computes and prints the _nth_ Fibonacci number.
 
 >Here is how the algorithm works in a bit more detail:
 
