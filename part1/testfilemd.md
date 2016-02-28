@@ -1,4 +1,12 @@
 # Loops
+
+> ## Learning Objectives
+>
+> *   Explain what a for loop does.
+> *   Correctly write for loops to repeat simple calculations.
+> *   Trace changes to a loop variable as the loop runs.
+> *   Trace changes to other variables as they are updated by a for loop.
+
 An example task that we might want to repeat is printing each character in a
 word on a line of its own. One way to do this would be to use a series of `print` statements:
 
