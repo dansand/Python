@@ -5,6 +5,8 @@
 >
 > *   Explain what a list is.
 > *   Create and index lists of simple values.
+> *   List slicing
+
 
 A list is a way to store many values.
 Lists are built into the language (so we don't have to load a library to use them).
