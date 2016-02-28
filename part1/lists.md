@@ -11,41 +11,50 @@ Lists are built into the language (so we don't have to load a library to use the
 
 We create a list by putting values inside square brackets:
 
-~~~ {.python}
+```python
 odds = [1, 3, 5, 7]
 print('odds are:', odds)
-~~~
+```
+```
 `odds are: [1, 3, 5, 7]`
-
+```
 
 We select individual elements from lists by indexing them:
 
-~~~ {.python}
+```python
 print('first and last:', odds[0], odds[-1])
+```
+```
 first and last: 1 7
-~~~
-
+```
+<!---
 and if we loop over a list,
 the loop variable is assigned elements one at a time:
 
-~~~ {.python}
+```
 for number in odds:
     print(number)
-
+```
 1
 3
 5
 7
 ~~~
+--->
 
 There is one important difference between lists and strings:
 we can change the values in a list,
 but we cannot change the characters in a string.
 For example:
 
-~~~ {.python}
+```python
 names = ['Newton', 'Darwing', 'Turing'] # typo in Darwin's name
 print('names is originally:', names)
+```
+```
+('names is originally:', ['Newton', 'Darwing', 'Turing'])
+```
+
 names[1] = 'Darwin' # correct the name
 print('final value of names:', names)
 
