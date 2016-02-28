@@ -157,18 +157,6 @@ print('Item 2 to end is', odds[2:])
 print('Item 1 to -1 is', odds[1:-1])
 print('Item start to end is', odds[:])
 
-> ## _challenge:_ Turn a string into a list
->
-> Use a for-loop to convert the string "hello" into a list of letters:
->
-> ~~~ {.python}
-> ["h", "e", "l", "l", "o"]
-> ~~~
-> Hint: You can create an empty list like this:
->
-> ~~~ {.python}
-> my_list = []
-> ~~~
 
 > ## _challenge:_  Exchanges
 >
