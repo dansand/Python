@@ -38,24 +38,18 @@ def fibonacci(n):
 The function definition opens with the word `def`,
 which is followed by the name of the function
 and a parenthesized list of parameter names.
-The [body](reference.html#function-body) of the function --- the
-statements that are executed when it runs --- is indented below the definition line.
+The [body](reference.html#function-body) of the function - the
+statements that are executed when it runs - is indented below the definition line.
 
 
-
-Let's start by defining a function `fahr_to_kelvin` that converts temperatures from Fahrenheit to Kelvin:
+Let's try another function `fahr_to_kelvin` that converts temperatures from Fahrenheit to Kelvin:
 
 ```python
 def fahr_to_kelvin(temp):
-    return ((temp - 32) * (5/9)) + 273.15
-```
+    return ((temp - 32) * (5/9)) + 273.15```
 
 
-When we call the function,
-the values we pass to it are assigned to those variables
-so that we can use them inside the function.
-Inside the function,
-we use a [return statement](reference.html#return-statement) to send a result back to whoever asked for it.
+When we _call_ the function, the values we pass to it are assigned to those variables so that we can use them inside the function. Inside the function, we use a [return statement](reference.html#return-statement) to send a result back to whoever asked for it.
 
 Let's try running our function.
 Calling our own function is no different from calling any other function:
