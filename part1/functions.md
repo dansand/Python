@@ -144,7 +144,7 @@ The function named `say` is used to print a string as many times as specified. I
 
 >CAUTION
 >Only those parameters which are at the end of the parameter list can be given default argument values i.e. you cannot  have a parameter with a default argument value preceding a parameter without a default argument value in the function's parameter list. 
-> This is because the values are assigned to the parameters by position. For example,def func(a, b=5) is valid, but def func(a=5, b) is not valid.
+> This is because the values are assigned to the parameters by position. For example,def `func(a, b=5)` is valid, but def `func(a=5, b)` is not valid.
 
 ##Doc strings
 
