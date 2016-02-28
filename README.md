@@ -4,9 +4,11 @@ This material was remixed for teaching at University of Melbourne. This book is 
 
 [Software Carpentry](http://swcarpentry.github.io/python-novice-inflammation/)
 
+[Django Girls](http://tutorial.djangogirls.org/en/)
+
 [A Byte of Python](http://python.swaroopch.com/)
 
-[Django Girls](http://tutorial.djangogirls.org/en/)
+
 
 Other resources that inspired us:
 
