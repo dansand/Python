@@ -97,6 +97,11 @@ Here is a quick overview of the available operators:
     - Returns the remainder of the division
     - `13 % 3` gives `1`. `-25.5 % 2.25` gives `1.5`.
 
+## Evaluation Order
+
+If you had an expression such as `2 + 3 * 4`, is the addition done first or the multiplication? Our high school maths tells us that the multiplication should be done first. This means that the multiplication operator has higher precedence than the addition operator.
+
+
 ## Strings
 
 How about your name? Type your first name in quotes like this:
