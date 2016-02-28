@@ -51,6 +51,8 @@ boiling point of water: 373.15
 We've successfully called the function that we defined,
 and we have access to the value that we returned.
 
+
+<!--
 > ## Integer division
 >
 > We are using Python 3, where division always returns a floating point number:
@@ -114,6 +116,8 @@ and we have access to the value that we returned.
 > ~~~ {.output}
 > 1
 > ~~~
+
+-->
 
 ## Composing Functions
 
