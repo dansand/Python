@@ -5,7 +5,6 @@
 
 > *   Assign values to variables.
 
-## Variables
 
 An important concept in programming is variables. A variable is nothing more than a name for something so you can use it later. Programmers use these variables to store data, make their code more readable and so they don't have to keep remembering what things are.
 
