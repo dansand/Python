@@ -86,6 +86,9 @@ does not.
 
 ##Methods
 
+A list is an example of usage of objects and classes. When we use a variable i and assign a value to it, say integer 5 to it, you can think of it as creating an object (i.e. instance) i of class (i.e. type) int. In fact, you can read help(int) to understand this better.
+A class can also have methods i.e. functions defined for use with respect to that class only. You can use these pieces of functionality only when you have an object of that class. For example, Python provides an append method for the list class which allows you to add an item to the end of the list. For example, `mylist.append('an item')` will add that string to the list `mylist`. Note the use of dotted notation for accessing methods of the objects.
+
 There are many ways to change the contents of lists besides assigning new values to
 individual elements:
 
