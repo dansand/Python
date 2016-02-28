@@ -140,3 +140,27 @@ def say(message, times=1):
 say('Hello')
 say('World', 5)
 ```
+The function named `say` is used to print a string as many times as specified. If we don't supply a value, then by default, the string is printed just once. We achieve this by specifying a default argument value of 1 to the parameter times.
+
+##Doc strings
+
+Python has a nifty feature called documentation strings, usually referred to by its shorter name docstrings. DocStrings are an important tool that you should make use of since it helps to document the program better and makes it easier to understand. Amazingly, we can even get the docstring back from, say a function, when the program is actually running!
+
+```python
+def print_max(x, y):
+    '''Prints the maximum of two numbers.
+
+    The two values must be integers.'''
+    # convert to integers, if possible
+    x = int(x)
+    y = int(y)
+
+    if x > y:
+        print(x, 'is maximum')
+    else:
+        print(y, 'is maximum')
+
+print_max(3, 5)
+print(print_max.__doc__)
+```
+
