@@ -105,4 +105,23 @@ freezing point of water in Celsius: 0.0
 This is our first taste of how larger programs are built:
 we define basic operations, then combine them in ever-large chunks to get the effect we want. Real-life functions will usually be larger than the ones shown here --- typically half a dozen to a few dozen lines --- but they shouldn't ever be much longer than that, or the next person who reads it won't be able to understand what's going on.
 
+##Local variables
+
+When you declare variables inside a function definition, they are not related in any way to other variables with the same names used outside the function - i.e. variable names are local to the function. This is called the scope of the variable. All variables have the scope of the block they are declared in starting from the point of definition of the name.
+
+```python
+x = 50
+
+
+def func(x):
+    print('x is', x)
+    x = 2
+    print('Changed local x to', x)
+
+
+func(x)
+print('x is still', x)
+
+```
+
 ##Function defaults
