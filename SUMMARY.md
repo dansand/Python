@@ -6,3 +6,5 @@
    * [Lists](part1/lists.md)
    * [Loops](part1/testfilemd.md)
    * [Functions](part1/functions.md)
+   * variables.md
+
