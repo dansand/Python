@@ -223,7 +223,7 @@ standard deviation: 0.298294356187
 When analyzing data, though, we often want to look at partial statistics, such as the maximum value per patient
 or the average value per day.One way to do this is to create a new temporary array of the data we want, then ask it to do the calculation:
 
-~~~ {.python}
+```
 patient_0 = data[0, :] # 0 on the first axis, everything on the second
 print('maximum inflammation for patient 0:', patient_0.max())
 ~~~
@@ -297,24 +297,9 @@ print(data.mean(axis=1))
 
 which is the average inflammation per patient across all days.
 
-The mathematician Richard Hamming once said,
-"The purpose of computing is insight, not numbers,"
-and the best way to develop insight is often to visualize data.
-Visualization deserves an entire lecture (or course) of its own,
-but we can explore a few features of Python's `matplotlib` library here.
+The mathematician Richard Hamming once said,"The purpose of computing is insight, not numbers," and the best way to develop insight is often to visualize data. Visualization deserves an entire lecture (or course) of its own, but we can explore a few features of Python's `matplotlib` library here.
 
-Now we know we know a little about doing maths with arrays, we can define a function a to convert a colour (RGB) image to greyscale. 
 
-```python
-import numpy as np
-
-def rgb2gray(rgb):
-
-    r, g, b = rgb[:,:,0], rgb[:,:,1], rgb[:,:,2]
-    gray = 0.2989 * r + 0.5870 * g + 0.1140 * b
-
-    return gray
-```
 
 > ##_challenge:_  dreaded greyscale
 >
