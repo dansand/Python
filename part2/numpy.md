@@ -65,9 +65,7 @@ filepath = "../../data/europe-seasonal.txt"
 data = np.loadtxt(filepath, converters=None, skiprows=119))
 ```
 
-This statement doesn't produce any output because assignment doesn't display anything.
-If we want to check that our data has been loaded,
-we can print the variable's value:
+We also put the file path into a variable called`filepath`, which can help make the call to `np.loadtxt` a bit simpler. This statement doesn't produce any output because assignment doesn't display anything. If we want to check that our data has been loaded, then like any variable we can print the numpy array variable's value:
 
 ~~~ {.python}
 print(data)
