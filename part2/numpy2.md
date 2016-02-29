@@ -6,14 +6,12 @@
 
 ## Creating arrays
 
-We have see an example of creating an array from an existing data file using `np.genfromtxt()`. We start with this approach because as researchers, and often want to dive straigt into our data.
-
-There are a number of other ways to initialise new numpy arrays, for example:
+We have see an example of creating an array from an existing data file using `np.genfromtxt()`. We start with this approach because as researchers, and often want to dive straigt into our data.There are a number of more formulaic ways to initialise new numpy arrays, for example:
 
 * from a Python list or tuples
 * using functions that are dedicated to generating numpy arrays, such as `arange`, `linspace`, etc.
 
-For example, to create a new 1D  array from Python lists we can use the np.array function.
+To create a new 1D  array (sometimes called a vector) from Python lists we can use the np.array function.
 
 ```python 
 v = array([1,2,3,4])
@@ -23,7 +21,7 @@ print(v)
 [1 2 3 4]
 ```
 
-A 2D array (often called a matrix) can be created from a nested list:
+A 2D array (sometimes called a matrix) can be created from a nested list:
 
 ```python 
 M = array([[1, 2], [3, 4]])
