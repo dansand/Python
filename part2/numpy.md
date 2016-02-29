@@ -222,7 +222,7 @@ print(data[0:10,0])
 ```
  [ 1500.  1501.  1502.  1503.  1504.  1505.  1506.  1507.  1508.  1509.]
  ```
- These values represent years. One thing you may notice is that these values look like floats (floating point numbers). 
+ These values represent years. One thing you may notice is that these values look like floats (floating point numbers). Unlike lists, Numpy arrays can only contain numbers. Even more restrictive, each instance of an array can only have ony type or number...e.g. float, int, complex. To find out which type of data out data 
  
  
  
