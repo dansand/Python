@@ -56,7 +56,20 @@ print(v.size, M.size)
 4 4
 ```
 
-So far the numpy.ndarray looks awefully much like a Python list (or nested list). Why not simply use Python lists for computations instead of creating a new array type? Basically, it all boils down to speed. As we will see later in this lesson, numpy arrays are good at maths, and more to the point, they are fast. 
+So far the numpy.ndarray looks awefully much like a Python list (or nested list). Why not simply use Python lists for computations instead of creating a new array type? Basically, it all boils down to speed. As we will see later in this lesson, numpy arrays are good at maths, and more to the point, they are fast.
+
+
+For larger arrays it is inpractical to initialize the data manually, using explicit python lists. Instead we can use one of the many _array-generating functions_ in numpy that generate arrays of different forms. 
+
+# create a range with np.arange
+
+```python
+x = np.arange(0, 10, 1) # arguments: start, stop, step
+print(x)
+```
+```
+[0 1 2 3 4 5 6 7 8 9]
+```
 
 ## Maths with arrays
 
