@@ -120,8 +120,7 @@ print(data.shape)
 This tells us that `data` has 505 rows and 6 columns. When we created the variable `data` to store our past climate data, we didn't just create the array, we also created information about the array, called [members](reference.html#member) or attributes. This extra information describes `data` in the same way an adjective describes a noun. `data.shape` is an attribute  of `data` which described the dimensions of `data`. We use the same dotted notation for the attributes of variables that we use for the functions in libraries because they have the same part-and-whole relationship.
 
 If we want to get a single number from the array,
-we must provide an [index](reference.html#index) in square brackets,
-just as we do in math:
+we must provide an [index](reference.html#index) in square bracket, similar to how we have worked with lists:
 
 ~~~ {.python}
 print('first value in data:', data[0, 0])
