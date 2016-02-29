@@ -8,7 +8,6 @@
    * [Functions](part1/functions.md)
    * [variables.md](part1/variables.md)
    * [conditions.md](part1/conditions.md)
-* [numpy2](numpy2.md)
 * [Arrays and plotting data](part2/readme.md)
    * [numpy1.md](part2/numpy1.md)
 
