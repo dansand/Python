@@ -61,15 +61,26 @@ So far the numpy.ndarray looks awefully much like a Python list (or nested list)
 
 For larger arrays it is inpractical to initialize the data manually, using explicit python lists. Instead we can use one of the many _array-generating functions_ in numpy that generate arrays of different forms. 
 
-# create a range with np.arange
+
 
 ```python
+# create a vector with np.arange
 x = np.arange(0, 10, 1) # arguments: start, stop, step
 print(x)
 ```
 ```
 [0 1 2 3 4 5 6 7 8 9]
 ```
+
+```python
+# create a vector with linspace, both end points ARE included
+linspace(0, 10, 25) # arguments: start, end, number
+```
+
+```python
+x, y = mgrid[0:5, 0:5] # similar to meshgrid in MATLAB
+```
+
 
 ## Maths with arrays
 
