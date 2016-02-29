@@ -331,7 +331,7 @@ def rgb2gray(rgb):
 > The Matlab function uses the following formula:
 > gray = 0.2989 * red + 0.5870 * green+ 0.1140 * blue
 > 
->Write a function that will compute the grayscale representtation of the 
+>Write a python function that will compute the grayscale representation of our `face` array.
 
 >  ##_challenge:_  Interpret
 > Explain the output of the following
