@@ -79,15 +79,12 @@ linspace(0, 10, 25) # arguments: start, end, number
 
 ```python
 x, y = mgrid[0:3, 0:3] # similar to meshgrid in MATLAB
-print(x)
+print(x), print(y)
 ```
 ```
 [[0 0 0]
  [1 1 1]
  [2 2 2]]
-```
-
-```
 [[0 1 2]
  [0 1 2]
  [0 1 2]]
