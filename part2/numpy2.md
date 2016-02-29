@@ -299,4 +299,6 @@ but we can explore a few features of Python's `matplotlib` library here.
 > ## _challenge:_ Checkerboard
 >Create an 8x8 matrix and fill it with a checkerboard pattern
 
+> ## _challenge:_ Normalize a 5x5 random matrix 
+
 
