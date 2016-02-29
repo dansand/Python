@@ -206,6 +206,19 @@ Numpy finds that the mean of ut array, whicch contains 'NaNs' ot missing values,
 
 Luckily, there are a range of Numpy library functions to deal with NaNs (i.e. ignore them in producing summary statistices)
 
+```python
+numpy.nanmean(data)
+```
+```
+19.230588235294118
+```
+
+For an array without NaNs, we have the easier option:
+
+``python
+random.mean()
+```
+
 `mean` is a [method](reference.html#method) of the array,
 i.e., a function that belongs to it in the same way that the member `shape` does. If variables are nouns, methods are verbs: they are what the thing in question knows how to do. We need empty parentheses for `data.mean()`, even when we're not passing in any parameters, to tell Python to go and do something for us. `data.shape` doesn't need `()` because it is just a description but `data.mean()` requires the `()` because it is an action.
 
@@ -213,8 +226,8 @@ Numpy arrays have lots of useful methods:
 
 ~~~ {.python}
 print('maximum inflammation:', data.max())
-print('minimum inflammation:', data.min())
-print('standard deviation:', data.std())
+print('minimum temperature:', numpy.nanmin(data))
+print('mean temp:', numpy.nanmean(data))
 ~~~
 ```python
 maximum inflammation: 0.918369334718
