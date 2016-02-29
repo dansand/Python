@@ -1,7 +1,7 @@
 #Numpy
 
 
-> ## Learning Objectives {.objectives}
+> ## Learning Objectives
 >
 > *   Load a Python library and use the things it contains.
 > *   Read tabular data from a file into a program.
@@ -150,24 +150,13 @@ random value in data:', 8.2959999999999994
 ~~~
 
 The expression `data[250, 2]` may not surprise you. Hopefully, `data[0, 0]` recalls the element numbering schemew we used in lists.
-Programming languages like Fortran and MATLAB start counting at 1,
-because that's what human beings have done for thousands of years.
-Languages in the C family (including C++, Java, Perl, and Python) count from 0
-because that's simpler for computers to do.
-As a result,
-if we have an M&times;N array in Python,
-its indices go from 0 to M-1 on the first axis
-and 0 to N-1 on the second.
-It takes a bit of getting used to,
-but one way to remember the rule is that
-the index is how many steps we have to take from the start to get the item we want.
+As a result, if we have an M&times;N array in Python,
+its indices go from 0 to M-1 on the first axis and 0 to N-1 on the second. It takes a bit of getting used to,
+but one way to remember the rule is that the index is how many steps we have to take from the start to get the item we want.
 
 
-An index like `data[250, 2]` selects a single element of an array,
-but we can select whole sections as well.
-For example,
-we can select the first ten days (columns) of values
-for the first four patients (rows) like this:
+An index like `data[250, 2]` selects a single element of an array, but we can select whole sections as well.
+For example, we can select the first ten days (columns) of values for the first four patients (rows) like this:
 
 ```python
 print(data[0:4, 0:10])
