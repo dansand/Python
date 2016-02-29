@@ -1,6 +1,8 @@
 # numpy2
 
-# numpy2
+> ## Learning Objectives
+>
+> *   Perform operations on arrays of data.
 
 ## Maths with arrays
 
