@@ -197,45 +197,31 @@ tripledata:
 
 Often, we want to do more than add, subtract, multiply, and divide values of data. Arrays also know how to do more complex operations on their values. If we want to find the average value of all elements in an array, for example, we can just ask the array for its mean value
 
-``python
+```python
 print(data.mean())
 ```
 ```
-print(data.mean())
+0.51939618584
 ```
 
 `mean` is a [method](reference.html#method) of the array,
-i.e.,
-a function that belongs to it
-in the same way that the member `shape` does.
-If variables are nouns, methods are verbs:
-they are what the thing in question knows how to do.
-We need empty parentheses for `data.mean()`,
-even when we're not passing in any parameters,
-to tell Python to go and do something for us. `data.shape` doesn't
-need `()` because it is just a description but `data.mean()` requires the `()`
-because it is an action.
+i.e., a function that belongs to it in the same way that the member `shape` does. If variables are nouns, methods are verbs: they are what the thing in question knows how to do. We need empty parentheses for `data.mean()`, even when we're not passing in any parameters, to tell Python to go and do something for us. `data.shape` doesn't need `()` because it is just a description but `data.mean()` requires the `()` because it is an action.
 
-NumPy arrays have lots of useful methods:
+Numpy arrays have lots of useful methods:
 
 ~~~ {.python}
 print('maximum inflammation:', data.max())
 print('minimum inflammation:', data.min())
 print('standard deviation:', data.std())
 ~~~
-~~~ {.output}
-maximum inflammation: 20.0
-minimum inflammation: 0.0
-standard deviation: 4.61383319712
-~~~
+```python
+maximum inflammation: 0.918369334718
+minimum inflammation: 0.101117324
+standard deviation: 0.298294356187
+```
 
-When analyzing data,
-though,
-we often want to look at partial statistics,
-such as the maximum value per patient
-or the average value per day.
-One way to do this is to create a new temporary array of the data we want,
-then ask it to do the calculation:
+When analyzing data, though, we often want to look at partial statistics, such as the maximum value per patient
+or the average value per day.One way to do this is to create a new temporary array of the data we want, then ask it to do the calculation:
 
 ~~~ {.python}
 patient_0 = data[0, :] # 0 on the first axis, everything on the second
