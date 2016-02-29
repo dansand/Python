@@ -10,5 +10,5 @@
    * [conditions.md](part1/conditions.md)
 * [Arrays and plotting data](part2/readme.md)
    * [numpy2.md](part2/numpy2.md)
-   * numpy1
+   * [numpy1](part2/numpy1.md)
 
