@@ -239,8 +239,6 @@ print(data[0,0])
 ```
 1500.0
 ```
+At this point we may choose to could choose to cut out the first column (year) and the last column (annual average); this will be a personal choice. In the interests of keeping out environment clean, we will keep the one data frame. 
  
  
- 
-
-
