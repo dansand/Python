@@ -68,7 +68,29 @@ data = np.loadtxt(filepath, converters=None, skiprows=119))
 We also put the file path into a variable called`filepath`, which can help make the call to `np.loadtxt` a bit simpler. Also, notice we supplied a function argument `skiprows=119`. This file has a lot of `metadata`, which you can see if you run a shell command from the Jupyter notebook:
 
 ```python
-!head 5 filepath
+!head -20 $filepath
+```
+```
+European Seasonal Temperature Reconstructions
+-----------------------------------------------------------------------
+               World Data Center for Paleoclimatology, Boulder
+                                  and
+                     NOAA Paleoclimatology Program
+-----------------------------------------------------------------------
+NOTE: PLEASE CITE CONTRIBUTORS WHEN USING THIS DATA!!!!!
+
+
+NAME OF DATA SET: European Seasonal Temperature Reconstructions
+LAST UPDATE: 6/2006 (Original receipt by WDC Paleo)
+CONTRIBUTOR: Juerg Luterbacher, University of Bern
+IGBP PAGES/WDCA CONTRIBUTION SERIES NUMBER: 2006-060
+
+SUGGESTED DATA CITATION: Luterbacher, J., et al.  2006. 
+European Seasonal Temperature Reconstructions.
+IGBP PAGES/World Data Center for Paleoclimatology 
+Data Contribution Series # 2006-060.
+NOAA/NCDC Paleoclimatology Program, Boulder CO, USA.
+
 ```
 
 
