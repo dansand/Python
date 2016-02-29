@@ -55,10 +55,7 @@ the name of the file we want to read, and the [delimiter](reference.html#delimit
 
 By default, only a few rows and columns are shown (with `...` to omit elements when displaying big arrays). To save space, Python displays numbers as `1.` instead of `1.0` when there's nothing interesting after the decimal point.
 
-Our call to `numpy.loadtxt` read our file,
-but didn't save the data in memory.
-To do that,
-we need to [assign](reference.html#assignment) the array to a [variable](reference.html#variable).
+Our call to `numpy.loadtxt` read our file, but didn't save the data in memory. To do that, we need to [assign](reference.html#assignment) the array to a [variable](reference.html#variable).
 
 Just as we can assign a single value to a integer,or list, or string (native data types) we can also assign an numpy array 
 to a variable using the same syntax.  Let's re-run `numpy.loadtxt` and save its result:
