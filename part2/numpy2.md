@@ -116,8 +116,8 @@ z = np.zeros((3,3))
 # Create an array of the given shape /
 # and fill with random samples 
 # from a uniform distribution over [0, 1).
-data = np.random.rand(3,2)
-print(data)
+random = np.random.rand(3,2)
+print(random
 ```
 ```
 [[ 0.95642119  0.82504981]
@@ -146,8 +146,12 @@ docker pull lmoresi/uom-vieps-intro2-python:2016.i
 Arrays also know how to perform common mathematical operations on their values. The simplest operations with data are arithmetic:
 add, subtract, multiply, and divide. When you do such operations on arrays, the operation is done on each individual element of the array.
 
-Thus:
-data = rand
+```python
+ess_file = '../../data/essendon_airport_temps.csv'
+array = np.genfromtxt(ess_file, delimiter=',')
+data = array[:,2:-2]
+years = array[:,0]
+``
 
 ```python
 doubledata = data * 2.0
