@@ -5,6 +5,8 @@
 > *   Perform operations on arrays of data.
 > *  Plot data with matplotlib and seaborn 
 
+## Creating arrays
+
 ## Maths with arrays
 
 Arrays also know how to perform common mathematical operations on their values. The simplest operations with data are arithmetic:
