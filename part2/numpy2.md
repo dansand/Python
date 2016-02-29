@@ -77,6 +77,8 @@ print(x)
 linspace(0, 10, 25) # arguments: start, end, number
 ```
 
+Let's plot some point generated using `np.linspace`
+
 ```python
 x = np.linspace(0, 3, 20)
 y = np.linspace(0, 9, 20)
