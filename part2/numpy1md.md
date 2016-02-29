@@ -243,5 +243,19 @@ At this point we may choose to could choose to cut out the first column (year) a
 
 ## Plotting our data
 
+Matplotlib is an excellent 2D and 3D graphics library for generating scientific figures. One of the key features of matplotlib, that I think makes matplotlib highly suitable for generating figures for scientific publications is that all aspects of the figure can be controlled programmatically.
+
+```python
+fig, axes = plt.subplots(figsize=(12,3)) #use the subplots axis layout managers in matplotlib.
+
+axes.plot(data[:,0], data[:,2], 'r', label = 'MAM - Autumn')
+
+axes.set_xlabel('year')
+axes.set_ylabel('temperature')
+axes.set_title('European Seasonal Temperature Reconstructions')
+
+axes.legend()
+```
+
 
  
