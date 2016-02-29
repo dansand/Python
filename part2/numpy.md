@@ -230,7 +230,15 @@ data.dtype
 ```
 dtype('float64')
 ```
- 
+We cannot change the data type of a sub-array, only the entire array.
+
+```python
+data[0,0] = int(1500)
+print(data[0,0])
+``` 
+```
+1500.0
+```
  
  
  ## Maths with arrays
