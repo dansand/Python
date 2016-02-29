@@ -11,7 +11,7 @@ We have see an example of creating an array from an existing data file using `np
 There are a number of other ways to initialise new numpy arrays, for example:
 
 * from a Python list or tuples
-* using functions that are dedicated to generating numpy arrays, such as `arange`, linspace, etc.
+* using functions that are dedicated to generating numpy arrays, such as `arange`, `linspace`, etc.
 
 
 ## Maths with arrays
