@@ -34,14 +34,19 @@ print(M)
  [3 4]]
 ```
 
-Like all variables in Python, we should be interested in their type.
+Like all variables in Python, we should be interested in their type:
 
 ```python
-type(v), type(M)
+print(type(v), type(M))
 ```
 ```
-(numpy.ndarray, numpy.ndarray)
+<class 'numpy.ndarray'> <class 'numpy.ndarray'>
 ```
+
+And as numpt arrays, we should be concerned about their size and shape:
+
+```python
+print(v.shape, M.shape)
 
 ## Maths with arrays
 
