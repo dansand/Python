@@ -211,17 +211,8 @@ small is:
    
  What's happened here? Fistly, why all that scienctific notation? When our array contains both large and small values, numpy defaults to printing this way. In this case, there si sufficient variation in the magnitude of our values to have triggered this prinitng option,
  
- Without changing the values or the array, we can configure the print options to make the values a little friendlier (but you would rarely bother doing this):
+ If you'd like to learn about overidding this behavior, have a search for examples of setting `np.set_printoptions` on [](http://stackoverflow.com/).
 
-```python 
-np.set_printoptions(precision=2)
-np.set_printoptions(formatter={'float': '{: 0.3f}'.format})
-print(data[0,:])
-
-``` 
-```python
-[ 1500.000 -0.945  7.157  17.483  8.990  8.166]
-```
 
 Okay, what about the first column? 
 
