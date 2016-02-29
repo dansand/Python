@@ -195,7 +195,7 @@ small is:
  
  ## Cleaning our data
  
- At this point we should think a little bit about what our numpy array actually contains.
+ At this point we should think a little bit about what our numpy array actually contains. After usig l
  
  ## Maths with arrays
 
