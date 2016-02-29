@@ -24,7 +24,7 @@ import numpy as np
 Importing a library is like getting a piece of lab equipment out of a storage locker and setting it up on the bench. Libraries provide additional functionality to the basic Python package, much like a new piece of equipment adds functionality to a lab space. Once you've loaded the library, we can ask the library to read our data file for us:
 
 ```python
-np.loadtxt("../../data/europe-seasonal.txt", converters=None, skiprows=119)
+np.genfromtxt(filepath, skip_header=119)
 ```
 ```
 array([[  1.50000000e+03,  -9.45000000e-01,   7.15700000e+00,
@@ -42,7 +42,7 @@ array([[  1.50000000e+03,  -9.45000000e-01,   7.15700000e+00,
           1.83250000e+01,   1.00730000e+01,   9.23500000e+00]])
 ```
 
-The expression `numpy.loadtxt(...)` is a [function call](reference.html#function-call) that asks Python to run the function `loadtxt` that belongs to the `numpy` library.
+The expression `numpy.genfromtxt(...)` is a [function call](reference.html#function-call) that asks Python to run the function `loadtxt` that belongs to the `numpy` library.
 This [dotted notation](reference.html#dotted-notation) is used everywhere in Python to refer to the parts of things as `thing.component`.
 
 `numpy.loadtxt` has two [parameters](reference.html#parameter):
@@ -57,10 +57,10 @@ to a variable using the same syntax.  Let's re-run `numpy.loadtxt` and save its 
 
 ```python
 filepath = "../../data/europe-seasonal.txt"
-data = np.loadtxt(filepath, converters=None, skiprows=119))
+data = np.genfromtxt(filepath, skip_header=119)
 ```
 
-We also put the file path into a variable called`filepath`, which can help make the call to `np.loadtxt` a bit simpler. Also, notice we supplied a function argument `skiprows=119`. This file has a lot of `metadata`, which you can see if you run a shell command from the Jupyter notebook:
+We also put the file path into a variable called`filepath`, which can help make the call to `np.genfromtxt` a bit simpler. Also, notice we supplied a function argument `skiprows=119`. This file has a lot of `metadata`, which you can see if you run a shell command from the Jupyter notebook:
 
 ```python
 !head -20 $filepath
@@ -190,7 +190,7 @@ small is:
  
  ## Cleaning our data
  
- At this point we should think a little bit about what our numpy array actually contains. When we used `np.loadtxt(...)` to load our text file , we supplied the `skiprows=119` argument to exclued the non-tabular metadata which numpy couldn't handle. Now lets look at what those numeric rows and columns represent by using some bash within the notebook:
+ At this point we should think a little bit about what our numpy array actually contains. When we used `np.genfromtxt(...)` to load our text file , we supplied the `skiprows=119` argument to exclued the non-tabular metadata which numpy couldn't handle. Now lets look at what those numeric rows and columns represent by using some bash within the notebook:
  
  ```
  !head -120 $filepath | tail -2
