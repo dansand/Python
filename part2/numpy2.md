@@ -119,6 +119,13 @@ z = np.zeros((3,3))
 rd = np.random.rand(3,2)
 ```
 
+In order to have a more visually appealing array to work with,  let's read in an image from the Scipy sample data :
+
+```python
+from scipy import misc
+face = misc.face()
+```
+
 ## Maths with arrays
 
 Arrays also know how to perform common mathematical operations on their values. The simplest operations with data are arithmetic:
