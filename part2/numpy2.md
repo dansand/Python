@@ -21,6 +21,17 @@ print(v)
 [1 2 3 4]
 ```
 
+A 2D array (often called a matrix) can be created from a nested list:
+
+```python 
+M = array([[1, 2], [3, 4]])
+print(M)
+```
+```
+[[1 2]
+ [3 4]]
+```
+
 
 For example, to create a new 1D  array from Python lists we can use the np.array function.
 
