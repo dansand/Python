@@ -239,6 +239,8 @@ When analyzing data, though, we often want to look at partial statistics, such a
 
 <!--
 
+
+
 ```
 patient_0 = data[0, :] # 0 on the first axis, everything on the second
 print('maximum inflammation for patient 0:', patient_0.max())
