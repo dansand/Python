@@ -17,6 +17,9 @@ There are a number of other ways to initialise new numpy arrays, for example:
 v = array([1,2,3,4])
 print(v)
 ```
+```
+[1 2 3 4]
+```
 
 
 For example, to create a new 1D  array from Python lists we can use the np.array function.
