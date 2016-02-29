@@ -235,7 +235,7 @@ print(data[0,0])
 ```
 1500.0
 ```
-As this code block shows, numpy will always coorece numbers into the right data type. Strings and other non-numeric objects will fail:
+As this code block shows, numpy will always coerce _numbers_ into the correct (i.e current) data type. Strings and other non-numeric objects, however, will fail:
 
 ```python
 data[0,0] = "hello"
