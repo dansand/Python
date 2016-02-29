@@ -9,6 +9,6 @@
    * [variables.md](part1/variables.md)
    * [conditions.md](part1/conditions.md)
 * [Arrays and plotting data](part2/readme.md)
-   * [numpy1.md](part2/numpy1md.md)
+   * [numpy1.md](part2/numpy1.md)
    * [numpy2.md](part2/numpy2.md)
 
