@@ -1,6 +1,4 @@
-# numpy1
-
-#Numpy
+#Numpy 1
 
 
 > ## Learning Objectives
