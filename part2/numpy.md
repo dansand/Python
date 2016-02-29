@@ -51,8 +51,7 @@ This [dotted notation](reference.html#dotted-notation) is used everywhere in Pyt
 to refer to the parts of things as `thing.component`.
 
 `numpy.loadtxt` has two [parameters](reference.html#parameter):
-the name of the file we want to read,
-and the [delimiter](reference.html#delimiter) that separates values on a line.
+the name of the file we want to read, and the [delimiter](reference.html#delimiter) that separates values on a line.
 These both need to be character strings (or [strings](reference.html#string) for short),
 so we put them in quotes.
 
