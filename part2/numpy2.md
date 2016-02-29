@@ -328,7 +328,7 @@ def rgb2gray(rgb):
 >
 > Now we know we know a little about doing maths with arrays, we can define a function a to convert a colour (RGB) image to grayscale.
 > 
-> The Matlab function uses the following formula:
+> The equivalent Matlab function uses the following formula:
 >$$gray = 0.2989 \times red + 0.5870 \times green+ 0.1140 \times blue$$
 > 
 > 
