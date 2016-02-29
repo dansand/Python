@@ -239,33 +239,30 @@ When analyzing data, though, we often want to look at partial statistics, such a
 
 To simplify things (avoid messy data with NaNs) lets create some dummy data.
 
-<!--
-
+```python
+data = np.random.rand(10,10)
 ```
-patient_0 = data[0, :] # 0 on the first axis, everything on the second
-print('maximum inflammation for patient 0:', patient_0.max())
-~~~
-~~~ {.output}
-maximum inflammation for patient 0: 18.0
-~~~
+
+
+
+```python
+row0 = data[0, :] # 0 on the first axis, everything on the second
+print('maximum for row 0:', row0.max())
+``
 
 We don't actually need to store the row in a variable of its own.
 Instead, we can combine the selection and the method call:
 
-~~~ {.python}
-print('maximum inflammation for patient 2:', data[2, :].max())
-~~~
-~~~ {.output}
-maximum inflammation for patient 2: 19.0
-~~~
+```python
+print('maximum value for row 2:', data[2, :].max())
+```
 
-What if we need the maximum inflammation for *all* patients (as in the
-next diagram on the left), or the average for each day (as in the
-diagram on the right)? As the diagram below shows, we want to perform the
-operation across an axis:
+What if we need the maximum inflammation for *all* rowa (as in the next diagram on the left), or the average for each day (as in the diagram on the right)? As the diagram below shows, we want to perform the operation across an axis:
 
 
 ![Operations Across Axes](fig/python-operations-across-axes.png)
+
+<!--
 
 
 To support this,
