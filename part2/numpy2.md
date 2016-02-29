@@ -78,7 +78,7 @@ linspace(0, 10, 25) # arguments: start, end, number
 ```
 
 ```python
-x, y = mgrid[0:3, 0:3] # similar to meshgrid in MATLAB
+x, y = np.mgrid[0:3, 0:3] # similar to meshgrid in MATLAB
 print(x), print(y)
 ```
 ```
@@ -88,6 +88,15 @@ print(x), print(y)
 [[0 1 2]
  [0 1 2]
  [0 1 2]]
+```
+
+```python
+np.zeros((3,3))
+```
+```
+[[ 0.  0.  0.]
+ [ 0.  0.  0.]
+ [ 0.  0.  0.]]
 ```
 
 ## Maths with arrays
