@@ -65,20 +65,12 @@ filepath = "../../data/europe-seasonal.txt"
 data = np.loadtxt(filepath, converters=None, skiprows=119))
 ```
 
-We also put the file path into a variable called`filepath`, which can help make the call to `np.loadtxt` a bit simpler. This statement doesn't produce any output because assignment doesn't display anything. If we want to check that our data has been loaded, then like any variable we can print the numpy array variable's value:
+We also put the file path into a variable called`filepath`, which can help make the call to `np.loadtxt` a bit simpler. Also, notice we supplied a function argument `skiprows=119`. This file has a lot of `metadata`, which you can see if you run a shell command from the Jupyter notebook:
 
-~~~ {.python}
-print(data)
-~~~
-~~~ {.output}
-[[ 0.  0.  1. ...,  3.  0.  0.]
- [ 0.  1.  2. ...,  1.  0.  1.]
- [ 0.  1.  1. ...,  2.  1.  1.]
- ...,
- [ 0.  1.  1. ...,  1.  1.  1.]
- [ 0.  0.  0. ...,  0.  2.  0.]
- [ 0.  0.  1. ...,  1.  1.  0.]]
-~~~
+```python
+!head 5 filepath
+```
+
 
 Now that our data is in memory,
 we can start doing things with it.
