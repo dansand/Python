@@ -156,59 +156,52 @@ array([[  1.50000000e+03,  -9.45000000e-01,   7.15700000e+00,
           1.83310000e+01,   8.92200000e+00,   8.07700000e+00]])
 ```
 
-The [slice](reference.html#slice) `0:4` means,
-"Start at index 0 and go up to, but not including, index 4."
-Again,
-the up-to-but-not-including takes a bit of getting used to,
-but the rule is that the difference between the upper and lower bounds is the number of values in the slice.
+The [slice](reference.html#slice) `0:4` means, "Start at index 0 and go up to, but not including, index 4." Again, the up-to-but-not-including takes a bit of getting used to, but the rule is that the difference between the upper and lower bounds is the number of values in the slice.
 
 We don't have to start slices at 0:
 
-~~~ {.python}
-print(data[5:10, 0:10])
-~~~
-~~~ {.output}
-[[ 0.  0.  1.  2.  2.  4.  2.  1.  6.  4.]
- [ 0.  0.  2.  2.  4.  2.  2.  5.  5.  8.]
- [ 0.  0.  1.  2.  3.  1.  2.  3.  5.  3.]
- [ 0.  0.  0.  3.  1.  5.  6.  5.  5.  8.]
- [ 0.  1.  1.  2.  1.  3.  5.  3.  5.  8.]]
-~~~
+```python
+print(data[5:10, 0:5])
+```
+```python
+[[  1.50500000e+03   4.80000000e-02   7.32300000e+00   1.73410000e+01
+    9.28600000e+00]
+ [  1.50600000e+03   6.40000000e-02   7.11600000e+00   1.75720000e+01
+    8.95800000e+00]
+ [  1.50700000e+03   6.12000000e-01   6.22900000e+00   1.75100000e+01
+    9.07100000e+00]
+ [  1.50800000e+03  -2.09900000e+00   6.81800000e+00   1.73100000e+01
+    9.17800000e+00]
+ [  1.50900000e+03  -1.44600000e+00   7.32300000e+00   1.78560000e+01
+    9.07100000e+00]]
+```
 
-We also don't have to include the upper and lower bound on the slice.
-If we don't include the lower bound,
-Python uses 0 by default;
-if we don't include the upper,
-the slice runs to the end of the axis,
-and if we don't include either
-(i.e., if we just use ':' on its own),
+We also don't have to include the upper and lower bound on the slice. If we don't include the lower bound, Python uses 0 by default; if we don't include the upper, the slice runs to the end of the axis, and if we don't include either (i.e., if we just use ':' on its own),
 the slice includes everything:
 
 ~~~ {.python}
-small = data[:3, 36:]
+small = data[:5, 3:]
 print('small is:')
 print(small)
 ~~~
 ~~~ {.output}
 small is:
-[[ 2.  3.  0.  0.]
- [ 1.  1.  0.  1.]
- [ 2.  2.  1.  1.]]
-~~~
+[[ 17.483   8.99    8.166]
+ [ 17.401   8.687   8.163]
+ [ 17.906   9.071   8.194]
+ [ 18.331   8.922   8.077]
+ [ 18.223   9.075   8.163]]
 
-Arrays also know how to perform common mathematical operations on their values.
-The simplest operations with data are arithmetic:
-add, subtract, multiply, and divide.
- When you do such operations on arrays,
-the operation is done on each individual element of the array.
+Arrays also know how to perform common mathematical operations on their values. The simplest operations with data are arithmetic:
+add, subtract, multiply, and divide. When you do such operations on arrays, the operation is done on each individual element of the array.
+
 Thus:
 
 ~~~ {.python}
 doubledata = data * 2.0
 ~~~
 
-will create a new array `doubledata`
-whose elements have the value of two times the value of the corresponding elements in `data`:
+will create a new array `doubledata` whose elements have the value of two times the value of the corresponding elements in `data`:
 
 ~~~ {.python}
 print('original:')
