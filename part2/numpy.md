@@ -179,20 +179,23 @@ print(data[5:10, 0:5])
 We also don't have to include the upper and lower bound on the slice. If we don't include the lower bound, Python uses 0 by default; if we don't include the upper, the slice runs to the end of the axis, and if we don't include either (i.e., if we just use ':' on its own),
 the slice includes everything:
 
-~~~ {.python}
+```python
 small = data[:5, 3:]
 print('small is:')
 print(small)
-~~~
-~~~ {.output}
+```
+```
 small is:
 [[ 17.483   8.99    8.166]
  [ 17.401   8.687   8.163]
  [ 17.906   9.071   8.194]
  [ 18.331   8.922   8.077]
  [ 18.223   9.075   8.163]]
+``` 
  
  ## Cleaning our data
+ 
+ At this point we should think a little bit about what our numpy array actually contains.
  
  ## Maths with arrays
 
