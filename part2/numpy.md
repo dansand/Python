@@ -209,8 +209,17 @@ small is:
    8.99000000e+00   8.16600000e+00]
    ```
    
- What's happened here? Fistly, why all that scienctific notation?
- 
+ What's happened here? Fistly, why all that scienctific notation? Without changing the values or the array, we can configure the print options to make the values a little friendlier (but you would rarely bother doing this):
+
+```python 
+np.set_printoptions(precision=2)
+np.set_printoptions(formatter={'float': '{: 0.3f}'.format})
+print(data[0,:])
+
+``` 
+```python
+[ 1500.000 -0.945  7.157  17.483  8.990  8.166]
+```
  
  
  
