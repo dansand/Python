@@ -13,18 +13,15 @@ ftp://ftp.ncdc.noaa.gov/pub/data/paleo/historical/europe-seasonal.txt
 
 
 
-In order to load our climate data,
-we need to [import](reference.html#import) a library called NumPy.
-In general you should use this library if you want to do fancy things with numbers,
-especially if you have matrices or arrays.
+In order to load our climate data, we need to [import](reference.html#import) a library called NumPy.
+In general you should use this library if you want to do fancy things with numbers, especially if you have matrices or arrays.
 We can load NumPy using:
 
 ```python
 import numpy as np
 ```
 
-Importing a library is like getting a piece of lab equipment out of a storage locker and setting it up on the bench. Libraries provide additional functionality to the basic Python package, much like a new piece of equipment adds functionality to a lab space. Once you've loaded the library,
-we can ask the library to read our data file for us:
+Importing a library is like getting a piece of lab equipment out of a storage locker and setting it up on the bench. Libraries provide additional functionality to the basic Python package, much like a new piece of equipment adds functionality to a lab space. Once you've loaded the library, we can ask the library to read our data file for us:
 
 ```python
 np.loadtxt("../../data/europe-seasonal.txt", converters=None, skiprows=119)
@@ -45,10 +42,8 @@ array([[  1.50000000e+03,  -9.45000000e-01,   7.15700000e+00,
           1.83250000e+01,   1.00730000e+01,   9.23500000e+00]])
 ```
 
-The expression `numpy.loadtxt(...)` is a [function call](reference.html#function-call)
-that asks Python to run the function `loadtxt` that belongs to the `numpy` library.
-This [dotted notation](reference.html#dotted-notation) is used everywhere in Python
-to refer to the parts of things as `thing.component`.
+The expression `numpy.loadtxt(...)` is a [function call](reference.html#function-call) that asks Python to run the function `loadtxt` that belongs to the `numpy` library.
+This [dotted notation](reference.html#dotted-notation) is used everywhere in Python to refer to the parts of things as `thing.component`.
 
 `numpy.loadtxt` has two [parameters](reference.html#parameter):
 the name of the file we want to read, and the [delimiter](reference.html#delimiter) that separates values on a line. These both need to be character strings (or [strings](reference.html#string) for short), so we put them in quotes.
@@ -195,7 +190,10 @@ small is:
  
  ## Cleaning our data
  
- At this point we should think a little bit about what our numpy array actually contains. After usig l
+ At this point we should think a little bit about what our numpy array actually contains. When we used `np.loadtxt(...)` to load our text file , we supplied the `skiprows=119` argument to exclued the non-tabular metadata which numpy couldn't handle. 
+ 
+ 
+ 
  
  ## Maths with arrays
 
