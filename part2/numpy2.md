@@ -109,6 +109,9 @@ np.zeros((3,3))
  [ 0.  0.  0.]
  [ 0.  0.  0.]]
 ```
+```python
+np.random.rand(3,2)
+```
 
 ## Maths with arrays
 
