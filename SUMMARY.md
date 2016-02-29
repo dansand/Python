@@ -11,5 +11,4 @@
 * [Arrays and plotting data](part2/readme.md)
    * [numpy1.md](part2/numpy1md.md)
    * [numpy2.md](part2/numpy2.md)
-   * plotting
 
