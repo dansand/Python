@@ -12,4 +12,3 @@
    * [matplotlib](part2/matplotlib.md)
    * [Files](part2/files.md)
    * [Data types](part2/data_types.md)
-
