@@ -303,11 +303,19 @@ but we can explore a few features of Python's `matplotlib` library here.
 
 
 
-
+>  ##_challenge:_  Interpret
+> Explain the output of the following
+> ```python
+> Z = np.random.uniform(0,1,10)
+> z = 0.5
+> m = Z.flat[np.abs(Z - z).argmin()]
+> print(m)
+> ```
 
 > ## _challenge:_ Checkerboard
 >Create an 8x8 matrix and fill it with a checkerboard pattern
 
-> ## _challenge:_ Normalize a 5x5 random matrix 
+> ## _challenge:_ Normalise 
+Normalise a 5x5 random matrix 
 
 
