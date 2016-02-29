@@ -102,15 +102,21 @@ print(x), print(y)
 ```
 
 ```python
-np.zeros((3,3))
+#Return a new array of given shape and type, 
+#filled with zeros.
+z = np.zeros((3,3))
 ```
 ```
 [[ 0.  0.  0.]
  [ 0.  0.  0.]
  [ 0.  0.  0.]]
 ```
+
 ```python
-np.random.rand(3,2)
+# Create an array of the given shape /
+# and fill with random samples 
+# from a uniform distribution over [0, 1).
+rd = np.random.rand(3,2)
 ```
 
 ## Maths with arrays
