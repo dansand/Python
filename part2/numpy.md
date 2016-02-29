@@ -56,13 +56,7 @@ and the [delimiter](reference.html#delimiter) that separates values on a line.
 These both need to be character strings (or [strings](reference.html#string) for short),
 so we put them in quotes.
 
-When we are finished typing and press Shift+Enter, the notebook runs our command.
-Since we haven't told it to do anything else with the function's output,
-the notebook displays it.
-In this case,
-that output is the data we just loaded.
-By default,
-only a few rows and columns are shown
+By default, only a few rows and columns are shown
 (with `...` to omit elements when displaying big arrays).
 To save space,
 Python displays numbers as `1.` instead of `1.0`
@@ -121,9 +115,7 @@ print(data.shape)
 (505, 6)
 ```
 
-This tells us that `data` has 60 rows and 40 columns. When we created the
-variable `data` to store our arthritis data, we didn't just create the array, we also
-created information about the array, called [members](reference.html#member) or
+This tells us that `data` has 505 rows and 6 columns. When we created the variable `data` to store our arthritis data, we didn't just create the array, we also created information about the array, called [members](reference.html#member) or
 attributes. This extra information describes `data` in
 the same way an adjective describes a noun.
 `data.shape` is an attribute  of `data` which described the dimensions of `data`.
