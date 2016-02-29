@@ -190,7 +190,26 @@ small is:
  
  ## Cleaning our data
  
- At this point we should think a little bit about what our numpy array actually contains. When we used `np.loadtxt(...)` to load our text file , we supplied the `skiprows=119` argument to exclued the non-tabular metadata which numpy couldn't handle. 
+ At this point we should think a little bit about what our numpy array actually contains. When we used `np.loadtxt(...)` to load our text file , we supplied the `skiprows=119` argument to exclued the non-tabular metadata which numpy couldn't handle. Now lets look at what those numeric rows and columns represent by using some bash within the notebook:
+ 
+ ```
+ !head -120 $filepath | tail -2
+ ```
+ ```
+ Year        DJF         MAM        JJA         SON        Annual
+1500      -0.945       7.157      17.483       8.990       8.166
+ ```
+ And here's the first (120th in the original .txt file) row of our numpy array:
+ 
+ ```python
+ print(data[0,:])
+ ```
+ ```
+ [  1.50000000e+03  -9.45000000e-01   7.15700000e+00   1.74830000e+01
+   8.99000000e+00   8.16600000e+00]
+   ```
+ 
+ 
  
  
  
