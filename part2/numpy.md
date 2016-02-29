@@ -220,7 +220,9 @@ Okay, what about the first column?
 print(data[0:10,0])
 ```
 ```
- [ 1500.000  1501.000  1502.000  1503.000  1504.000  1505.000  1506.000 1507.000  1508.000  1509.000]
+ [ 1500.  1501.  1502.  1503.  1504.  1505.  1506.  1507.  1508.  1509.]
+ ```
+ These values represent years. One thing you may notice is that these values look like floats (floating point numbers). 
  
  
  
