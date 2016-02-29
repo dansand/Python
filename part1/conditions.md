@@ -77,7 +77,10 @@ If the test is false,
 the body of the `else` is executed instead.
 Only one or the other is ever executed:
 
+<!--
 ![Executing a Conditional](fig/python-flowchart-conditional.svg)\
+-->
+
 
 Conditional statements don't have to include an `else`.
 If there isn't one,
@@ -165,7 +168,7 @@ while n > 1:
 print("Fn =", f1)
 ```
 
-This code inputs an integer n for which it computes and prints the $nth$ Fibonacci number.
+This code inputs an integer n for which it computes and prints the _nth_ Fibonacci number.
 
 >Here is how the algorithm works in a bit more detail:
 

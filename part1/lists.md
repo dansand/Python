@@ -1,10 +1,13 @@
 
 # Lists
 
-> ## Learning Objectives {.objectives}
+> ## Learning Objectives
 >
 > *   Explain what a list is.
 > *   Create and index lists of simple values.
+> *   List slicing
+
+##Creating lists
 
 A list is a way to store many values.
 Lists are built into the language (so we don't have to load a library to use them).
@@ -19,7 +22,9 @@ print('odds are:', odds)
 odds are: [1, 3, 5, 7]
 ```
 
-We select individual elements from lists by indexing them:
+##Indexing a list
+
+An index is the number that says where in a list an item occurs.We select individual elements from lists by _indexing_ them:
 
 ```python
 print('first and last:', odds[0], odds[-1])
@@ -27,20 +32,9 @@ print('first and last:', odds[0], odds[-1])
 ```
 first and last: 1 7
 ```
-<!---
-and if we loop over a list,
-#the loop variable is assigned elements one at a time:
 
-```
-for number in odds:
-    print(number)
-```
-1
-3
-5
-7
-~~~
---->
+Programming languages like Fortran and MATLAB start counting at 1, because that's what human beings have done for thousands of years.Languages in the C family (including C++, Java, Perl, and Python) count from 0 because that's simpler for computers to do.
+
 
 There is one important difference between lists and strings:
 we can change the values in a list,
@@ -88,62 +82,12 @@ does not.
 > change individual elements, append new elements, or reorder the whole list.  For some operations, like
 > sorting, we can choose whether to use a function that modifies the data in place or a function that returns a
 > modified copy and leaves the original unchanged.
->
-> Be careful when modifying data in place.  If two variables refer to the same list, and you modify the list
-> value, it will change for both variables! If you want variables with mutable values to be independent, you
-> must make a copy of the value when you assign it.
->
-> Because of pitfalls like this, code which modifies data in place can be more difficult to understand. However,
-> it is often far more efficient to modify a large data structure in place than to create a modified copy for
-> every small change. You should consider both of these aspects when writing your code.
 
 
-> ## Nested Lists {.callout}
-> Since lists can contain any Python variable, it can even contain other lists.
->
-> For example, we could represent the products in the shelves of a small grocery shop:
->
-> ~~~ {.python}
-> x = [['pepper', 'zucchini', 'onion'],
->      ['cabbage', 'lettuce', 'garlic'],
->      ['apple', 'pear', 'banana']]
-> ~~~
->
->
-> Here is a visual example of how indexing a list of lists `x` works:
->
-> <a href='https://twitter.com/hadleywickham/status/643381054758363136'>
-> ![The first element of a list. Adapted from @hadleywickham's tweet about R > lists.](img/indexing_lists_python.png)</a>
->
-> Using the previously declared list `x`, these would be the results of the
-> index operations shown in the image:
->
-> ~~~ {.python}
-> print([x[0]])
-> ~~~
->
-> ~~~ {.output}
-> [['pepper', 'lettuce', 'onion']]
-> ~~~
->
-> ~~~ {.python}
-> print(x[0])
-> ~~~
->
-> ~~~ {.output}
-> ['pepper', 'lettuce', 'onion']
-> ~~~
->
-> ~~~ {.python}
-> print(x[0][0])
-> ~~~
->
-> ~~~ {.output}
-> 'pepper'
-> ~~~
->
-> Thanks to [Hadley Wickham](https://twitter.com/hadleywickham/status/643381054758363136)
-> for the image above.
+##Methods
+
+A list is an example of usage of objects and classes. When we use a variable i and assign a value to it, say integer 5 to it, you can think of it as creating an object (i.e. instance) i of class (i.e. type) int. In fact, you can read help(int) to understand this better.
+A class can also have methods i.e. functions defined for use with respect to that class only. You can use these pieces of functionality only when you have an object of that class. For example, Python provides an append method for the list class which allows you to add an item to the end of the list. For example, `mylist.append('an item')` will add that string to the list `mylist`. Note the use of dotted notation for accessing methods of the objects.
 
 There are many ways to change the contents of lists besides assigning new values to
 individual elements:
@@ -205,40 +149,40 @@ odds: [1, 3, 5, 7]
 
 This is different from how variables worked in lesson 1, and more similar to how a spreadsheet works.
 
-> ## Turn a string into a list {.challenge}
->
-> Use a for-loop to convert the string "hello" into a list of letters:
->
-> ~~~ {.python}
-> ["h", "e", "l", "l", "o"]
-> ~~~
-> Hint: You can create an empty list like this:
->
-> ~~~ {.python}
-> my_list = []
-> ~~~
+##Slicing
 
-> ## Tuples and exchanges {.challenge}
+lists, (like a variety of python data structures), also have a slicing operation which allows us to retrieve a slice of the sequence i.e. a part of the sequence.
+
+
+```python
+odds = [1, 3, 5, 7]
+print('Item 1 to 3 is', odds[1:3])
+print('Item 2 to end is', odds[2:])
+print('Item 1 to -1 is', odds[1:-1])
+print('Item start to end is', odds[:])
+```
+```
+Item 1 to 3 is [3, 5]
+Item 2 to end is [5, 7]
+Item 1 to -1 is [3, 5]
+Item start to end is [1, 3, 5, 7]
+```
+
+> ## _challenge:_  python container interactions
+> We've encountered lists as strings as two fundamental python containers.Explain what the overall effect of this code is:
 >
-> Explain what the overall effect of this code is:
->
-> ~~~ {.python}
-> left = 'L'
-> right = 'R'
->
-> temp = left
-> left = right
-> right = temp
-> ~~~
->
-> Compare it to:
->
-> ~~~ {.python}
-> left, right = right, left
-> ~~~
->
-> Do they always do the same thing?
-> Which do you find easier to read?
+> ```python
+> list1 = ["I", "am", "becoming", "a", "programmer"]
+> message = "\n".join(list1)
+> print(message)
+>```
+_hint, try running_
+>```
+> help(message.join)
+>```
+
+
+
 
 
 

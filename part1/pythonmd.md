@@ -59,11 +59,16 @@ _Operators_ are functionality that do something and can be represented by symbol
 As we just saw, you can evaluate the expressions given in the examples using the interpreter interactively. For example, to test the expression `2 + 3`, use the interactive Python interpreter prompt:
 
 ```python
->>> 2 + 3
+2 + 3
+```
+```
 5
->>> 3 * 5
+```
+```python
+3 * 5
+```
+```
 15
->>>
 ```
 
 Here is a quick overview of the available operators:
@@ -95,7 +100,7 @@ Here is a quick overview of the available operators:
 
 - `%` (modulo)
     - Returns the remainder of the division
-    - `13 % 3` gives `1`. `-25.5 % 2.25` gives `1.5`.
+    - `13 % 3` gives `1`. `-25.5 % 2.25` gives `0.75`.
 
 ## Evaluation Order
 
@@ -110,7 +115,6 @@ An examples of an integer is `2` which is just a whole number.
 Examples of floating point numbers (or _floats_ for short) are `3.23` and `52.3E-4`. The `E` notation indicates powers of 10. In this case, `52.3E-4` means `52.3 * 10^-4^`.
 
 
-
 ## Strings
 
 How about your name? Type your first name in quotes like this:
@@ -122,7 +126,7 @@ How about your name? Type your first name in quotes like this:
 
 You've now created your first string! It's a sequence of characters that can be processed by a computer. The string must always begin and end with the same character. This may be single (`'`) or double (`"`) quotes (there is no difference!) The quotes tell Python that what's inside of them is a string.
 
-Strings can be strung together. Try this:
+Strings can be strung together (or concatenated). Try this:
 
 ```python
 "Hi there " + "Ola"
@@ -168,7 +172,9 @@ Nice, huh? To see your name in uppercase letters, simply type:
 'OLA'
 ```
 
-You just used the `upper` __method__ on your string! A method (like `upper()`) is a sequence of instructions that Python has to perform on a given object (`"Ola"`) once you call it.
+You just used the `upper` __method__ on your string! A method (like `upper()`) is a sequence of instructions that Python has to perform on a given object (`"Ola"`) once you call it. 
+
+> We will often discuss the concept of methods as we use them, because methods are fundamental in python.
 
 If you want to know the number of letters contained in your name, there is a __function__ for that too!
 
@@ -210,8 +216,20 @@ It worked! We used the `str` function inside of the `len` function. `str()` conv
 
 ## Jupyter notebooks!
 
+The Jupyter Notebook is a web application that allows you to create and share documents that contain live code, equations, visualizations and explanatory text.
 
-### Summary
+###Code 
+
+Not just Python! The Notebook has support for over 40 programming languages, including those popular in Data Science such as Python, R, Julia and Scala.
+
+### Markdown
+
+Explanatory text can be integrating with the Jupyter Notebook using a simple formatting schema called _Markdown_. See the link for a basic description.
+https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
+
+
+<!--
+## Summary
 
 OK, enough of strings. So far you've learned about:
 
@@ -224,3 +242,4 @@ OK, enough of strings. So far you've learned about:
 
 These are the basics of every programming language you learn.
 
+-->

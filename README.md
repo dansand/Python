@@ -1,7 +1,16 @@
 # The ResBaz guide to Python
 
-This material was assembled for teaching at University of Melbourne. This book is based largely on the following Resources:
+This material was remixed for teaching at University of Melbourne. This book is based mainly on the following Resources:
 
+[Software Carpentry](http://swcarpentry.github.io/python-novice-inflammation/)
+
+[Django Girls](http://tutorial.djangogirls.org/en/)
+
+[A Byte of Python](http://python.swaroopch.com/)
+
+
+
+Other resources that inspired us:
 
 
 

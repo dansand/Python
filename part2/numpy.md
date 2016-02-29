@@ -1,15 +1,13 @@
 #Numpy
 
 
-> ## Learning Objectives {.objectives}
+> ## Learning Objectives
 >
-> *   Explain what a library is, and what libraries are used for.
 > *   Load a Python library and use the things it contains.
 > *   Read tabular data from a file into a program.
-> *   Assign values to variables.
 > *   Select individual values and subsections from data.
 > *   Perform operations on arrays of data.
-> *   Display simple graphs.
+
 
 ftp://ftp.ncdc.noaa.gov/pub/data/paleo/historical/europe-seasonal.txt
 
@@ -21,27 +19,31 @@ In general you should use this library if you want to do fancy things with numbe
 especially if you have matrices or arrays.
 We can load NumPy using:
 
-~~~ {.python}
-import numpy
-~~~
+```python
+import numpy as np
+```
 
-Importing a library is like getting a piece of lab equipment out of a storage locker
-and setting it up on the bench. Libraries provide additional functionality to the basic Python package, much like a new piece of equipment adds functionality to a lab space.
-Once you've loaded the library,
+Importing a library is like getting a piece of lab equipment out of a storage locker and setting it up on the bench. Libraries provide additional functionality to the basic Python package, much like a new piece of equipment adds functionality to a lab space. Once you've loaded the library,
 we can ask the library to read our data file for us:
 
-~~~ {.python}
-numpy.loadtxt(fname='inflammation-01.csv', delimiter=',')
-~~~
-~~~ {.output}
-array([[ 0.,  0.,  1., ...,  3.,  0.,  0.],
-       [ 0.,  1.,  2., ...,  1.,  0.,  1.],
-       [ 0.,  1.,  1., ...,  2.,  1.,  1.],
-       ...,
-       [ 0.,  1.,  1., ...,  1.,  1.,  1.],
-       [ 0.,  0.,  0., ...,  0.,  2.,  0.],
-       [ 0.,  0.,  1., ...,  1.,  1.,  0.]])
-~~~
+```python
+np.loadtxt("../../data/europe-seasonal.txt", converters=None, skiprows=119)
+```
+```
+array([[  1.50000000e+03,  -9.45000000e-01,   7.15700000e+00,
+          1.74830000e+01,   8.99000000e+00,   8.16600000e+00],
+       [  1.50100000e+03,  -8.50000000e-01,   7.43500000e+00,
+          1.74010000e+01,   8.68700000e+00,   8.16300000e+00],
+       [  1.50200000e+03,  -1.05300000e+00,   6.87200000e+00,
+          1.79060000e+01,   9.07100000e+00,   8.19400000e+00],
+       ..., 
+       [  2.00200000e+03,   2.07000000e-01,   9.21400000e+00,
+          1.89050000e+01,   9.30100000e+00,   9.50800000e+00],
+       [  2.00300000e+03,  -1.10100000e+00,   8.52100000e+00,
+          1.96150000e+01,   9.83800000e+00,   9.37400000e+00],
+       [  2.00400000e+03,   1.87000000e-01,   8.29700000e+00,
+          1.83250000e+01,   1.00730000e+01,   9.23500000e+00]])
+```
 
 The expression `numpy.loadtxt(...)` is a [function call](reference.html#function-call)
 that asks Python to run the function `loadtxt` that belongs to the `numpy` library.
@@ -54,8 +56,7 @@ and the [delimiter](reference.html#delimiter) that separates values on a line.
 These both need to be character strings (or [strings](reference.html#string) for short),
 so we put them in quotes.
 
-When we are finished typing and press Shift+Enter,
-the notebook runs our command.
+When we are finished typing and press Shift+Enter, the notebook runs our command.
 Since we haven't told it to do anything else with the function's output,
 the notebook displays it.
 In this case,
@@ -71,107 +72,14 @@ Our call to `numpy.loadtxt` read our file,
 but didn't save the data in memory.
 To do that,
 we need to [assign](reference.html#assignment) the array to a [variable](reference.html#variable).
-A variable is just a name for a value,
-such as `x`, `current_temperature`, or `subject_id`.
-Python's variables must begin with a letter and are [case sensitive](reference.html#case-sensitive).
-We can create a new variable by assigning a value to it using `=`.
-As an illustration,
-let's step back and instead of considering a table of data,
-consider the simplest "collection" of data,
-a single value.
-The line below assigns the value `55` to a variable `weight_kg`:
 
-~~~ {.python}
-weight_kg = 55
-~~~
-
-Once a variable has a value, we can print it to the screen:
-
-~~~ {.python}
-print(weight_kg)
-~~~
-~~~ {.output}
-55
-~~~
-
-and do arithmetic with it:
-
-~~~ {.python}
-print('weight in pounds:', 2.2 * weight_kg)
-~~~
-~~~ {.output}
-weight in pounds: 121.0
-~~~
-
-We can also change a variable's value by assigning it a new one:
-
-~~~ {.python}
-weight_kg = 57.5
-print('weight in kilograms is now:', weight_kg)
-~~~
-~~~ {.output}
-weight in kilograms is now: 57.5
-~~~
-
-As the example above shows,
-we can print several things at once by separating them with commas.
-
-If we imagine the variable as a sticky note with a name written on it,
-assignment is like putting the sticky note on a particular value:
-
-![Variables as Sticky Notes](fig/python-sticky-note-variables-01.svg)
-
-This means that assigning a value to one variable does *not* change the values of other variables.
-For example,
-let's store the subject's weight in pounds in a variable:
-
-~~~ {.python}
-weight_lb = 2.2 * weight_kg
-print('weight in kilograms:', weight_kg, 'and in pounds:', weight_lb)
-~~~
-~~~ {.output}
-weight in kilograms: 57.5 and in pounds: 126.5
-~~~
-
-![Creating Another Variable](fig/python-sticky-note-variables-02.svg)
-
-and then change `weight_kg`:
-
-~~~ {.python}
-weight_kg = 100.0
-print('weight in kilograms is now:', weight_kg, 'and weight in pounds is still:', weight_lb)
-~~~
-~~~ {.output}
-weight in kilograms is now: 100.0 and weight in pounds is still: 126.5
-~~~
-
-![Updating a Variable](fig/python-sticky-note-variables-03.svg)
-
-Since `weight_lb` doesn't "remember" where its value came from,
-it isn't automatically updated when `weight_kg` changes.
-This is different from the way spreadsheets work.
-
-> ## Who's who in the memory {.callout}
->
->You can use the `whos` command at any time to see what variables you have created and what modules you have loaded into the computers memory. As this is an IPython command, it will only work if you are in an IPython terminal or the Jupyter Notebook. 
->
->~~~ {.python}
->whos
->~~~
->~~~ {.output}
->Variable    Type       Data/Info
->--------------------------------
->numpy       module     <module 'numpy' from '/Us<...>kages/numpy/__init__.py'>
->weight_kg   float      100.0
->weight_lb   float      126.5
->~~~
-
-Just as we can assign a single value to a variable, we can also assign an array of values
+Just as we can assign a single value to a integer,or list, or string (native data types) we can also assign an numpy array 
 to a variable using the same syntax.  Let's re-run `numpy.loadtxt` and save its result:
 
-~~~ {.python}
-data = numpy.loadtxt(fname='inflammation-01.csv', delimiter=',')
-~~~
+```python
+filepath = "../../data/europe-seasonal.txt"
+data = np.loadtxt(filepath, converters=None, skiprows=119))
+```
 
 This statement doesn't produce any output because assignment doesn't display anything.
 If we want to check that our data has been loaded,
@@ -202,15 +110,16 @@ print(type(data))
 <class 'numpy.ndarray'>
 ~~~
 
-The output tells us that `data` currently refers to an N-dimensional array created by the NumPy library. These data correspond to arthritis patients' inflammation. The rows are the individual patients and the columns are their daily inflammation measurements.
+The output tells us that `data` currently refers to an N-dimensional array created by the NumPy library. These data correspond to historical temperature records from Europe. The rows are the years and the columns are the seasons.
+
 We can see what its [shape](reference.html#shape) is like this:
 
-~~~ {.python}
+```python
 print(data.shape)
-~~~
-~~~ {.output}
-(60, 40)
-~~~
+```
+```
+(505, 6)
+```
 
 This tells us that `data` has 60 rows and 40 columns. When we created the
 variable `data` to store our arthritis data, we didn't just create the array, we also
@@ -230,55 +139,38 @@ just as we do in math:
 print('first value in data:', data[0, 0])
 ~~~
 ~~~ {.output}
-first value in data: 0.0
+first value in data:', 1500.0
 ~~~
 
 ~~~ {.python}
-print('middle value in data:', data[30, 20])
+print('random value in data:', data[250, 2])
 ~~~
 ~~~ {.output}
-middle value in data: 13.0
+random value in data:', 8.2959999999999994
 ~~~
 
-The expression `data[30, 20]` may not surprise you,
-but `data[0, 0]` might.
-Programming languages like Fortran and MATLAB start counting at 1,
-because that's what human beings have done for thousands of years.
-Languages in the C family (including C++, Java, Perl, and Python) count from 0
-because that's simpler for computers to do.
-As a result,
-if we have an M&times;N array in Python,
-its indices go from 0 to M-1 on the first axis
-and 0 to N-1 on the second.
-It takes a bit of getting used to,
-but one way to remember the rule is that
-the index is how many steps we have to take from the start to get the item we want.
+The expression `data[250, 2]` may not surprise you. Hopefully, `data[0, 0]` recalls the element numbering schemew we used in lists.
+As a result, if we have an M&times;N array in Python,
+its indices go from 0 to M-1 on the first axis and 0 to N-1 on the second. It takes a bit of getting used to,
+but one way to remember the rule is that the index is how many steps we have to take from the start to get the item we want.
 
-> ## In the Corner {.callout}
->
-> What may also surprise you is that when Python displays an array,
-> it shows the element with index `[0, 0]` in the upper left corner
-> rather than the lower left.
-> This is consistent with the way mathematicians draw matrices,
-> but different from the Cartesian coordinates.
-> The indices are (row, column) instead of (column, row) for the same reason,
-> which can be confusing when plotting data.
 
-An index like `[30, 20]` selects a single element of an array,
-but we can select whole sections as well.
-For example,
-we can select the first ten days (columns) of values
-for the first four patients (rows) like this:
+An index like `data[250, 2]` selects a single element of an array, but we can select whole sections as well.
+For example, we can select the first ten days (columns) of values for the first four patients (rows) like this:
 
-~~~ {.python}
+```python
 print(data[0:4, 0:10])
-~~~
-~~~ {.output}
-[[ 0.  0.  1.  3.  1.  2.  4.  7.  8.  3.]
- [ 0.  1.  2.  1.  2.  1.  3.  2.  2.  6.]
- [ 0.  1.  1.  3.  3.  2.  6.  2.  5.  9.]
- [ 0.  0.  2.  0.  4.  2.  2.  1.  6.  7.]]
-~~~
+```
+```
+[[  1.50000000e+03  -9.45000000e-01   7.15700000e+00   1.74830000e+01
+    8.99000000e+00   8.16600000e+00]
+ [  1.50100000e+03  -8.50000000e-01   7.43500000e+00   1.74010000e+01
+    8.68700000e+00   8.16300000e+00]
+ [  1.50200000e+03  -1.05300000e+00   6.87200000e+00   1.79060000e+01
+    9.07100000e+00   8.19400000e+00]
+ [  1.50300000e+03  -2.13400000e+00   7.21000000e+00   1.83310000e+01
+    8.92200000e+00   8.07700000e+00]]
+```
 
 The [slice](reference.html#slice) `0:4` means,
 "Start at index 0 and go up to, but not including, index 4."
@@ -444,7 +336,9 @@ next diagram on the left), or the average for each day (as in the
 diagram on the right)? As the diagram below shows, we want to perform the
 operation across an axis:
 
+<!--
 ![Operations Across Axes](fig/python-operations-across-axes.svg)
+-->
 
 To support this,
 most array methods allow us to specify the axis we want to work on.

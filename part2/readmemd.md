@@ -1,2 +1,2 @@
-# Numpy and data
+# Arrays, plotting, and data
 
