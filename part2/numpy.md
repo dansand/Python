@@ -11,8 +11,6 @@
 
 ftp://ftp.ncdc.noaa.gov/pub/data/paleo/historical/europe-seasonal.txt
 
-
-
 In order to load our climate data, we need to [import](reference.html#import) a library called NumPy.
 In general you should use this library if you want to do fancy things with numbers, especially if you have matrices or arrays.
 We can load NumPy using:
