@@ -208,6 +208,8 @@ small is:
  [  1.50000000e+03  -9.45000000e-01   7.15700000e+00   1.74830000e+01
    8.99000000e+00   8.16600000e+00]
    ```
+   
+ What's happened here? Fistly, why all that scienctific notation?
  
  
  
