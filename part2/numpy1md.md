@@ -8,7 +8,7 @@
 > *   Load a Python library and use the things it contains.
 > *   Read tabular data from a file into a program.
 > *   Select individual values and subsections from data.
-> *   Perform operations on arrays of data.
+
 
 
 ftp://ftp.ncdc.noaa.gov/pub/data/paleo/historical/europe-seasonal.txt
