@@ -116,8 +116,8 @@ z = np.zeros((3,3))
 # Create an array of the given shape /
 # and fill with random samples 
 # from a uniform distribution over [0, 1).
-rand = np.random.rand(3,2)
-print(rand)
+data = np.random.rand(3,2)
+print(data)
 ```
 ```
 [[ 0.95642119  0.82504981]
@@ -148,46 +148,46 @@ add, subtract, multiply, and divide. When you do such operations on arrays, the 
 
 Thus:
 data = rand
-~~~ {.python}
-doubledata = rand * 2.0
-~~~
+
+```python
+doubledata = data * 2.0
+```
 
 will create a new array `doubledata` whose elements have the value of two times the value of the corresponding elements in `data`:
 
-~~~ {.python}
+```python
 print('original:')
 print(data)
 print('doubledata:')
 print(doubledata)
-~~~
-~~~ {.output}
+```
+```
 original:
-[[ 2.  3.  0.  0.]
- [ 1.  1.  0.  1.]
- [ 2.  2.  1.  1.]]
+[[ 0.5025075   0.84179378]
+ [ 0.10111732  0.21112984]
+ [ 0.91836933  0.54145934]]
 doubledata:
-[[ 4.  6.  0.  0.]
- [ 2.  2.  0.  2.]
- [ 4.  4.  2.  2.]]
-~~~
+[[ 1.005015    1.68358755]
+ [ 0.20223465  0.42225968]
+ [ 1.83673867  1.08291868]]
+```
 
-If,
-instead of taking an array and doing arithmetic with a single value (as above)
-you did the arithmetic operation with another array of the same shape,
-the operation will be done on corresponding elements of the two arrays.
+If, instead of taking an array and doing arithmetic with a single value (as above) you did the arithmetic operation with another array of the same shape, the operation will be done on 
+corresponding elements of the two arrays.
+
 Thus:
 
-~~~ {.python}
+```python
 tripledata = doubledata + data
-~~~
+```
 
 will give you an array where `tripledata[0,0]` will equal `doubledata[0,0]` plus `data[0,0]`,
 and so on for all other elements of the arrays.
 
-~~~ {.python}
+```python
 print('tripledata:')
-print(tripledata[:3, 36:])
-~~~
+print(tripledata)
+```
 ~~~ {.output}
 tripledata:
 [[ 6.  9.  0.  0.]
@@ -195,18 +195,14 @@ tripledata:
  [ 6.  6.  3.  3.]]
 ~~~
 
-Often, we want to do more than add, subtract, multiply, and divide values of data.
-Arrays also know how to do more complex operations on their values.
-If we want to find the average inflammation for all patients on all days,
-for example,
-we can just ask the array for its mean value
+Often, we want to do more than add, subtract, multiply, and divide values of data. Arrays also know how to do more complex operations on their values. If we want to find the average value of all elements in an array, for example, we can just ask the array for its mean value
 
-~~~ {.python}
+``python
 print(data.mean())
-~~~
-~~~ {.output}
-6.14875
-~~~
+```
+```
+print(data.mean())
+```
 
 `mean` is a [method](reference.html#method) of the array,
 i.e.,
