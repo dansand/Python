@@ -305,60 +305,6 @@ and that we want a tight layout.
 if we leave out that call to `fig.tight_layout()`,
 the graphs will actually be squeezed together more closely.)
 
-> ## Scientists dislike typing {.callout}
->
-> We will always use the syntax `import numpy` to import NumPy.
-> However, in order to save typing, it is
-> [often suggested](http://www.scipy.org/getting-started.html#an-example-script)
-> to make a shortcut like so: `import numpy as np`.
-> If you ever see Python code online using a NumPy function with `np`
-> (for example, `np.loadtxt(...)`), it's because they've used this shortcut.
-
-> ## Check your understanding {.challenge}
->
-> Draw diagrams showing what variables refer to what values after each statement in the following program:
->
-> ~~~ {.python}
-> mass = 47.5
-> age = 122
-> mass = mass * 2.0
-> age = age - 20
-> ~~~
-
-> ## Sorting out references {.challenge}
->
-> What does the following program print out?
->
-> ~~~ {.python}
-> first, second = 'Grace', 'Hopper'
-> third, fourth = second, first
-> print(third, fourth)
-> ~~~
-
-> ## Slicing strings {.challenge}
->
-> A section of an array is called a [slice](reference.html#slice).
-> We can take slices of character strings as well:
->
-> ~~~ {.python}
-> element = 'oxygen'
-> print('first three characters:', element[0:3])
-> print('last three characters:', element[3:6])
-> ~~~
->
-> ~~~ {.output}
-> first three characters: oxy
-> last three characters: gen
-> ~~~
->
-> What is the value of `element[:4]`?
-> What about `element[4:]`?
-> Or `element[:]`?
->
-> What is `element[-1]`?
-> What is `element[-2]`?
-> Given those answers,
-> explain what `element[1:-1]` does.
 
 > ## Thin slices {.challenge}
 >
