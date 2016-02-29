@@ -191,6 +191,10 @@ small is:
  [ 17.906   9.071   8.194]
  [ 18.331   8.922   8.077]
  [ 18.223   9.075   8.163]]
+ 
+ ## Cleaning our data
+ 
+ ## Maths with arrays
 
 Arrays also know how to perform common mathematical operations on their values. The simplest operations with data are arithmetic:
 add, subtract, multiply, and divide. When you do such operations on arrays, the operation is done on each individual element of the array.
