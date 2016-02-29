@@ -220,8 +220,7 @@ minimum inflammation: 0.101117324
 standard deviation: 0.298294356187
 ```
 
-When analyzing data, though, we often want to look at partial statistics, such as the maximum value per patient
-or the average value per day.One way to do this is to create a new temporary array of the data we want, then ask it to do the calculation:
+When analyzing data, though, we often want to look at partial statistics, such as the maximum value per patient or the average value per day.One way to do this is to create a new temporary array of the data we want, then ask it to do the calculation:
 
 ```
 patient_0 = data[0, :] # 0 on the first axis, everything on the second
