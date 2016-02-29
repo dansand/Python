@@ -221,7 +221,7 @@ print(data[0,:])
 [ 1500.000 -0.945  7.157  17.483  8.990  8.166]
 ```
 
-Okay, what aboutthe first column? 
+Okay, what about the first column? 
 
 ```print 
  
