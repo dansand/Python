@@ -5,7 +5,6 @@
    * [Python](part1/pythonmd.md)
    * [Lists](part1/lists.md)
    * [Loops](part1/testfilemd.md)
-   * [Conditions](part1/conditions.md)
    * [Functions](part1/functions.md)
 * [Arrays, Plotting, data](part2/readmemd.md)
    * [Python libraries](part2/libraries.md)
