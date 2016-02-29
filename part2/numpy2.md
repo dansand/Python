@@ -56,7 +56,7 @@ print(v.size, M.size)
 4 4
 ```
 
-So far the numpy.ndarray looks pretty much like a Python list (or nested list). Why not simply use Python lists for computations instead of creating a new array type? Basically, it all boils down to speed. As we will see later in this lesson, numpy arrays are good at maths, and more to the point, they are fast.
+So far the `numpy.ndarray` looks pretty much like a Python list (or nested list). Why not simply use Python lists for computations instead of creating a new array type? Basically, it all boils down to speed. As we will see later in this lesson, numpy arrays are good at maths, and more to the point, they are fast.
 
 
 For larger arrays it is inpractical to initialize the data manually, using explicit python lists. Instead we can use one of the many _array-generating functions_ in numpy that generate arrays of different forms. 
@@ -116,16 +116,26 @@ z = np.zeros((3,3))
 # Create an array of the given shape /
 # and fill with random samples 
 # from a uniform distribution over [0, 1).
-rd = np.random.rand(3,2)
+rand = np.random.rand(3,2)
+print(rand)
 ```
+```
+[[ 0.95642119  0.82504981]
+ [ 0.01412624  0.00413452]
+ [ 0.37054704  0.55093531]]
+```
+(For example)
 
-In order to have a more visually appealing array to work with,  let's read in an image from the Scipy sample data :
+In order to have a more visually appealing array to work with,  let's read in an image from the Scipy sample data:
 
 ```python
 from scipy import misc
 face = misc.face()
 ```
 
+```python       
+plt.imshow(f)
+```
 
 
 
@@ -137,18 +147,18 @@ Arrays also know how to perform common mathematical operations on their values. 
 add, subtract, multiply, and divide. When you do such operations on arrays, the operation is done on each individual element of the array.
 
 Thus:
-
+data = rand
 ~~~ {.python}
-doubledata = data * 2.0
+doubledata = rand * 2.0
 ~~~
 
 will create a new array `doubledata` whose elements have the value of two times the value of the corresponding elements in `data`:
 
 ~~~ {.python}
 print('original:')
-print(data[:3, 36:])
+print(data)
 print('doubledata:')
-print(doubledata[:3, 36:])
+print(doubledata)
 ~~~
 ~~~ {.output}
 original:
