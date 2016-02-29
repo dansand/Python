@@ -235,7 +235,17 @@ print(data[0,0])
 ```
 1500.0
 ```
-At this point we may choose to could choose to cut out the first column (year) and the last column (annual average); this will be a personal choice. In the interests of keeping out environment clean, we will keep the one data frame. 
+As this code block shows, numpy will always coorece numbers into the right data type. Strings and other non-numeric objects will fail:
+
+```python
+data[0,0] = "hello"
+```
+```
+---------------------------------------------------------------------------
+ValueError                                Traceback (most recent call last)
+<ipython-input-12-a09d72434238> in <module>()
+----> 1 data[0,0] = "hello"
+```
 
 ## Plotting our data
 
