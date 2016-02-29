@@ -126,6 +126,11 @@ from scipy import misc
 face = misc.face()
 ```
 
+
+
+
+docker pull lmoresi/uom-vieps-intro2-python:2016.i
+
 ## Maths with arrays
 
 Arrays also know how to perform common mathematical operations on their values. The simplest operations with data are arithmetic:
@@ -306,7 +311,18 @@ and the best way to develop insight is often to visualize data.
 Visualization deserves an entire lecture (or course) of its own,
 but we can explore a few features of Python's `matplotlib` library here.
 
+Now we know we know a little about doing maths with arrays, 
 
+```python
+import numpy as np
+
+def rgb2gray(rgb):
+
+    r, g, b = rgb[:,:,0], rgb[:,:,1], rgb[:,:,2]
+    gray = 0.2989 * r + 0.5870 * g + 0.1140 * b
+
+    return gray
+```
 
 
 
