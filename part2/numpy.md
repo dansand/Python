@@ -87,7 +87,7 @@ Data Contribution Series # 2006-060.
 NOAA/NCDC Paleoclimatology Program, Boulder CO, USA.
 
 ```
-##Accessing out data
+##Accessing our data
 
 Now that our data is in memory,
 we can start doing things with it.
@@ -209,7 +209,9 @@ small is:
    8.99000000e+00   8.16600000e+00]
    ```
    
- What's happened here? Fistly, why all that scienctific notation? Without changing the values or the array, we can configure the print options to make the values a little friendlier (but you would rarely bother doing this):
+ What's happened here? Fistly, why all that scienctific notation? When our array contains both large and small values, numpy defaults to printing this way. If you use scientific notation the numbers can be shown in a compact form, but it's hard to tell at a glance which numbers are large and which are small.
+ 
+ Without changing the values or the array, we can configure the print options to make the values a little friendlier (but you would rarely bother doing this):
 
 ```python 
 np.set_printoptions(precision=2)
