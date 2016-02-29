@@ -7,5 +7,5 @@
    * [Loops](part1/testfilemd.md)
    * [Functions](part1/functions.md)
    * [variables.md](part1/variables.md)
-   * conditions.md
+   * [conditions.md](part1/conditions.md)
 
