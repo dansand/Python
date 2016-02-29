@@ -49,8 +49,16 @@ And as numpt arrays, we should be concerned about their size and shape:
 print(v.shape, M.shape)
 ```
 ```
-print(v.shape, M.shape)
+(4,) (2, 2)
 ```
+```python
+print(v.size, M.size)
+```
+```
+4 4
+```
+
+So far the numpy.ndarray looks awefully much like a Python list (or nested list). Why not simply use Python lists for computations instead of creating a new array type? Basically, it all boils down to speed. As we will see later in this lesson, numpy arrays are good at maths, and more to the point, they are fast. 
 
 ## Maths with arrays
 
