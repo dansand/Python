@@ -215,7 +215,7 @@ numpy.nanmean(data)
 
 For an array without NaNs, we have the easier option:
 
-``python
+```python
 random.mean()
 ```
 
@@ -225,17 +225,19 @@ i.e., a function that belongs to it in the same way that the member `shape` does
 Numpy arrays have lots of useful methods:
 
 ~~~ {.python}
-print('maximum inflammation:', data.max())
-print('minimum temperature:', numpy.nanmin(data))
-print('mean temp:', numpy.nanmean(data))
+print('maximum monthly avg. temperature:', numpy.nanmax(data))
+print('minimum monthly avg.temperature:', numpy.nanmin(data))
+print('mean monthly avg. temp:', numpy.nanmean(data))
 ~~~
 ```python
-maximum inflammation: 0.918369334718
-minimum inflammation: 0.101117324
-standard deviation: 0.298294356187
+maximum monthly avg. temperature: 29.7
+minimum monthly avg.temperature: 11.2
+mean monthly avg. temp: 19.6661666667
 ```
 
 When analyzing data, though, we often want to look at partial statistics, such as the maximum value per patient or the average value per day.One way to do this is to create a new temporary array of the data we want, then ask it to do the calculation:
+
+<!--
 
 ```
 patient_0 = data[0, :] # 0 on the first axis, everything on the second
@@ -260,9 +262,9 @@ next diagram on the left), or the average for each day (as in the
 diagram on the right)? As the diagram below shows, we want to perform the
 operation across an axis:
 
-<!--
-![Operations Across Axes](fig/python-operations-across-axes.svg)
--->
+
+![Operations Across Axes](fig/python-operations-across-axes.png)
+
 
 To support this,
 most array methods allow us to specify the axis we want to work on.
@@ -308,6 +310,8 @@ print(data.mean(axis=1))
   5.975  5.725  6.3    5.9    6.75   5.925  7.225  6.15   5.95   6.275  5.7
   6.1    6.825  5.975  6.725  5.7    6.25   6.4    7.05   5.9  ]
 ~~~
+
+-->
 
 which is the average inflammation per patient across all days.
 
