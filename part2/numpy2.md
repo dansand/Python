@@ -3,7 +3,6 @@
 > ## Learning Objectives
 > *   Create useful numpy arrays 
 > *   Perform operations on arrays of data.
-> *  Plot data with matplotlib and seaborn 
 
 ## Creating arrays
 
