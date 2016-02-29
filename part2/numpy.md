@@ -51,15 +51,9 @@ This [dotted notation](reference.html#dotted-notation) is used everywhere in Pyt
 to refer to the parts of things as `thing.component`.
 
 `numpy.loadtxt` has two [parameters](reference.html#parameter):
-the name of the file we want to read, and the [delimiter](reference.html#delimiter) that separates values on a line.
-These both need to be character strings (or [strings](reference.html#string) for short),
-so we put them in quotes.
+the name of the file we want to read, and the [delimiter](reference.html#delimiter) that separates values on a line. These both need to be character strings (or [strings](reference.html#string) for short), so we put them in quotes.
 
-By default, only a few rows and columns are shown
-(with `...` to omit elements when displaying big arrays).
-To save space,
-Python displays numbers as `1.` instead of `1.0`
-when there's nothing interesting after the decimal point.
+By default, only a few rows and columns are shown (with `...` to omit elements when displaying big arrays). To save space, Python displays numbers as `1.` instead of `1.0` when there's nothing interesting after the decimal point.
 
 Our call to `numpy.loadtxt` read our file,
 but didn't save the data in memory.
