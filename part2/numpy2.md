@@ -47,6 +47,10 @@ And as numpt arrays, we should be concerned about their size and shape:
 
 ```python
 print(v.shape, M.shape)
+```
+```
+print(v.shape, M.shape)
+```
 
 ## Maths with arrays
 
