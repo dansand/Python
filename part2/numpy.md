@@ -136,14 +136,11 @@ print('random value in data:', data[250, 2])
 random value in data:', 8.2959999999999994
 ~~~
 
-The expression `data[250, 2]` may not surprise you. Hopefully, `data[0, 0]` recalls the element numbering schemew we used in lists.
-As a result, if we have an M&times;N array in Python,
-its indices go from 0 to M-1 on the first axis and 0 to N-1 on the second. It takes a bit of getting used to,
-but one way to remember the rule is that the index is how many steps we have to take from the start to get the item we want.
+The expression `data[250, 2]` may not surprise you. Hopefully, `data[0, 0]` reminds you the indexing scheme we used for lists.
+As a result, if we have an M&times;N array in Python, its indices go from 0 to M-1 on the first axis and 0 to N-1 on the second. It takes a bit of getting used to, but one way to remember the rule is that the index is how many steps we have to take from the start to get the item we want.
 
 
-An index like `data[250, 2]` selects a single element of an array, but we can select whole sections as well.
-For example, we can select the first ten days (columns) of values for the first four patients (rows) like this:
+An index like `data[250, 2]` selects a single element of an array, but we can select whole sections as well. For example, we can select the first ten days (columns) of values for the first four patients (rows) like this:
 
 ```python
 print(data[0:4, 0:10])
