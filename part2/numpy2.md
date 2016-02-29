@@ -412,27 +412,7 @@ if we leave out that call to `fig.tight_layout()`,
 the graphs will actually be squeezed together more closely.)
 
 
-> ## Thin slices {.challenge}
->
-> The expression `element[3:3]` produces an [empty string](reference.html#empty-string),
-> i.e., a string that contains no characters.
-> If `data` holds our array of patient data,
-> what does `data[3:3, 4:4]` produce?
-> What about `data[3:3, :]`?
+> ## _challenge:_ Checkerboard
+>Create an 8x8 matrix and fill it with a checkerboard pattern
 
-> ## Check your understanding: plot scaling {.challenge}
->
-> Why do all of our plots stop just short of the upper end of our graph?
-
-> ## Check your understanding: drawing straight lines {.challenge}
->
-> Why are the vertical lines in our plot of the minimum inflammation per day not perfectly vertical?
-
-> ## Make your own plot {.challenge}
->
-> Create a plot showing the standard deviation (`numpy.std`) of the inflammation data for each day across all patients.
-
-> ## Moving plots around {.challenge}
->
-> Modify the program to display the three plots on top of one another instead of side by side.
 
