@@ -257,5 +257,9 @@ axes.set_title('European Seasonal Temperature Reconstructions')
 axes.legend()
 ```
 
+> ## The matplotlib object-oriented API
+> The main idea with object-oriented programming is to have objects that one can apply functions and actions on. The real advantage of this approach becomes apparent when more than one figure is created, or when a figure contains more than one subplot.
+
+To use the object-oriented API store a reference to the figure instance in the fig variable, and from it we create a new axis instance axes using the add_axes method in the Figure class instance fig:
 
  
