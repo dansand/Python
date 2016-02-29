@@ -237,9 +237,9 @@ mean monthly avg. temp: 19.6661666667
 
 When analyzing data, though, we often want to look at partial statistics, such as the maximum value per patient or the average value per day.One way to do this is to create a new temporary array of the data we want, then ask it to do the calculation:
 
+To simplify things (avoid messy data with NaNs) lets create some dummy data.
+
 <!--
-
-
 
 ```
 patient_0 = data[0, :] # 0 on the first axis, everything on the second
