@@ -311,7 +311,7 @@ and the best way to develop insight is often to visualize data.
 Visualization deserves an entire lecture (or course) of its own,
 but we can explore a few features of Python's `matplotlib` library here.
 
-Now we know we know a little about doing maths with arrays, 
+Now we know we know a little about doing maths with arrays, we can define a function a to convert a colour (RGB) image to greyscale. 
 
 ```python
 import numpy as np
@@ -324,7 +324,14 @@ def rgb2gray(rgb):
     return gray
 ```
 
-
+> ##_challenge:_  dreaded greyscale
+>
+> Now we know we know a little about doing maths with arrays, we can define a function a to convert a colour (RGB) image to grayscale.
+> 
+> The Matlab function uses the following formula:
+> gray = 0.2989 * red + 0.5870 * green+ 0.1140 * blue
+> 
+>Write a function that will compute the grayscale representtation of the 
 
 >  ##_challenge:_  Interpret
 > Explain the output of the following
