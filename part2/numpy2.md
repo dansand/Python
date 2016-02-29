@@ -13,6 +13,14 @@ There are a number of other ways to initialise new numpy arrays, for example:
 * from a Python list or tuples
 * using functions that are dedicated to generating numpy arrays, such as `arange`, `linspace`, etc.
 
+```python 
+v = array([1,2,3,4])
+print(v)
+```
+
+
+For example, to create a new 1D  array from Python lists we can use the np.array function.
+
 
 ## Maths with arrays
 
