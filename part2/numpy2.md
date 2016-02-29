@@ -257,62 +257,37 @@ Instead, we can combine the selection and the method call:
 print('maximum value for row 2:', data[2, :].max())
 ```
 
-What if we need the maximum inflammation for *all* rowa (as in the next diagram on the left), or the average for each day (as in the diagram on the right)? As the diagram below shows, we want to perform the operation across an axis:
+What if we need the maximum inflammation for *all* rows (as in the next diagram on the left), or the average for each day (as in the diagram on the right)? As the diagram below shows, we want to perform the operation across an axis:
 
 
 ![Operations Across Axes](fig/python-operations-across-axes.png)
 
-<!--
 
 
-To support this,
-most array methods allow us to specify the axis we want to work on.
-If we ask for the average across axis 0 (rows in our 2D example),
+To support this, most array methods allow us to specify the axis we want to work on. If we ask for the average across axis 0 (rows in our 2D example),
 we get:
 
 ~~~ {.python}
 print(data.mean(axis=0))
 ~~~
-~~~ {.output}
-[  0.           0.45         1.11666667   1.75         2.43333333   3.15
-   3.8          3.88333333   5.23333333   5.51666667   5.95         5.9
-   8.35         7.73333333   8.36666667   9.5          9.58333333
-  10.63333333  11.56666667  12.35        13.25        11.96666667
-  11.03333333  10.16666667  10.           8.66666667   9.15         7.25
-   7.33333333   6.58333333   6.06666667   5.95         5.11666667   3.6
-   3.3          3.56666667   2.48333333   1.5          1.13333333
-   0.56666667]
-~~~
 
-As a quick check,
-we can ask this array what its shape is:
+
+As a quick check, we can ask this array what its shape is:
 
 ~~~ {.python}
 print(data.mean(axis=0).shape)
 ~~~
-~~~ {.output}
-(40,)
-~~~
 
-The expression `(40,)` tells us we have an N&times;1 vector,
-so this is the average inflammation per day for all patients.
+
+The expression `(10,)` tells us we have an N&times;1 vector, so this is the average __row__ for all patients.
 If we average across axis 1 (columns in our 2D example), we get:
 
 ~~~ {.python}
 print(data.mean(axis=1))
 ~~~
-~~~ {.output}
-[ 5.45   5.425  6.1    5.9    5.55   6.225  5.975  6.65   6.625  6.525
-  6.775  5.8    6.225  5.75   5.225  6.3    6.55   5.7    5.85   6.55
-  5.775  5.825  6.175  6.1    5.8    6.425  6.05   6.025  6.175  6.55
-  6.175  6.35   6.725  6.125  7.075  5.725  5.925  6.15   6.075  5.75
-  5.975  5.725  6.3    5.9    6.75   5.925  7.225  6.15   5.95   6.275  5.7
-  6.1    6.825  5.975  6.725  5.7    6.25   6.4    7.05   5.9  ]
-~~~
 
--->
 
-which is the average inflammation per patient across all days.
+which is the average across all __columns__.
 
 The mathematician Richard Hamming once said,"The purpose of computing is insight, not numbers," and the best way to develop insight is often to visualize data. Visualization deserves an entire lecture (or course) of its own, but we can explore a few features of Python's `matplotlib` library here.
 
