@@ -248,7 +248,7 @@ data = np.random.rand(10,10)
 ```python
 row0 = data[0, :] # 0 on the first axis, everything on the second
 print('maximum for row 0:', row0.max())
-``
+```
 
 We don't actually need to store the row in a variable of its own.
 Instead, we can combine the selection and the method call:
@@ -267,29 +267,43 @@ What if we need the maximum inflammation for *all* rows (as in the next diagram 
 To support this, most array methods allow us to specify the axis we want to work on. If we ask for the average across axis 0 (rows in our 2D example),
 we get:
 
-~~~ {.python}
+```python
 print(data.mean(axis=0))
-~~~
+```
 
 
 As a quick check, we can ask this array what its shape is:
 
-~~~ {.python}
+```python
 print(data.mean(axis=0).shape)
-~~~
-
+```
 
 The expression `(10,)` tells us we have an N&times;1 vector, so this is the average __row__ for all patients.
 If we average across axis 1 (columns in our 2D example), we get:
 
-~~~ {.python}
+```python
 print(data.mean(axis=1))
-~~~
+```
 
 
 which is the average across all __columns__.
 
 The mathematician Richard Hamming once said,"The purpose of computing is insight, not numbers," and the best way to develop insight is often to visualize data. Visualization deserves an entire lecture (or course) of its own, but we can explore a few features of Python's `matplotlib` library here.
+
+##Looping through arrays
+
+There are a number of ways of looping through `np.arrays`.
+
+```python
+#for x in np.nditer(data):
+#    print(x)
+```
+
+```python
+
+for index, x in np.ndenumerate(data):
+    print(index, x)
+```
 
 
 
