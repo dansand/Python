@@ -8,6 +8,7 @@
    * [loops](part1/loops.md)
    * [functions](part1/functions.md)
    * [variables](part1/variables.md)
+   * [types](part1/types.md)
    * [conditions](part1/conditions.md)
 * [The Scientific Python Stack](part2/readme.md)
    * [libraries](part2/libraries.md)
