@@ -4,12 +4,12 @@
 
 > * Different Python environments
 > * Python commands
-> * Operators and expressions 
+> * Operators and expressions
 > * Python Strings
 
 ## Python prompt
 
-To start playing with Python, we need to open up a *command line* on your computer. 
+To start playing with Python, we need to open up a *command line* on your computer.
 
 Once you're ready, follow the instructions below.
 
@@ -172,7 +172,7 @@ Nice, huh? To see your name in uppercase letters, simply type:
 'OLA'
 ```
 
-You just used the `upper` __method__ on your string! A method (like `upper()`) is a sequence of instructions that Python has to perform on a given object (`"Ola"`) once you call it. 
+You just used the `upper` __method__ on your string! A method (like `upper()`) is a sequence of instructions that Python has to perform on a given object (`"Ola"`) once you call it.
 
 > We will often discuss the concept of methods as we use them, because methods are fundamental in python.
 
@@ -218,7 +218,7 @@ It worked! We used the `str` function inside of the `len` function. `str()` conv
 
 The Jupyter Notebook is a web application that allows you to create and share documents that contain live code, equations, visualizations and explanatory text.
 
-###Code 
+###Code
 
 Not just Python! The Notebook has support for over 40 programming languages, including those popular in Data Science such as Python, R, Julia and Scala.
 
