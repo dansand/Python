@@ -214,18 +214,7 @@ It worked! We used the `str` function inside of the `len` function. `str()` conv
 > Important: we can convert numbers into text, but we can't necessarily convert text into numbers - what would `int('hello')` be anyway?
 
 
-## Jupyter notebooks!
 
-The Jupyter Notebook is a web application that allows you to create and share documents that contain live code, equations, visualizations and explanatory text.
-
-###Code
-
-Not just Python! The Notebook has support for over 40 programming languages, including those popular in Data Science such as Python, R, Julia and Scala.
-
-### Markdown
-
-Explanatory text can be integrating with the Jupyter Notebook using a simple formatting schema called _Markdown_. See the link for a basic description.
-https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
 
 
 <!--
