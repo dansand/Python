@@ -12,6 +12,9 @@ This material was remixed for teaching at University of Melbourne. This book is 
 
 Other resources that inspired us:
 
+[Introduction to Computing Using Python
+Fall 2014] (http://www.cs.cornell.edu/courses/CS1110/2014fa/lectures/index.php)
+
 
 
 License
@@ -21,5 +24,3 @@ This means:
 You are free to Share i.e. to copy, distribute and transmit this book
 You are free to Remix i.e. to make changes to this book (especially translations)
 You are free to use it for commercial purposes
-
-

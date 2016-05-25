@@ -1,4 +1,4 @@
-# Python
+# What is Python?
 
 > ## Learning Objectives
 

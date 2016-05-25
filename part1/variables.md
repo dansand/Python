@@ -64,7 +64,7 @@ An error! As you can see, Python has different types of errors and this one is c
 
 
 So a Python variable is just a name for a value. Python's variables must begin with a letter and are [case sensitive](reference.html#case-sensitive).
-We create a new variable by assigning a value to it using `=`. Note that `=` means assignment in Python. 
+We create a new variable by assigning a value to it using `=`. Note that `=` means assignment in Python.
 Let's consider the simplest "collection" of data, a single value. The line below assigns the value `55` to a variable `weight_kg`:
 
 
@@ -168,7 +168,7 @@ As we'll see later, `print()` is also useful when we want to print things from i
 
 > ## Who's who in the memory
 >
->You can use the `whos` command at any time to see what variables you have created and what modules you have loaded into the computers memory. As this is an IPython command, it will only work if you are in an IPython terminal or the Jupyter Notebook. 
+>You can use the `whos` command at any time to see what variables you have created and what modules you have loaded into the computers memory. As this is an IPython command, it will only work if you are in an IPython terminal or the Jupyter Notebook.
 >
 >~~~ {.python}
 >whos
