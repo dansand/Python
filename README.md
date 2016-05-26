@@ -13,6 +13,7 @@ This material was remixed for teaching at University of Melbourne. This book is 
 Other resources that inspired us:
 
 [Introduction to Computing Using Python](http://www.cs.cornell.edu/courses/CS1110/2014fa/lectures/)
+[Python Programming Tutorial](http://www.programiz.com/python-programming)
 
 License
 
