@@ -27,4 +27,4 @@ https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
 
 ### Literate programming 
 
-Is an approach to programming introduced by Donald Knuth in which a program is given as an explanation of the program logic in a natural language, such as English, interspersed with snippets of macros and traditional source code, from which a compilable source code can be generated.[1]
+Is an approach to programming introduced by Donald Knuth in which a program is given as an explanation of the program logic in a natural language, such as English, interspersed with snippets of macros and traditional source code, from which a compilable source code can be generated.
