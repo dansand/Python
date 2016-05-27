@@ -9,7 +9,16 @@
 
 ## Jupyter notebooks!
 
-The Jupyter Notebook is a web application that allows you to create and share documents that contain live code, equations, visualizations and explanatory text.
+### What are they?
+
+Notebook documents  are documents produced by the Jupyter Notebook App which contain both computer code (e.g. python) and rich text elements (paragraph, equations, figures, links, etc...). Notebook documents are both human-readable documents containing the analysis description and the results (figures, tables, etc..) as well as executable documents which can be run to perform data analysis.
+
+The Jupyter Notebook App is a web application that allows you to create and share documents that contain live code, equations, visualizations and explanatory text.
+
+
+### The notebook dashboard
+
+The Notebook Dashboard is the component which is shown first when launching Jupyter Notebook App. The Notebook Dashboard is mainly used to open notebook documents, and to manage the running kernels (visualize and shutdown).
 
 
 
@@ -28,3 +37,6 @@ https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
 ### Literate programming 
 
 Is an approach to programming introduced by Donald Knuth in which a program is given as an explanation of the program logic in a natural language, such as English, interspersed with snippets of macros and traditional source code, from which a compilable source code can be generated.
+
+### What about scripts?
+
