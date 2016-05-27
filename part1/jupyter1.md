@@ -38,9 +38,9 @@ https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
 
 ###Keyboard Shortcuts
 
-Shift-Enter Run current cell and move to the cell below
-Ctrl-Enter Run current cell and stay in that cell
-Alt-Enter Run the current cell then create and move to a new cell below.
+`Shift-Enter` Run current cell and move to the cell below
+`Ctrl-Enter` Run current cell and stay in that cell
+`Alt-Enter` Run the current cell then create and move to a new cell below.
 
 ### Literate programming 
 
@@ -63,6 +63,7 @@ Is an approach to programming introduced by Donald Knuth in which a program is g
 This magic loads a Python file from a filepath or URL and replaces the contents of the cell with the contents of the file.
     
     %matplotlib inline
+    
 This magic places matplotlib plots inline instead of opening a new window.
 
     %%writefile
