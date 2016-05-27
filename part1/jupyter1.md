@@ -48,18 +48,20 @@ Is an approach to programming introduced by Donald Knuth in which a program is g
 
 ### What about scripts?
 
-# Jupyter Notebooks 1
+# Jupyter Notebooks 2
 
 > ## Learning Objectives
 >
 > *   Jupyer / IPython Magics
 > *   Binder
+> *   More tricks
 
 ###Magics
 
-%load
+    %load 
+
 This magic loads a Python file from a filepath or URL and replaces the contents of the cell with the contents of the file.
-%matplotlib inline
+    %matplotlib inline
 This magic places matplotlib plots inline instead of opening a new window.
 %%writefile
 This magic writes the contents of a cell to a file.
@@ -73,6 +75,13 @@ This magic times the execution of a Python statement or expression. The CPU and 
 Render the cell as a block of HTML
 %%latex
 Render the cell as a block of latex
+
+### More tricks
+
+Adding Line Numbers
+One of the most annoying things about the Jupyter Notebook is the lack of line numbers. This makes it very difficult to track down lines mentioned in error messages.
+
+Typing CTRL-M L toggles line numbers in the focus cell.
 
 ### Binder
 
