@@ -38,9 +38,49 @@ https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
 
 ###Keyboard Shortcuts
 
-`Shift-Enter` Run current cell and move to the cell below
-`Ctrl-Enter` Run current cell and stay in that cell
-`Alt-Enter` Run the current cell then create and move to a new cell below.
+#### Command mode vs. Edit mode
+
+But first...something key to be aware of: Jupyter Notebooks have two different keyboard input modes:
+
+1. **Command mode** - binds the keyboard to notebook level actions. Indicated by a grey cell border with a blue left margin.
+2. **Edit mode** - when you're typing in a cell. Indicated by a green cell border
+
+
+
+#### Command Mode
+
+- `shift` + `enter` run cell, select below
+- `ctrl` + `enter` run cell
+- `option` + `enter` run cell, insert below
+- `A` insert cell above
+- `B` insert cell below
+- `C` copy cell
+- `V` paste cell
+- `D` , `D` delete selected cell
+- `shift` + `M` merge selected cells, or current cell with cell below if only one cell selected
+- `I` , `I` interrupt kernel
+- `0` , `0` restart kernel (with dialog)
+- `Y` change cell to `code` mode
+- `M` change cell to `markdown` mode (good for documentation)
+
+
+#### Edit Mode
+
+- `cmd` + `click` for multi-cursor editing
+- `option` + `scrolling click` for column editing
+- `cmd` + `/` toggle comment lines
+- `tab` code completion or indent
+- `shift` + `tab` tooltip
+- `ctrl` + `shift` + `-` split cell
+
+#### Command Palette
+
+`cmd` + `shift` + `p`
+
+Want quick access to all the commands in Jupyter Notebooks? Open the command palette with `cmd` + `shift` + `p` and you'll quickly be able to search all the commands!
+
+<amp-img width="700" height="169" layout="responsive" src="/assets/images/keyboard-shortcuts/command_palette.png"></amp-img>
+
 
 ### Literate programming 
 
