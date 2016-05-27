@@ -89,6 +89,7 @@ Is an approach to programming introduced by Donald Knuth in which a program is g
 > ## Learning Objectives
 >
 > *   Jupyer / IPython Magics
+> *   Converting to scripts
 > *   Binder
 > *   More tricks
 
@@ -125,6 +126,11 @@ Render the cell as a block of HTML
     %%latex
 
 Render the cell as a block of latex
+
+### Converting notebooks to scripts (and other formats)
+
+    jupyter nbconvert --to script name_of_notebook.ipynb
+
 
 ### More tricks
 
