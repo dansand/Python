@@ -17,7 +17,7 @@ The Jupyter Notebook App is a web application that allows you to create and shar
 _How will the children of the future learn about science? How will the scientists of the future expand our thinking? I think the answer is Jupyter Notebooks._ Safia Abdalla
 
 
-* Jupyter Notebooks were formally called ipython notebooks...
+* Jupyter Notebooks were formally called ipython notebooks...hence the .ipynb file extension legacy
 
 ### The notebook dashboard
 
