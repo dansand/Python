@@ -61,19 +61,32 @@ Is an approach to programming introduced by Donald Knuth in which a program is g
     %load 
 
 This magic loads a Python file from a filepath or URL and replaces the contents of the cell with the contents of the file.
+    
     %matplotlib inline
 This magic places matplotlib plots inline instead of opening a new window.
-%%writefile
+
+    %%writefile
+
 This magic writes the contents of a cell to a file.
-%pprint
+
+    %pprint
+
 This magic toggles pretty print on/off
-%reset
+
+    %reset
+
 This magic resets the namespace by removing all names defined by the user, if called without arguments.
-%timeit
+
+    %timeit
+
 This magic times the execution of a Python statement or expression. The CPU and clock times are printed.
-%%html
+
+    %%html
+
 Render the cell as a block of HTML
-%%latex
+
+    %%latex
+
 Render the cell as a block of latex
 
 ### More tricks
