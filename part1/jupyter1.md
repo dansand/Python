@@ -42,7 +42,7 @@ https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
 
 But first...something key to be aware of: Jupyter Notebooks have two different keyboard input modes:
 
-1. **Command mode** - binds the keyboard to notebook level actions. Indicated by a grey cell border with a blue left margin.
+1. **Command mode** - binds the keyboard to notebook level actions. Indicated by a grey cell border with a blue left margin. Press `esc` to enable.
 2. **Edit mode** - when you're typing in a cell. Indicated by a green cell border
 
 
@@ -58,20 +58,15 @@ But first...something key to be aware of: Jupyter Notebooks have two different k
 - `V` paste cell
 - `D` , `D` delete selected cell
 - `shift` + `M` merge selected cells, or current cell with cell below if only one cell selected
-- `I` , `I` interrupt kernel
-- `0` , `0` restart kernel (with dialog)
 - `Y` change cell to `code` mode
 - `M` change cell to `markdown` mode (good for documentation)
 
 
 #### Edit Mode
 
-- `cmd` + `click` for multi-cursor editing
-- `option` + `scrolling click` for column editing
+
 - `cmd` + `/` toggle comment lines
 - `tab` code completion or indent
-- `shift` + `tab` tooltip
-- `ctrl` + `shift` + `-` split cell
 
 #### Command Palette
 
@@ -79,7 +74,8 @@ But first...something key to be aware of: Jupyter Notebooks have two different k
 
 Want quick access to all the commands in Jupyter Notebooks? Open the command palette with `cmd` + `shift` + `p` and you'll quickly be able to search all the commands!
 
-<amp-img width="700" height="169" layout="responsive" src="/assets/images/keyboard-shortcuts/command_palette.png"></amp-img>
+__The point is not remember all these, but to see that the Notebooks are equpied with all kinds of shortcuts to more efficiently produce content__
+
 
 
 ### Literate programming 
