@@ -7,7 +7,6 @@
 > *   Markdown and markdown cells
 > *   Shortcuts
 
-## Jupyter notebooks!
 
 ### What are they?
 
