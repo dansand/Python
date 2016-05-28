@@ -1,4 +1,4 @@
-# ResGuides: Python for the Physical Sciences
+# ResGuides: Python for Science
 
 This material was remixed for teaching at University of Melbourne. This book is based mainly on the following Resources:
 
