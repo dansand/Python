@@ -25,19 +25,20 @@ When we want to read from or write to a file we need to open it first. When we a
 
 To read a file’s contents, call `f.read(size)`, which reads some quantity of data and returns it as a string.
 
-##Encoding 
+
+##Encoding
 
 When working with files in text mode, it is recommended to specify the encoding type. Files are stored in bytes in the disk, we need to decode them when we read into Python. Similarly, encoding is performed while writing texts to the file. The default encoding is platform dependent. In windows, it is 'cp1252' but 'utf-8' in Linux. Hence, we must not rely on the default encoding otherwise, our code will behave differently in different platforms. Thus, this is the preferred way to open a file for reading in text mode.
 
 ```python
-f = open("test.txt",mode = 'r',encoding = 'utf-8')
+f = open("data/titanic.csv,mode = 'r',encoding = 'utf-8')
 ```
 
-##Read a file line-by-line 
+##Read a file line-by-line
 
 ##Closing a File
 
-When we are done with operations to the file, we need to properly close it. Python has a garbage collector to clean up unreferenced objects. But we must not rely on it to close the file. Closing a file will free up the resources that were tied with the file and is done using the `close()` method. 
+When we are done with operations to the file, we need to properly close it. Python has a garbage collector to clean up unreferenced objects. But we must not rely on it to close the file. Closing a file will free up the resources that were tied with the file and is done using the `close()` method.
 
 However, this method is not entirely safe. If an exception occurs when we are performing some operation with the file, the code exits without closing the file. The best way to do this is using the  `with` statement. This ensures that the file is closed when the block inside with is exited. We don't need to explicitly call the `close()` method. It is done internally.
 
@@ -46,7 +47,7 @@ with open("test.txt",encoding = 'utf-8') as f:
    # perform file operations
 ```
 
-##Tabular date with Numpy 
+##Tabular date with Numpy
 
 ##Non-numeric data with Pandas
 
