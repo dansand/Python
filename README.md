@@ -1,4 +1,4 @@
-# The ResBaz guide to Python
+# A ResBaz Lesson: Python for the Physical Sciences
 
 This material was remixed for teaching at University of Melbourne. This book is based mainly on the following Resources:
 
