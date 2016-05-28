@@ -1,16 +1,12 @@
 # ResGuides: Python for Science
 
-This material was remixed for teaching at University of Melbourne. This book is based mainly on the following Resources:
+This book draws mainly from the resources listed below. We tried to incoporate what we felt were the best parts of these courses, and package it into a coherent set of lessons that can be taught in around 1.5 days. At the end of the course, we provide a few longer examples that could be given as homework. This book was enabled by Research Platforms at the University of Melbourne. 
 
 [Software Carpentry](http://swcarpentry.github.io/python-novice-inflammation/)
 
 [Django Girls](http://tutorial.djangogirls.org/en/)
 
 [A Byte of Python](http://python.swaroopch.com/)
-
-
-
-Other resources that inspired us:
 
 [Introduction to Computing Using Python](http://www.cs.cornell.edu/courses/CS1110/2014fa/lectures/)
 
