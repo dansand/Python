@@ -10,6 +10,10 @@
 
 ##Native IO for text files
 
+
+`open()` returns a file object, and is most commonly used with two arguments: `open(filename, mode)`. mode can be `r` when the file will only be read, `w` for only writing (an existing file with the same name will be erased), and `a` opens the file for appending; any data written to the file is automatically added to the end.
+
+
 ##Tabular date with Numpy 
 
 ##Non-numeric data with Pandas
