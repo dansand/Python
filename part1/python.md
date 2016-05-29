@@ -124,28 +124,28 @@ Examples of floating point numbers (or _floats_ for short) are `3.23` and `52.3E
 How about your name? Type your first name in quotes like this:
 
 ```python
-"Ola"
+"Basil"
 ```
-    'Ola'
+    'Basil'
 
 You've now created your first string! It's a sequence of characters that can be processed by a computer. The string must always begin and end with the same character. This may be single (`'`) or double (`"`) quotes (there is no difference!) The quotes tell Python that what's inside of them is a string.
 
 Strings can be strung together (or concatenated). Try this:
 
 ```python
-"Hi there " + "Ola"
+"Hi there " + "Basil"
 ```
 ```
-'Hi there Ola'
+'Hi there Basil'
 ```
 
 You can also multiply strings with a number:
 
 ```python
-"Ola" * 3
+"Basil" * 3
 ```
 ```
-'OlaOlaOla'
+'BasilBasilBasil'
 ```
 If you need to put an apostrophe inside your string, you have two ways to do it.
 
@@ -170,23 +170,23 @@ or escaping the apostrophe with a backslash (`\`):
 Nice, huh? To see your name in uppercase letters, simply type:
 
 ```python
-"Ola".upper()
+"Basil".upper()
 ```
 ```
-'OLA'
+'BASIL'
 ```
 
-You just used the `upper` __method__ on your string! A method (like `upper()`) is a sequence of instructions that Python has to perform on a given object (`"Ola"`) once you call it.
+You just used the `upper` __method__ on your string! A method (like `upper()`) is a sequence of instructions that Python has to perform on a given object (`"BASIL"`) once you call it.
 
 > We will often discuss the concept of methods as we use them, because methods are fundamental in python.
 
 If you want to know the number of letters contained in your name, there is a __function__ for that too!
 
 ```python
-len("Ola")
+len("BASIL")
 ```
 ```
-3
+5
 ```
 Wonder why sometimes you call functions with a `.` at the end of a string (like `"Ola".upper()`) and sometimes you first call a function and place the string in parentheses? Well, in some cases, functions belong to objects, like `upper()`, which can only be performed on strings. In this case, we call the function a __method__. Other times, functions don't belong to anything specific and can be used on different types of objects, just like `len()`. That's why we're giving `"Ola"` as a parameter to the `len` function.
 
