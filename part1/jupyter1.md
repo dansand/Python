@@ -42,9 +42,6 @@ Jupyter notebook uses MathJax to render LaTeX inside html/markdown. Just put you
 
 $$ {\partial{\bf u}\over{\partial t}} + ({\bf u} \cdot \nabla) {\bf u} = - {1\over\rho} \nabla p + \gamma\nabla^2{\bf u} + {1\over\rho}{\bf F} $$
 
-
-Notebooks now have a `%%latex` magic that makes the whole cell Latex without the `$$` wrapper for each line.
-
 ###Keyboard Shortcuts
 
 #### Command mode vs. Edit mode
