@@ -38,21 +38,12 @@ https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
 
 ### Maths and Latex
 
-$$
-\begin{bmatrix}
- y_1 \\ \vdots \\ y_{34} 
- \end{bmatrix}
- =
- \begin{pmatrix}
-  -y_0 && u & u\\
-  \vdots && \vdots & \vdots \\
-  -y_{33} && u & u
-  \end{pmatrix}
-  \times
-  \begin{pmatrix}
-  a \\ b_0 \\ b_1
-  \end{pmatrix}
-$$
+Jupyter notebook uses MathJax to render LaTeX inside html/markdown. Just put your LaTeX math inside `$$`.
+
+$$ {\partial{\bf u}\over{\partial t}} + ({\bf u} \cdot \nabla) {\bf u} = - {1\over\rho} \nabla p + \gamma\nabla^2{\bf u} + {1\over\rho}{\bf F} $$
+
+
+Notebooks now have a `%%latex` magic that makes the whole cell Latex without the `$$` wrapper for each line.
 
 ###Keyboard Shortcuts
 
