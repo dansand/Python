@@ -38,7 +38,7 @@ https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
 
 ### Maths and Latex
 
-\begin{equation}
+$$
 \begin{bmatrix}
  y_1 \\ \vdots \\ y_{34} 
  \end{bmatrix}
@@ -52,7 +52,7 @@ https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
   \begin{pmatrix}
   a \\ b_0 \\ b_1
   \end{pmatrix}
-\end{equation}
+$$
 
 ###Keyboard Shortcuts
 
