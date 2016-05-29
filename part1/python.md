@@ -11,7 +11,7 @@
 
 Python is a general purpose programming language created in the late 1980s, and named after Monty Python. Python is an example of a high-level language; other high-level languages you might have heard of are C++, PHP, and Java. 
 
-There are a number of ways to use the Python interpreter: shell mode and program mode - and more recently Notebook mode (which has similarities to both). In shell mode, you type Python expressions into the Python shell, and the interpreter immediately shows the result. The example below shows the Python shell at work.
+There are a number of ways to use the Python interpreter: shell mode, program mode - and more recently Notebook mode (which has similarities to both). In shell mode, you type Python expressions into the Python shell, and the interpreter immediately shows the result. The example below shows the Python shell at work.
 
 ## Python prompt
 
