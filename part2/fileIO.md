@@ -46,10 +46,24 @@ print(type(f))
 
 ### Read a file line-by-line
 
-We can use readline() method to read individual lines of a file. This method reads a file till the newline, including the newline character
+We can use readline() method to read individual lines of a file. This method reads a _next_ line in the file (i.e up to and including the next newline character). 
 
 ```python
 f.readline()
+```
+
+```
+'PassengerId,Pclass,Name,Sex,Age,SibSp,Parch,Ticket,Fare,Cabin,Embarked\n'
+```
+
+The next time we run readline, it will start from where we left off:
+
+```python
+f.readline()
+```
+
+```
+'892,3,"Kelly, Mr. James",male,34.5,0,0,330911,7.8292,,Q\n'
 ```
 
 In contrast to most text, in the world of data, lines often have a a  critical significance (e.g they an individual record).
@@ -60,18 +74,25 @@ The following examples show how we could extract individual lines and store them
 f = open("data/titanic.csv", mode = 'r')
 #We can read a file line-by-line using a for loop.
 lines = []
-for line in f:
+for lineThing in f: #lineThing is our name, could be any acceptable python variable name
     lines.append(f)
 print(len(lines))
 ```
 
-It's even simpler to use the readlines()
+This works because file objects are iterable. When we loop through files using the iterator, the file 'element' we access is the line.
+
+Another way is to use the readlines() function:
 
 ```python
 f = open("data/titanic.csv", mode = 'r')
 lines = f.readlines()
 print(len(lines))
 ```
+
+
+Using readlines with the size argument is also one of the fastest ways to read from files because it reads a bunch of data in one hit, but doesn't need to allocate memory for the entire file all at once
+
+A common error that novice programmers make is not realizing that all these ways of reading the file contents, use up the file. After you call `readlines()`, if you call it again you’ll get an empty list.
 
 ## Closing a File
 
