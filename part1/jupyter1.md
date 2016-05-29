@@ -36,6 +36,24 @@ Not just Python! The Notebook has support for over 40 programming languages, inc
 Explanatory text can be integrating with the Jupyter Notebook using a simple formatting schema called _Markdown_. See the link for a basic description.
 https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
 
+### Maths and Latex
+
+\begin{equation}
+\begin{bmatrix}
+ y_1 \\ \vdots \\ y_{34} 
+ \end{bmatrix}
+ =
+ \begin{pmatrix}
+  -y_0 && u & u\\
+  \vdots && \vdots & \vdots \\
+  -y_{33} && u & u
+  \end{pmatrix}
+  \times
+  \begin{pmatrix}
+  a \\ b_0 \\ b_1
+  \end{pmatrix}
+\end{equation}
+
 ###Keyboard Shortcuts
 
 #### Command mode vs. Edit mode
