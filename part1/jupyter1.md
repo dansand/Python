@@ -40,6 +40,8 @@ https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
 
 Jupyter notebook uses MathJax to render LaTeX inside html/markdown. Just put your LaTeX math inside `$$`.
 
+$${\partial{\bf u}\over{\partial t}} + ({\bf u} \cdot \nabla) {\bf u} = - {1\over\rho} \nabla p + \gamma\nabla^2{\bf u} + {1\over\rho}{\bf F}$$
+
 ###Keyboard Shortcuts
 
 #### Command mode vs. Edit mode
