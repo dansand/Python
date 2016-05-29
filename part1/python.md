@@ -53,7 +53,7 @@ Have fun with this for a little while and then get back here :).
 
 As you can see, Python is a great calculator. If you're wondering what else you can do...
 
-## Operators and Expressions {#op-exp}
+## Operators and Expressions
 
 Most statements (logical lines) that you write will contain _expressions_. A simple example of an expression is `2 + 3`. An expression can be broken down into _operators_ and _operands_.
 
@@ -108,7 +108,7 @@ Here is a quick overview of the available operators:
 
 ## Evaluation Order
 
-If you had an expression such as `2 + 3 * 4`, is the addition done first or the multiplication? Our high school maths tells us that the multiplication should be done first. This means that the multiplication operator has higher precedence than the addition operator.
+If you had an expression such as `2 + 3 * 4`, is the addition done first or the multiplication? Mathematical convention is that the multiplication should be done first. This means that the multiplication operator has higher precedence than the addition operator.
 
 ## Numbers
 
