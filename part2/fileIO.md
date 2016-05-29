@@ -8,7 +8,7 @@
 
 ##What is IO?
 
-Typing strings and numbers into an IPython Notebook are great ways to learn basics, but sooner or later you will have to learn how to read data from a file, perform some analysis on that data and ideally save the analysis.
+Typing strings and numbers into a Jupyter Notebook are great ways to learn basics, but sooner or later you will have to learn how to read data from a file, perform some analysis on that data and ideally save the analysis. Input/output or I/O (or, informally, io or IO) is the communication between an information processing system, such as a computer, and the outside world,
 
 File is a named location on disk to store related information. It is used to permanently store data in a non-volatile memory (e.g. hard disk). Since, random access memory (RAM) is volatile which loses its data when computer is turned off, we use files for future use of the data.
 
@@ -20,7 +20,7 @@ When we want to read from or write to a file we need to open it first. When we a
 
 ## Shell commands
 
-Before opening out data, it's really useful to be able to have a quick look using shell commands. Luckily Jupyter Notebooks have support mor many common commands:
+Before opening out data, it's really useful to be able to have a quick look using shell commands. Luckily Jupyter Notebooks have support for many common commands:
 
 ```bash
 !head -2 "data/titanic.csv"
