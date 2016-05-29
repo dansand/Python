@@ -24,8 +24,8 @@ python
 ```
 
 ```
-Python 2.7.9 (default, Mar  1 2015, 12:57:24)
-[GCC 4.9.2] on linux2
+Python 3.4.3 (default, Jan 26 2016, 02:25:35) 
+[GCC 4.8.5 20150623 (Red Hat 4.8.5-4)] on linux
 Type "help", "copyright", "credits" or "license" for more information.
 ```
 
