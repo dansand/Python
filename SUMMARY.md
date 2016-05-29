@@ -15,5 +15,6 @@
    * [numpy 1](part2/numpy1md.md)
    * [numpy 2](part2/numpy2.md)
    * [plotting](part2/plotting.md)
+   * [fileIO](part2/fileIO.md)
    * [jupyter](part2/jupyter2.md)
    * [scipy](part2/scipy.md)
