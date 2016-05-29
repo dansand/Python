@@ -193,17 +193,17 @@ Wonder why sometimes you call functions with a `.` at the end of a string (like 
 
 ## Errors
 
-Let's try something new. Can we get the length of a number the same way we could find out the length of our name? Type in `len(304023)` and hit `enter`:
+Let's try something new.
 
 ```python
-len(304023)
+"Basil" + 1
 ```    
 ```
 Traceback (most recent call last):
-    File "<stdin>", line 1, in <module>
-TypeError: object of type 'int' has no len()
+  File "<stdin>", line 1, in <module>
+TypeError: cannot concatenate 'str' and 'int' objects
 ```
-We got our first error! It says that objects of type "int" (integers, whole numbers) have no length. So what can we do now? Maybe we can write our number as a string? Strings have a length, right?
+We got our first error! It says that Python objects of type `str` and type `int` cannot be added together (concatenated). We say that Python is _strongly typed_ meaning that python objects (types) do not get not automatically coerced into other forms. Different behavior occurs in other programming languages. 
 
 ```Python
 len(str(304023))
