@@ -15,7 +15,7 @@ There are a number of ways to use the Python interpreter: shell mode and program
 
 ## Python prompt
 
-To start playing with Python, we need to open up a *command line* on your computer.
+To start playing with Python, we need to open up a shell *command line* on your computer.
 
 Once you're ready, follow the instructions below.
 
