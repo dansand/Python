@@ -7,6 +7,12 @@
 > * Operators and expressions
 > * Python Strings
 
+## What is Python?
+
+Python is a general purpose programming language created in the late 1980s, and named after Monty Python. Python is an example of a high-level language; other high-level languages you might have heard of are C++, PHP, and Java. 
+
+There are a number of ways to use the Python interpreter: shell mode and program mode - and more recently Notebook mode (which has similarities to both). In shell mode, you type Python expressions into the Python shell, and the interpreter immediately shows the result. The example below shows the Python shell at work.
+
 ## Python prompt
 
 To start playing with Python, we need to open up a *command line* on your computer.
@@ -212,7 +218,6 @@ It worked! We used the `str` function inside of the `len` function. `str()` conv
 - The `int` function converts things into __integers__
 
 > Important: we can convert numbers into text, but we can't necessarily convert text into numbers - what would `int('hello')` be anyway?
-
 
 
 
